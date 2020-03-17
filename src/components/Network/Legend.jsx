@@ -8,23 +8,27 @@ const Legend = () => {
 
   const { status, gender, nationality, age, days, nodeRadius } = Consts.scales
   const { panelState } = useContext(PanelContext)
-  const attribute = panelState.clicked
+  let activeFilter = Object.keys(panelState).filter(id=>panelState[id])
+  let toColor = activeFilter[0].indexOf('color') !== -1
 
   const legendRenderer = (attribute) => {
+
     if(attribute === 'node_color_1'){
       return drawCategoryLegend(status)
     } else if(attribute === 'node_color_2'){
       return drawLinearLegend(age)
-    }
+    } 
+
   } 
 
   return(
     <div className="Chart_legend_section">
       <p>LEGEND</p>  
       <div className='legend'>
+        { drawShapeLegend() }
         { drawRadiusLegend(nodeRadius) }
       </div>
-      { legendRenderer(attribute) }
+      { toColor ? legendRenderer(activeFilter[0]) : <div/> } 
     </div>
   )
 
@@ -125,6 +129,45 @@ const drawRadiusLegend = (data) => {
     </svg>  
   )
 
+}
+
+const drawShapeLegend = () => {
+
+  const size = 5
+
+  return(
+    <svg width='100%' height='40px'>
+      <g className='legend__category' transform="translate(0,10)">
+        <circle 
+          cx={10-size} 
+          cy='15' 
+          r={size}
+          fill='none'
+          stroke='white'/>
+        <text
+          className='legend-content-text'
+          x='20' 
+          y='15' 
+          fill='white'>
+          Local transmission
+        </text>
+        <rect
+          x='105' 
+          y={15-size} 
+          width={size*2}
+          height={size*2}
+          fill='none'
+          stroke='white'/>
+        <text
+          className='legend-content-text'
+          x={100+size+20} 
+          y='15' 
+          fill='white'>
+          Imported case
+        </text>
+      </g>
+    </svg>  
+  )
 }
 
 export default Legend

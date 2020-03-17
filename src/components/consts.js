@@ -27,6 +27,8 @@ export const parseDate = d3.timeParse("%d %b %Y")
 export const currentDateString = '14 Mar 2020'
 export const currentDate = parseDate(currentDateString)
 
+export const mapping = {'node_shape_1': 'Imported case', 'node_shape_2': 'Local transmission'}
+
 const gender = ['Male', 'Female']
 const status = ['In hospital', 'Recovered']
 const nationality = ['Singaporean', 'Non-Singaporeans']
@@ -64,11 +66,11 @@ const statusScale = d3.scaleOrdinal()
 
 const nationalityScale = d3.scaleOrdinal()
   .domain(nationality)
-  .range(['red', 'white'])
+  .range(['fuchsia', 'white'])
 
 const ageScale = d3.scaleLinear()
-  .domain([0, 100])
-  .range(['white', 'black'])
+  .domain([0, 45, 90])
+  .range(['aqua', 'white', 'fuchsia'])
 
 const daysScale = d3.scaleLinear()
   .domain([0, 100])

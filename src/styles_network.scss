@@ -29,6 +29,15 @@ text {
 }
 i.icon {
   margin: 0 !important;
+  color: white !important;
+}
+/* Source: http://snipplr.com/view/10979/css-cross-browser-word-wrap */
+.wordwrap { 
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
 }
 
 .App__wrapper {
@@ -283,3 +292,11 @@ div.tooltip {
   right: 80px;
   color: white;       
 } */
+
+.node-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}

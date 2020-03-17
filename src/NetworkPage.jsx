@@ -115,6 +115,11 @@ const NetworkPage = () => {
     let counter = 0
 
     findAllConnections(Consts.clusters) 
+
+    // assign a root id to links. if link ends at 
+    links.forEach(d=>{
+      d.root_id = nodes.find(el=>el.id === d.start_id).root_id
+    })
     setData({ nodes, links })
     dispatch({ type: 'SET_STATS', nodes, links })
 
@@ -190,7 +195,7 @@ const NetworkPage = () => {
       nodes.forEach(d=>{
         d.root_id = d.root_id === undefined ? 'undefined' : d.root_id
       })
-    
+
     }
 
   }, [])

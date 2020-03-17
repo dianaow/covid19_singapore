@@ -4,7 +4,7 @@ export const initialSceneState = {scene: 0, entity: undefined}
 
 export const SceneContext = createContext()
 
-export const maxScene = 4
+export const maxScene = 2
 
 export function SceneProvider(props) {
 
@@ -12,7 +12,7 @@ export function SceneProvider(props) {
 
   const clicker = (scene, id) => {
     setScene({scene: scene + 1, id})
-    if(scene+1 === 4){
+    if(scene+1 === maxScene){
       setTimeout(function(){
         setScene(initialSceneState) // reset counter after all scenes have been rendered
       }, 1100)

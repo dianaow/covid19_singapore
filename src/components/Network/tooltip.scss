@@ -26,7 +26,7 @@
     background-color: var(--bg);
     /*box-shadow: 2px 4px 10px 2px hsla(0, 0%, 100%, 0.23);*/
     width: calc(100% - 28px);
-    height: calc(100% - 18px);
+    height: calc(100%);
     position: absolute;
     z-index: 10;
 
@@ -40,7 +40,7 @@
 
     .name {
       font-size: 13px;
-      padding: 6px;
+      padding: 10px 6px 4px 6px;
       border-bottom: 0.2px solid var(--color);
     }
 

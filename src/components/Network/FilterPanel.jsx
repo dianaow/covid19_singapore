@@ -33,8 +33,7 @@ const FilterPanel = () => {
     }
 
     // find all nodes in selected category except for the root node which can never be changed
-    let nodesToRemove = nodesVisible.filter(d=>d.type === val)
-
+    let nodesToRemove = nodesVisible.filter(d=>d.case_type === Consts.mapping[val])
     let linksToRemove = []
     nodesToRemove.map(d=>{
       // find links connected to any node to be changed
@@ -64,14 +63,14 @@ const FilterPanel = () => {
   function updateGraphManually(colorAccessor) {
 
     graphNodesGroup.selectAll("circle")
-      .transition().duration(Consts.transitionDuration)
-      .attr('stroke', d => colorAccessor(d))
-      .attr('fill', d => d.type === 'parent' ? 'transparent' : colorAccessor(d))
+      .transition().duration(350)
+      .attr('stroke', d => d.type === 'root' ? 'white' : colorAccessor(d))
+      .attr('fill', d => (d.type === 'parent' | d.type === 'root') ? Consts.nodeFill : colorAccessor(d))
 
     graphNodesGroup.selectAll("rect")
-      .transition().duration(Consts.transitionDuration)
-      .attr('stroke', d => colorAccessor(d))
-      .attr('fill', d => d.type === 'parent' ? 'transparent' : colorAccessor(d))
+      .transition().duration(350)
+      .attr('stroke', d => d.type === 'root' ? 'white' : colorAccessor(d))
+      .attr('fill', d => (d.type === 'parent' | d.type === 'root') ? Consts.nodeFill : colorAccessor(d))
     
   }
 

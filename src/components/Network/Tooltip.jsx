@@ -48,7 +48,7 @@ const TooltipEntity = (d) => {
 
   return(
     <div className='Tooltip'>
-      <div className="name">{d.patient}</div>
+      <div className="name wordwrap">{d.patient}</div>
       <div className='tooltipContent_grid'>
         <div className="cell cell-50">
           <div className="title">ID</div>

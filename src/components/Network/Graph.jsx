@@ -18,7 +18,7 @@ const simulation = d3.forceSimulation()
     .distance(function(d) { return d.distance })
     .strength(function(d) { return d.strength })
   )
-  .force("charge", d3.forceManyBody().strength(-80))
+  .force("charge", d3.forceManyBody().strength(-100))
   .force("collide", d3.forceCollide(function(d){ return d.radius * 2 }))
   .alphaTarget(0.8)
 
@@ -37,14 +37,14 @@ const Graph = () => {
 
   //console.log(Scene)
   // This object passes required variables to graph helper functions placed outside the component
-  const graphWrapper = {width: dimensions.width/2, height: dimensions.height/2-60}
+  const graphWrapper = {width: dimensions.width, height: dimensions.height}
   const misc = {zoom, setTooltip, clicker, dimensions: graphWrapper } 
 
   ///////////////////////// Initial Graph Render //////////////////////////
   useEffect(() => {
     if(current.date === Consts.currentDate){
       if(dimensions.width>0 & dimensions.height>0){
-        let modulePosition = findClusterCenter({width: dimensions.width, height: dimensions.height})
+        let modulePosition = findClusterCenter(graphWrapper)
         misc.modulePosition = modulePosition
         updateGraph(current, misc) 
       }
@@ -53,12 +53,13 @@ const Graph = () => {
 
   //////////////////////////////// Update Graph ///////////////////////////
   useEffect(() => {
-
-    simulation.stop()
-    let modulePosition = findClusterCenter(graphWrapper)
-    misc.modulePosition = modulePosition
-    let graph = updateGraph(current, misc) 
-    dispatch({ type: 'SET_STATS', nodes: graph.nodes, links: graph.links })
+    if(dimensions.width>0 & dimensions.height>0){
+      simulation.stop()
+      let modulePosition = findClusterCenter(graphWrapper)
+      misc.modulePosition = modulePosition
+      let graph = updateGraph(current, misc) 
+      dispatch({ type: 'SET_STATS', nodes: graph.nodes, links: graph.links })
+    }
 
   }, [current.date])
 
@@ -160,14 +161,24 @@ function draw(nodes, links, accessors, misc) {
       }
     })
 
+  graphNodesEnter.filter(d=>root(d))
+    .append('foreignObject')
+      .attr('class', 'node nodeFO')
+      .attr('opacity', function(d) { return d.opacity})
+      .append("xhtml:div")
+        .attr('class', 'node-icon')
+        .append("i")
+          .attr('class', d=> d.icon + ' large icon')
+          .attr('id', function(d) { return 'node-' + d.id}) 
+          .attr('fill', function(d) {return d.color})
+
   graphNodesEnter.filter(d=>!berects(d))
     .append("circle")
       .attr('class', 'node node-circle')
       .attr('id', function(d) { return 'node-' + d.id}) 
       .attr('stroke-width', function(d) {return d.strokeWidth})
       .attr('stroke', function(d) {return d.strokeColor})
-      .attr('stroke-opacity', function(d) { return d.opacity})
-      .attr('fill-opacity', function(d) { return d.opacity})
+      .attr('opacity', function(d) { return d.opacity})
       .attr('fill', function(d) {return d.color})
 
   graphNodesEnter.filter(d=>berects(d))
@@ -176,10 +187,9 @@ function draw(nodes, links, accessors, misc) {
       .attr('id', function(d) {return 'node-' + d.id}) 
       .attr('stroke-width', function(d) {return d.strokeWidth})
       .attr('stroke', function(d) {return Consts.nodeStroke })
-      .attr('stroke-opacity', function(d) { return d.opacity})
-      .attr('fill-opacity', function(d) { return d.opacity})
+      .attr('opacity', function(d) { return d.opacity})
       .attr('fill', function(d) {return d.color})
-  
+
    // DRAW NODE LABELS
   graphNodesEnter.filter(d=>parent(d))
     .append("text")
@@ -241,14 +251,31 @@ function draw(nodes, links, accessors, misc) {
       node.transition()
         .attr('width', function(d) {return d.type === 'parent' ? d.radius*2 - d.strokeWidth : d.radius*2}) 
         .attr('height', function(d) {return d.type === 'parent' ? d.radius*2 - d.strokeWidth : d.radius*2}) 
-        .attr('stroke', function(d) {return 'white'})
-        .attr('fill', function(d) {return d.type === 'parent' ? 'transparent' :'white'})
+        .attr('fill', d=>d.color)
+        .attr('stroke', d=>d.strokeColor)
+    })
+
+  graphNodesData.selectAll('.nodeFO')
+    .call(function(node) { 
+      node.transition()
+        .attr('x', 0)
+        .attr('y', 0)
+        .attr('width', d => d.radius*2 - d.strokeWidth) 
+        .attr('height', d => d.radius*2 - d.strokeWidth) 
+        .attr("transform", function(d) { 
+          return "translate(" + (- d.radius) + "," + (- d.radius) + ")";
+        })
     })
 
   graphNodesData.selectAll('.node')
     .filter(d=>!root(d))
     .on('mouseover.fade', d => hoverOver(d))
     .on('mouseout.fade', d => hoverOut(d))
+
+  graphNodesData.selectAll('.node')
+    .filter(d=>root(d))
+    .on('mouseover', d => rootHoverOver(d))
+    .on('mouseout', d => hoverOut(d))
 
   graphNodesData.selectAll('.node') // only root and parent nodes are clickable
     .filter(d=>rootparent(d))
@@ -350,8 +377,8 @@ function draw(nodes, links, accessors, misc) {
 
     setTooltip({
       show: true,
-      x: Scene !== 0 ? dimensions.width*2 : nodePosAfterZoomX,
-      y: Scene !== 0 ? dimensions.height*2 : nodePosAfterZoomY+ (berects(d) ? d.radius : 0),
+      x: Scene !== 0 ? dimensions.width : nodePosAfterZoomX,
+      y: Scene !== 0 ? dimensions.height : nodePosAfterZoomY+ (berects(d) ? d.radius : 0),
       //position: (nodePosAfterZoomX>rootPosAfterZoomX) ? 'right' : 'left',
       position: 'right',
       content: d, // pass down data attributes of selected node to tooltip
@@ -359,7 +386,34 @@ function draw(nodes, links, accessors, misc) {
 
   }
 
+  function rootHoverOver(d) {
+
+      const hover_textOpacity =  0
+      const hover_strokeOpacity = 0.2
+      const hover_arrow = 'url(#arrowhead)'
+
+      graphNodesData.selectAll('.node')
+        .attr('opacity', function (o) {
+          const thisOpacity =  o.root_id === d.id ? 1 : hover_strokeOpacity
+          console.log(thisOpacity)
+          //this.setAttribute('fill-opacity', thisOpacity)
+          return thisOpacity
+        })
+        .style('pointer-events', o => (o.root_id === d.id ? 'auto' : 'none'))
+
+      graphNodesData.selectAll('.root-label').attr('opacity', o => (o.root_id === d.id ? 1 : hover_textOpacity))
+      graphNodesData.selectAll('.parent-node-label').attr('opacity', o => (o.root_id === d.id ? 1 : hover_textOpacity))
+      graphNodesData.selectAll('.children-node-label').attr('opacity', o => (o.root_id === d.id ? 1 : hover_textOpacity))
+
+      graphLinksData.selectAll('.link')
+        .attr('opacity', o => o.root_id === d.id ? 1 : hover_strokeOpacity)
+        .attr('marker-mid', o => o.root_id === d.id ? 'url(#arrowheadOpaque)' : hover_arrow)
+      graphLinksData.selectAll('.edge-label').attr('opacity', o => (o.root_id === d.id ? linkTextOpacity : hover_textOpacity))
+
+  }
+
   function hoverOut(d) {
+    console.log('root hovered out')
     if(Scene === 0){
       unhighlightConnections(d)
       setTooltip(initialTooltipState)
@@ -378,8 +432,8 @@ function draw(nodes, links, accessors, misc) {
         let hoverAttr = {hover_textOpacity: 0, hover_strokeOpacity: 0, hover_arrow: 'url(#arrowheadTransparent)'}
         highlightConnections(d, hoverAttr)
 
-        var thisX = dimensions.width - d.x*2
-        var thisY = dimensions.height - d.y*2
+        var thisX = dimensions.width/2 - d.x*2
+        var thisY = dimensions.height/2 - d.y*2
 
         setTooltip(initialTooltipState)
 
@@ -408,14 +462,14 @@ function draw(nodes, links, accessors, misc) {
 
     const { hover_textOpacity, hover_strokeOpacity, hover_arrow } = hoverAttr
     graphNodesData.selectAll('.node')
-      .attr('stroke-opacity', function (o) {
+      .attr('opacity', function (o) {
         const thisOpacity =  isConnected(d, o) ? 1 : hover_strokeOpacity
-        this.setAttribute('fill-opacity', thisOpacity)
+        //this.setAttribute('fill-opacity', thisOpacity)
         return thisOpacity
       })
       .style('pointer-events', o => (isConnected(d, o) ? 'auto' : 'none'))
 
-    graphNodesData.selectAll('.root-label').attr('opacity', o => (isConnected(d, o) ? 1 : 0.4))
+    graphNodesData.selectAll('.root-label').attr('opacity', o => (isConnected(d, o) ? 1 : hover_textOpacity))
     graphNodesData.selectAll('.parent-node-label').attr('opacity', o => (isConnected(d, o) ? 1 : hover_textOpacity))
     graphNodesData.selectAll('.children-node-label').attr('opacity', o => (isConnected(d, o) ? 1 : hover_textOpacity))
 
@@ -429,8 +483,7 @@ function draw(nodes, links, accessors, misc) {
   function unhighlightConnections(d) {
 
     graphNodesData.selectAll('.node')
-      .attr('stroke-opacity', Consts.nodeOpacity)
-      .attr('fill-opacity', Consts.nodeOpacity)
+      .attr('opacity', Consts.nodeOpacity)
       .style('pointer-events', 'auto')
 
     graphNodesData.selectAll('.root-label').attr('opacity', 1)
@@ -474,10 +527,22 @@ function updateAttributes(nodes, links){
   function findType(d){
     if(root(d)) {
       return 'root'
-    } else if (parent(d)){
+    } else if (parent(d)) {
       return 'parent'
     } else if (child(d)) {
       return 'children'
+    }
+  }
+
+  function findIcon(d){
+    if(d.id === 'unknown') {
+      return 'question'
+    } else if (['Cluster1', 'Cluster2', 'Cluster3'].indexOf(d.id) != -1){
+      return 'plane'
+    } else if (d.id === 'Cluster7') {
+      return 'home'
+    } else {
+      return 'building'
     }
   }
 
@@ -507,7 +572,7 @@ function updateAttributes(nodes, links){
   // create custom link strength scale based on total number of connections to node (node could be either a source or target)
   var strengthScale = d3.scaleLinear()
     .domain(d3.extent(linkAllNodes, d=>d.value))
-    .range([1, 0.1])
+    .range([0.4, 0.3])
 
   // create custom link distance scale based on node type
   var distanceScale = d3.scaleOrdinal()
@@ -536,8 +601,9 @@ function updateAttributes(nodes, links){
   nodes.forEach((d,i) => {
     let conn = linkAllNodes.find(l=>l.key === d.id)
     d.radius = root(d) ? Consts.rootRadius : conn ? nodeRadius.scale(conn.value) : 1
-    d.color = parent(d) ? Consts.nodeFill : colorAccessor(d)
+    d.color = rootparent(d) ? Consts.nodeFill : colorAccessor(d)
     d.strokeColor = root(d) ? Consts.nodeStroke : colorAccessor(d)
+    d.icon = findIcon(d)
   })
 
   links.forEach((d,i) => {
@@ -545,6 +611,8 @@ function updateAttributes(nodes, links){
     d.strength = strengthScale(conn)
     d.distance = distanceScale(d.type)
   })
+
+  console.log(nodes, links)
 
   return { 'nodes': nodes, 'links': links, 'accessors': accessors }
 } //updateAttributes: update attribute values assigned to nodes and edges
@@ -559,7 +627,7 @@ function updateGraph(data, misc) {
 
   function initNodesPos(d) {
     let mod = modulePosition.find(g=>g.group == d.root_id) 
-    return {x: mod ? mod.coordinates.x : dimensions.width, y: mod ? mod.coordinates.y : dimensions.height}
+    return {x: mod ? mod.coordinates.x : dimensions.width/2, y: mod ? mod.coordinates.y : dimensions.height/2}
   }
 
   let newEle = updateAttributes(nodes, links)
@@ -585,7 +653,7 @@ function updateGraph(data, misc) {
     d.y0 = d.y
   })
 
-  simulation.force('center', d3.forceCenter(dimensions.width, dimensions.height))
+  simulation.force('center', d3.forceCenter(dimensions.width/2, dimensions.height/2))
   simulation.nodes(nodes)
   simulation.force("link").links(links)
   simulation.alpha(0.3).restart()
@@ -597,7 +665,7 @@ function updateGraph(data, misc) {
     d.x0 = d.x
     d.y0 = d.y    
   })
-  console.log(nodes, links)
+  //console.log(nodes, links)
   draw(nodes, links, newEle.accessors, misc)
 
   return {nodes: nodes, links: links}
@@ -621,19 +689,18 @@ function findClusterCenter(graphWrapper) {
       }
     })
   }
-  console.log(modulePosition)
 
   //Make the x-position equal to the x-position specified in the module positioning object or, if module not labeled, set it to center
   var forceX = d3.forceX(function (d) { 
     let mod = modulePosition.find(g=>g.group == d.root_id)
-    return mod ? mod.coordinates.x : graphWrapper.width + Math.random()
-  }).strength(0.5)
+    return mod ? mod.coordinates.x : graphWrapper.width - 100
+  }).strength(0.3)
 
   //Same for forceY--these act as a gravity parameter so the different strength determines how closely the individual nodes are pulled to the center of their module position
   var forceY = d3.forceY(function (d) {
     let mod = modulePosition.find(g=>g.group == d.root_id)
-    return mod ? mod.coordinates.y : graphWrapper.height + Math.random()
-  }).strength(0.5)
+    return mod ? mod.coordinates.y : graphWrapper.height - 300
+  }).strength(0.3)
 
   simulation
     .force("x", forceX)
