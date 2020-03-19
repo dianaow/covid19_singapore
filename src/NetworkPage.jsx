@@ -1,8 +1,13 @@
 import React, { useState, useEffect, useReducer, createContext } from "react"
 import { Dimmer, Loader, Image, Segment } from 'semantic-ui-react'
+import * as d3 from "d3"
 
+import graphNodes from './data/covid19_graph_nodes.json';
+import graphEdges from './data/covid19_graph_edges.json';
 import graph from './data/covid19_graph.json';
+
 import cases from './data/covid19_case_details.json';
+import clusters from './data/covid19_cluster_details.json';
 
 import Network from "./components/Network/NetworkSection"
 
@@ -11,12 +16,6 @@ import reducer from "./components/reducers/NetworkReducer"
 import * as Consts from "./components/consts"
 
 export const NetworkContext = createContext()
-
-var linkedToID = {},
-    nodeByID = {},
-    linkedByIndex = {}
-var connectionsLooper
-
 
 const showLoader = () => (
   <div className='Loading'>
@@ -35,7 +34,9 @@ const NetworkPage = () => {
 
   const [data, setData] = useState({})
   const [loading, setLoading] = useState({ loading: true })
-  
+  const processedCases = processCases(cases)
+  const timeline = processTimeline(processedCases)
+
   const initialState = {
     date: Consts.currentDate, 
     nodes: [], 
@@ -44,9 +45,24 @@ const NetworkPage = () => {
 
   const [current, dispatch] = useReducer(reducer, initialState)
 
+  function processTimeline(cases) {
+
+    const timeline = d3.nest()
+      .key(function(d) { return d.confirmed_at })
+      .rollup(function(leaves) { return leaves.length })
+      .entries(cases)
+
+    timeline.forEach(d=>{
+      d.key = Consts.parseDate(d.key)
+    })
+    return timeline
+
+  }
+
   function processCases(cases) {
 
     cases.forEach((d,i) => {
+      //console.log(d['recovered at'])
       d.id = 'Case ' + d.id
       d.patient = d.patient
       d.age = +d.age
@@ -56,7 +72,7 @@ const NetworkPage = () => {
       d.type = d.type
       d.days_to_recover = Number.isInteger(+d['days to recover']) ? +d['days to recover'] : 0
       d.confirmed_at = d['confirmed at'].split(",")[0].slice(0, -2) + d['confirmed at'].split(",")[1]
-      d.recovered_at = d['recovered at'].split(",")[0].slice(0, -2) + d['recovered at'].split(",")[1]
+      d.recovered_at = (d['recovered at']===undefined | d['recovered at']==='-') ? '01 Jan 2021' : d['recovered at'].split(",")[0].slice(0, -2) + d['recovered at'].split(",")[1] //if patient has not recovered, set a dummy date of 1 Jan 2021
     })
     return cases
 
@@ -72,6 +88,7 @@ const NetworkPage = () => {
         d.age =  D.age
         d.gender =  D.gender
         d.nationality = D.nationality
+        d.singaporean = D.nationality === 'Singaporean' ? 'Singaporean/Singapore PR' : 'Foreigner'
         d.status = D.status
         d.case_type = D.type
         d.days_to_recover = D.days_to_recover
@@ -80,6 +97,9 @@ const NetworkPage = () => {
       } else {
         d.id = d.id.replace(/\s/g,'')
         d.case_type = 'Cluster'
+        //console.log(d.id, clusters.find(el=>el.id === d.id))
+        // a cluster is established when 2 or more people are found linked to the location. Date the cluster is made known to the public through MOH press release
+        d.confirmed_at = clusters.find(el=>el.id === d.id).confirmed_at 
       }
     })
     return nodes
@@ -89,15 +109,17 @@ const NetworkPage = () => {
   function processLinks(links) {
 
     links.forEach((d,i) => {
+      // if(parseInt(d.from.match(/[0-9]+/g)) > parseInt(d.to.match(/[0-9]+/g))){
+      //   d.from = d.to
+      //   d.to = d.from
+      // }
+      d.id = i
       d.start_id = d.from.replace(/\s/g,'')
       d.end_id = d.to.replace(/\s/g,'')
     })
-    links.forEach((d,i) => {
-      if(!linkedToID[d.start_id]) linkedToID[d.start_id] = [];
-      if(!linkedToID[d.end_id]) linkedToID[d.end_id] = [];
-      linkedToID[d.start_id].push(d.end_id); 
-      linkedToID[d.end_id].push(d.start_id);
-    })
+
+    links = links.filter(d=>d.from !== 'unknown')
+
     return links
 
   }
@@ -109,94 +131,32 @@ const NetworkPage = () => {
   }, [data])
 
   useEffect(() => {
-    let processedCases = processCases(cases)
-    let nodes = processNodes(graph.nodes, processedCases)
-    let links = processLinks(graph.edges)
-    let counter = 0
+    let nodes = processNodes(graphNodes, processedCases)
+    let links = processLinks(graphEdges)
 
-    findAllConnections(Consts.clusters) 
-
-    // assign a root id to links. if link ends at 
     links.forEach(d=>{
-      d.root_id = nodes.find(el=>el.id === d.start_id).root_id
+      // this should actually be the date the relationship between 2 people was discovered (node will be attached to unknown until it moves to another cluster)
+      // but I will just assign date as case confirmed_at date of the end node
+      d.confirmed_at = nodes.find(el=>el.id === d.end_id).confirmed_at
     })
+
+    nodes.forEach(d=>{
+      if (d.case_type === 'Imported case' & d.root_id === 'unknown'){
+        d.root_id = 'Imported'
+      } else if (d.case_type === 'Local transmission' & d.root_id === 'unknown'){
+        d.root_id = 'Unlinked'
+      }
+      
+      if(d.root_id === 'unknown'){console.log(d.id, d.case_type)}
+      
+      if(d.id === 'Case143'){
+        d.root_id = 'Imported'
+      }
+      d.original_root = d.root_id
+    })
+
     setData({ nodes, links })
     dispatch({ type: 'SET_STATS', nodes, links })
-
-    // callback to ensure connection search completes before rendering force layout
-    function findAllConnections(ROOT_IDS) {
-      ROOT_IDS.map(d=>{
-        initiateConnectionSearch(d)
-      })
-    }
-
-    function initiateConnectionSearch(d) {
-
-      var selectedNodes = {},
-          selectedNodeIDs = [],
-          oldLevelSelectedNodes
-
-      selectedNodes[d] = 0;
-      selectedNodeIDs = [d];
-      oldLevelSelectedNodes = [d];
-      counter = 0    
-
-      findConnections(selectedNodes, selectedNodeIDs, oldLevelSelectedNodes, counter);
-      
-    }
-
-    function findConnections(selectedNodes, selectedNodeIDs, oldLevelSelectedNodes, counter) {
-      //console.log(selectedNodeIDs)
-      // with each iteration, nodes that are now connected because of this hop may have its colour overwritten
-      // to get a sense of the connectivity, store linked group labels 
-      nodes.filter(function(d) { return selectedNodeIDs.indexOf(d.id) > -1 })
-
-      if( counter == 2 ) {
-        nodes
-          .filter(function(d) { return selectedNodeIDs.indexOf(d.id) > -1 })
-          .forEach((d,i) => {
-            d.root_id = selectedNodeIDs[0] // final belonged group based on number of hops
-          })
-
-        links
-          .filter(function(d) { return selectedNodeIDs.indexOf(d.start_id) > -1 || selectedNodeIDs.indexOf(d.end_id) > -1 })
-          .forEach((d,i) => {
-            d.root_id = selectedNodeIDs[0] // final belonged group based on number of hops
-          })
-
-      }
-
-      if( counter < 3 ) {
-        var levelSelectedNodes = [];
-        for(var k = 0; k < oldLevelSelectedNodes.length; k++) {
-          //Request all the linked nodes
-          var connectedNodes = linkedToID[oldLevelSelectedNodes[k]];
-
-          //Take out all nodes already in the data
-          connectedNodes = connectedNodes.filter(function(n) {
-            return selectedNodeIDs.indexOf(n) === -1
-          });
-          //Place the left nodes in the data
-          for(var l = 0; l < connectedNodes.length; l++) {
-            var id = connectedNodes[l];
-            selectedNodes[id] = counter+1;
-            selectedNodeIDs.push(id);
-            levelSelectedNodes.push(id);
-          }//for l
-        }//for k
-
-        //Small timeout to leave room for a mouseout to run
-        counter += 1;
-
-        oldLevelSelectedNodes = uniq(levelSelectedNodes);
-        connectionsLooper = findConnections(selectedNodes, selectedNodeIDs, oldLevelSelectedNodes, counter)
-      } 
-
-      nodes.forEach(d=>{
-        d.root_id = d.root_id === undefined ? 'undefined' : d.root_id
-      })
-
-    }
 
   }, [])
 
@@ -212,11 +172,11 @@ const NetworkPage = () => {
             <div className='chart-statistics-total'>
               <div className='nodes_stats'>
                 <div className='nodes_stats_total'><h2>{ current.nodes.length }</h2></div>
-                <p>NODES</p>
+                <p>CASES</p>
               </div>
               <div className='edges_stats'>
                 <div className='edges_stats_total'><h2>{ current.links.length }</h2></div>
-                <p>RELATIONSHIPS</p>
+                <p>CONNECTIONS</p>
               </div>
             </div>
             <div className='chart-statistics-breakdown'></div>
@@ -226,7 +186,7 @@ const NetworkPage = () => {
         { loading.loading && showLoader() }
 
         <NetworkContext.Provider value={{ current, dispatch }}>
-          { loading.loading === false && <Network /> }
+          { loading.loading === false && <Network data={data} timeline={timeline} /> }
         </NetworkContext.Provider>
 
       </div>
@@ -235,9 +195,3 @@ const NetworkPage = () => {
 }
 
 export default NetworkPage
-
-function uniq(a) {
-  return a.sort().filter(function(item, pos, ary) {
-      return !pos || item != ary[pos - 1];
-  })
-}

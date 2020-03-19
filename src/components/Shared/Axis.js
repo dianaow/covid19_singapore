@@ -41,7 +41,7 @@ export default Axis
 
 
 function AxisHorizontal ({ dimensions, label, formatTick, scale, ...props }) {
-  const numberOfTicks = 5
+  const numberOfTicks = 6
   const ticks = scale.ticks(numberOfTicks)
 
   return (

@@ -7,6 +7,8 @@ import { initialTooltipState, TooltipContext } from "../contexts/TooltipContext"
 import { maxScene, SceneContext } from "../contexts/SceneContext"
 import { ChartContext } from "../Shared/Chart"
 
+import clusters from '../../data/covid19_cluster_details.json';
+
 import * as Consts from "../consts"
 
 let nodeTextOpacity = Consts.nodeTextOpacity
@@ -18,15 +20,18 @@ const simulation = d3.forceSimulation()
     .distance(function(d) { return d.distance })
     .strength(function(d) { return d.strength })
   )
-  .force("charge", d3.forceManyBody().strength(-100))
+  .force("charge", d3.forceManyBody().strength(-80))
   .force("collide", d3.forceCollide(function(d){ return d.radius * 2 }))
-  .alphaTarget(0.8)
+  //.alphaTarget(0.8)
 
 // store states in a global variable as a hack to pass state values to helper functions placed outside the component
 var Scene
+var linkedToID = {},
+    nodeByID = {},
+    linkedByIndex = {}
+var connectionsLooper
 
-const Graph = () => {
-    
+const Graph = ({data}) => {
   const { current, dispatch } = useContext(NetworkContext)
   const { zoom, zoomState } = useContext(ZoomContext)
   const { setTooltip } = useContext(TooltipContext)
@@ -46,7 +51,7 @@ const Graph = () => {
       if(dimensions.width>0 & dimensions.height>0){
         let modulePosition = findClusterCenter(graphWrapper)
         misc.modulePosition = modulePosition
-        updateGraph(current, misc) 
+        updateGraph(data, current, misc) 
       }
     }
   }, [dimensions.width, dimensions.height])
@@ -57,7 +62,7 @@ const Graph = () => {
       simulation.stop()
       let modulePosition = findClusterCenter(graphWrapper)
       misc.modulePosition = modulePosition
-      let graph = updateGraph(current, misc) 
+      let graph = updateGraph(data, current, misc) 
       dispatch({ type: 'SET_STATS', nodes: graph.nodes, links: graph.links })
     }
 
@@ -229,11 +234,7 @@ function draw(nodes, links, accessors, misc) {
   graphNodesData.transition().duration(Consts.transitionDuration)
     .attr("transform", function(d) { 
       if(berects(d)){
-        if(d.type === 'parent'){
-          return "translate(" + (d.x - d.radius + d.strokeWidth) + "," + (d.y - d.radius + d.strokeWidth) + ")";
-        } else {
-          return "translate(" + (d.x - d.radius) + "," + (d.y - d.radius) + ")";
-        }
+        return "translate(" + (d.x - d.radius) + "," + (d.y - d.radius) + ")";
       } else {
         return "translate(" + d.x + "," + d.y + ")";
       }
@@ -241,7 +242,7 @@ function draw(nodes, links, accessors, misc) {
 
   graphNodesData.selectAll('.node-circle')
     .call(function(node) { node.transition()
-      .attr('r', function(d) {return d.type === 'parent' ? d.radius - d.strokeWidth : d.radius}) 
+      .attr('r', function(d) {return d.radius}) 
       .attr('fill', d=>d.color)
       .attr('stroke', d=>d.strokeColor)
     })
@@ -249,8 +250,8 @@ function draw(nodes, links, accessors, misc) {
   graphNodesData.selectAll('.node-rect')
     .call(function(node) { 
       node.transition()
-        .attr('width', function(d) {return d.type === 'parent' ? d.radius*2 - d.strokeWidth : d.radius*2}) 
-        .attr('height', function(d) {return d.type === 'parent' ? d.radius*2 - d.strokeWidth : d.radius*2}) 
+        .attr('width', function(d) {return d.radius*2}) 
+        .attr('height', function(d) {return d.radius*2}) 
         .attr('fill', d=>d.color)
         .attr('stroke', d=>d.strokeColor)
     })
@@ -268,14 +269,8 @@ function draw(nodes, links, accessors, misc) {
     })
 
   graphNodesData.selectAll('.node')
-    .filter(d=>!root(d))
     .on('mouseover.fade', d => hoverOver(d))
     .on('mouseout.fade', d => hoverOut(d))
-
-  graphNodesData.selectAll('.node')
-    .filter(d=>root(d))
-    .on('mouseover', d => rootHoverOver(d))
-    .on('mouseout', d => hoverOut(d))
 
   graphNodesData.selectAll('.node') // only root and parent nodes are clickable
     .filter(d=>rootparent(d))
@@ -294,7 +289,7 @@ function draw(nodes, links, accessors, misc) {
     .remove()
 
   graphLinksData.exit()
-    .transition().duration(Consts.transitionDuration)
+    .transition().duration(Consts.transitionDuration).delay(150)
     .remove()
 
   let graphLinksEnter = graphLinksData.enter().append("g").attr('id', d => 'path-group-' + linkKey(d))
@@ -375,40 +370,16 @@ function draw(nodes, links, accessors, misc) {
       highlightConnections(d, hoverAttr)
     }
 
-    setTooltip({
-      show: true,
-      x: Scene !== 0 ? dimensions.width : nodePosAfterZoomX,
-      y: Scene !== 0 ? dimensions.height : nodePosAfterZoomY+ (berects(d) ? d.radius : 0),
-      //position: (nodePosAfterZoomX>rootPosAfterZoomX) ? 'right' : 'left',
-      position: 'right',
-      content: d, // pass down data attributes of selected node to tooltip
-    })
-
-  }
-
-  function rootHoverOver(d) {
-
-      const hover_textOpacity =  0
-      const hover_strokeOpacity = 0.2
-      const hover_arrow = 'url(#arrowhead)'
-
-      graphNodesData.selectAll('.node')
-        .attr('opacity', function (o) {
-          const thisOpacity =  o.root_id === d.id ? 1 : hover_strokeOpacity
-          console.log(thisOpacity)
-          //this.setAttribute('fill-opacity', thisOpacity)
-          return thisOpacity
-        })
-        .style('pointer-events', o => (o.root_id === d.id ? 'auto' : 'none'))
-
-      graphNodesData.selectAll('.root-label').attr('opacity', o => (o.root_id === d.id ? 1 : hover_textOpacity))
-      graphNodesData.selectAll('.parent-node-label').attr('opacity', o => (o.root_id === d.id ? 1 : hover_textOpacity))
-      graphNodesData.selectAll('.children-node-label').attr('opacity', o => (o.root_id === d.id ? 1 : hover_textOpacity))
-
-      graphLinksData.selectAll('.link')
-        .attr('opacity', o => o.root_id === d.id ? 1 : hover_strokeOpacity)
-        .attr('marker-mid', o => o.root_id === d.id ? 'url(#arrowheadOpaque)' : hover_arrow)
-      graphLinksData.selectAll('.edge-label').attr('opacity', o => (o.root_id === d.id ? linkTextOpacity : hover_textOpacity))
+    if(!root(d)){
+      setTooltip({
+        show: true,
+        x: Scene !== 0 ? dimensions.width : nodePosAfterZoomX,
+        y: Scene !== 0 ? dimensions.height : nodePosAfterZoomY+ (berects(d) ? d.radius : 0),
+        //position: (nodePosAfterZoomX>rootPosAfterZoomX) ? 'right' : 'left',
+        position: 'right',
+        content: d, // pass down data attributes of selected node to tooltip
+      })
+    }
 
   }
 
@@ -514,6 +485,7 @@ function updateAttributes(nodes, links){
     }
   })
   const importedIDs = nodes.filter(d=>d.case_type === 'Imported case').map(d=>d.id)
+  const foreignerIDs = nodes.filter(d=>d.singaporean === 'Foreigner').map(d=>d.id)
 
   // set up accessors
   const root = d => ROOT_IDs.indexOf(d.id) !== -1 
@@ -521,7 +493,8 @@ function updateAttributes(nodes, links){
   const rootparent = d => parentIDs.concat(ROOT_IDs).indexOf(d.id) !== -1
   const child = d => childIDs.indexOf(d.id) !== -1
   const imported = d => importedIDs.indexOf(d.id) !== -1
-  const berects = imported // choose node types to be rendered as rectangles
+  const foreigners = d => foreignerIDs.indexOf(d.id) !== -1
+  const berects = foreigners // choose node types to be rendered as rectangles
   const accessors = { root, parent, child, rootparent, imported, berects }
 
   function findType(d){
@@ -535,9 +508,9 @@ function updateAttributes(nodes, links){
   }
 
   function findIcon(d){
-    if(d.id === 'unknown') {
+    if(d.id === 'Unlinked') {
       return 'question'
-    } else if (['Cluster1', 'Cluster2', 'Cluster3'].indexOf(d.id) != -1){
+    } else if (['Cluster1', 'Cluster2', 'Cluster3', 'Imported'].indexOf(d.id) != -1){
       return 'plane'
     } else if (d.id === 'Cluster7') {
       return 'home'
@@ -577,7 +550,7 @@ function updateAttributes(nodes, links){
   // create custom link distance scale based on node type
   var distanceScale = d3.scaleOrdinal()
     .domain(['root', 'parent', 'child'])
-    .range([120, 80, 40])
+    .range([150, 60, 30])
 
   nodes.forEach((d,i) => {
     d.strokeWidth = Consts.nodeStrokeWidth
@@ -600,7 +573,7 @@ function updateAttributes(nodes, links){
 
   nodes.forEach((d,i) => {
     let conn = linkAllNodes.find(l=>l.key === d.id)
-    d.radius = root(d) ? Consts.rootRadius : conn ? nodeRadius.scale(conn.value) : 1
+    d.radius = root(d) ? Consts.rootRadius : conn ? nodeRadius.scale(conn.value) : 4
     d.color = rootparent(d) ? Consts.nodeFill : colorAccessor(d)
     d.strokeColor = root(d) ? Consts.nodeStroke : colorAccessor(d)
     d.icon = findIcon(d)
@@ -612,24 +585,60 @@ function updateAttributes(nodes, links){
     d.distance = distanceScale(d.type)
   })
 
-  console.log(nodes, links)
-
   return { 'nodes': nodes, 'links': links, 'accessors': accessors }
 } //updateAttributes: update attribute values assigned to nodes and edges
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////// Graph Network: Update graph layout ////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
-function updateGraph(data, misc) {
+function updateGraph(OrigData, data, misc) {
 
   let { nodes, links, date } = data 
   const { dimensions, modulePosition} = misc
+
+  // when slider moves, these elements are to disappear on screen because they are cases confirmed after the selected date ('future' cases cannot be shown)
+  var nodesRemove = OrigData.nodes.filter(d=>Consts.parseDate(d.confirmed_at).getTime() > date.getTime())
+  var linksRemove = OrigData.links.filter(d=>Consts.parseDate(d.confirmed_at).getTime() > date.getTime())
+
+  // snapshot of all confirmed cases up until selected date
+  // elements remain unchanged on screen if these cases are existing before the selected date
+  nodes = OrigData.nodes.filter(d=>nodesRemove.map(el=>el.id).indexOf(d.id) == -1)
+  links = OrigData.links.filter(d=>linksRemove.map(el=>el.id).indexOf(d.id) == -1)
+  //links = links.filter(d=>d.start_id !== 'unknown')
+
+  var linksAdd = []
+  nodes.forEach(d=>{
+    // originally unlinked: at selected time, cluster does not exist (ie. cluster node is not rendered yet). They should belong in 'Unknown'
+    // overwrite their node's root_id to 'unknown'. Do not create new nodes so that existing node will move towards its found cluster
+    //console.log(clusters.find(el=>el.id === d.root_id), d.root_id)
+    console.log(OrigData.nodes.find(el=>el.id === d.id).original_root, d.root_id, d.id)
+    let no_cluster = Consts.parseDate(clusters.find(el=>el.id === d.root_id).confirmed_at).getTime() > date.getTime()
+    if(no_cluster){
+      d.root_id = 'Unlinked'
+    } else { // if cluster already exists, but node has been discovered yet to belong to it (eg. unlinked initially /unknown -> discovered to belong to a cluster)
+      //console.log(d.id, OrigData.nodes.find(el=>el.id === d.id).root_id)
+      d.root_id = OrigData.nodes.find(el=>el.id === d.id).original_root
+    }
+  })
+
+  // remove links that do not have either a start or end node in nodes variable
+  let nodeIDs = nodes.map(d=>d.id)
+  links = links.filter(d=>nodeIDs.indexOf(d.start_id) !== -1)
+  links = links.filter(d=>nodeIDs.indexOf(d.end_id) !== -1)
 
   function initNodesPos(d) {
     let mod = modulePosition.find(g=>g.group == d.root_id) 
     return {x: mod ? mod.coordinates.x : dimensions.width/2, y: mod ? mod.coordinates.y : dimensions.height/2}
   }
 
+  // for the timeline, if patient has not recovered yet on the selected date, overwrite recovery status so color of nodes accurately reflects situation
+  // amongst all the attributes, only recovery status is dynamic
+  nodes.forEach(d=>{
+    let recoveredDateNew = d.recovered_at ?  d.recovered_at : '01 Jan 2021'
+    let in_hospital = Consts.parseDate(recoveredDateNew).getTime() > date.getTime()
+    d.status =  in_hospital ? 'In hospital' : 'Recovered'
+  })
+  
   let newEle = updateAttributes(nodes, links)
   nodes = newEle.nodes
   links = newEle.links
@@ -647,13 +656,13 @@ function updateGraph(data, misc) {
     let coords = initNodesPos(d)
     d.x  = d.x ? d.x : coords.x
     d.y  = d.y ? d.y : coords.y
-    d.fx = d.node_type=='root' ? coords.x : undefined
-    d.fy = d.node_type=='root' ? coords.y : undefined
+    d.fx = (d.type=='root' & (d.root_id === 'Unlinked' | d.root_id === 'Imported')) ? coords.x : undefined
+    d.fy = (d.type=='root' & (d.root_id === 'Unlinked' | d.root_id === 'Imported')) ? coords.y : undefined
     d.x0 = d.x
     d.y0 = d.y
   })
 
-  simulation.force('center', d3.forceCenter(dimensions.width/2, dimensions.height/2))
+  //simulation.force('center', d3.forceCenter(dimensions.width/2, dimensions.height/2))
   simulation.nodes(nodes)
   simulation.force("link").links(links)
   simulation.alpha(0.3).restart()
@@ -678,11 +687,11 @@ function findClusterCenter(graphWrapper) {
   var modsPerRow = 5
   var modsSize = graphWrapper.width / 5
   var modulePosition = []
-  for(var i = 0; i < Consts.clusters.length ; i++) {
+  for(var i = 0; i < Consts.clusterArrangement.length ; i++) {
     var rowNumber = Math.floor(i / modsPerRow)
     modulePosition.push(
     { 
-      "group": Consts.clusters[i],
+      "group": Consts.clusterArrangement[i],
       "coordinates" : { 
         x: ((i % modsPerRow) * modsSize) + modsSize,
         y: -(rowNumber + 1) * modsSize + graphWrapper.height
@@ -690,17 +699,36 @@ function findClusterCenter(graphWrapper) {
     })
   }
 
+  let safra = modulePosition.find(g=>g.group == 'Cluster11').coordinates
+  modulePosition.push(
+  { 
+    "group": 'Cluster13',
+    "coordinates" : { 
+      x: safra.x - 280,
+      y: safra.y + 280
+    }
+  })
+
+  modulePosition.push(
+  { 
+    "group": 'Cluster12',
+    "coordinates" : { 
+      x: safra.x + 200,
+      y: safra.y + 220
+    }
+  })
+
   //Make the x-position equal to the x-position specified in the module positioning object or, if module not labeled, set it to center
   var forceX = d3.forceX(function (d) { 
     let mod = modulePosition.find(g=>g.group == d.root_id)
     return mod ? mod.coordinates.x : graphWrapper.width - 100
-  }).strength(0.3)
+  }).strength(0.25)
 
   //Same for forceY--these act as a gravity parameter so the different strength determines how closely the individual nodes are pulled to the center of their module position
   var forceY = d3.forceY(function (d) {
     let mod = modulePosition.find(g=>g.group == d.root_id)
     return mod ? mod.coordinates.y : graphWrapper.height - 300
-  }).strength(0.3)
+  }).strength(0.25)
 
   simulation
     .force("x", forceX)

@@ -1,0 +1,1642 @@
+[
+  {
+    "id": "Case 1",
+    "label": "Case 1",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 2",
+    "label": "Case 2",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 3",
+    "label": "Case 3",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 4",
+    "label": "Case 4",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 5",
+    "label": "Case 5",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 6",
+    "label": "Case 6",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 7",
+    "label": "Case 7",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 8",
+    "label": "Case 8",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 9",
+    "label": "Case 9",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 10",
+    "label": "Case 10",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 11",
+    "label": "Case 11",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 12",
+    "label": "Case 12",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 13",
+    "label": "Case 13",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 14",
+    "label": "Case 14",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 15",
+    "label": "Case 15",
+    "root_id": "Cluster2"
+  },
+  {
+    "id": "Case 16",
+    "label": "Case 16",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 17",
+    "label": "Case 17",
+    "root_id": "Cluster2"
+  },
+  {
+    "id": "Case 18",
+    "label": "Case 18",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 19",
+    "label": "Case 19",
+    "root_id": "Cluster4"
+  },
+  {
+    "id": "Case 20",
+    "label": "Case 20",
+    "root_id": "Cluster4"
+  },
+  {
+    "id": "Case 21",
+    "label": "Case 21",
+    "root_id": "Cluster4"
+  },
+  {
+    "id": "Case 22",
+    "label": "Case 22",
+    "root_id": "Cluster2"
+  },
+  {
+    "id": "Case 23",
+    "label": "Case 23",
+    "root_id": "Cluster2"
+  },
+  {
+    "id": "Case 24",
+    "label": "Case 24",
+    "root_id": "Cluster4"
+  },
+  {
+    "id": "Case 25",
+    "label": "Case 25",
+    "root_id": "Cluster4"
+  },
+  {
+    "id": "Case 26",
+    "label": "Case 26",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 27",
+    "label": "Case 27",
+    "root_id": "Cluster4"
+  },
+  {
+    "id": "Case 28",
+    "label": "Case 28",
+    "root_id": "Cluster4"
+  },
+  {
+    "id": "Case 29",
+    "label": "Case 29",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 30",
+    "label": "Case 30",
+    "root_id": "Cluster5"
+  },
+  {
+    "id": "Case 31",
+    "label": "Case 31",
+    "root_id": "Cluster6"
+  },
+  {
+    "id": "Case 32",
+    "label": "Case 32",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 33",
+    "label": "Case 33",
+    "root_id": "Cluster6"
+  },
+  {
+    "id": "Case 34",
+    "label": "Case 34",
+    "root_id": "Cluster4"
+  },
+  {
+    "id": "Case 35",
+    "label": "Case 35",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 36",
+    "label": "Case 36",
+    "root_id": "Cluster5"
+  },
+  {
+    "id": "Case 37",
+    "label": "Case 37",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 38",
+    "label": "Case 38",
+    "root_id": "Cluster6"
+  },
+  {
+    "id": "Case 39",
+    "label": "Case 39",
+    "root_id": "Cluster5"
+  },
+  {
+    "id": "Case 40",
+    "label": "Case 40",
+    "root_id": "Cluster4"
+  },
+  {
+    "id": "Case 41",
+    "label": "Case 41",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 42",
+    "label": "Case 42",
+    "root_id": "Cluster8"
+  },
+  {
+    "id": "Case 43",
+    "label": "Case 43",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 44",
+    "label": "Case 44",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Case 45",
+    "label": "Case 45",
+    "root_id": "Cluster2"
+  },
+  {
+    "id": "Case 46",
+    "label": "Case 46",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 47",
+    "label": "Case 47",
+    "root_id": "Cluster8"
+  },
+  {
+    "id": "Case 48",
+    "label": "Case 48",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 49",
+    "label": "Case 49",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 50",
+    "label": "Case 50",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 51",
+    "label": "Case 51",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 52",
+    "label": "Case 52",
+    "root_id": "Cluster8"
+  },
+  {
+    "id": "Case 53",
+    "label": "Case 53",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 54",
+    "label": "Case 54",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 55",
+    "label": "Case 55",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 56",
+    "label": "Case 56",
+    "root_id": "Cluster8"
+  },
+  {
+    "id": "Case 57",
+    "label": "Case 57",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 58",
+    "label": "Case 58",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 59",
+    "label": "Case 59",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 60",
+    "label": "Case 60",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 61",
+    "label": "Case 61",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 62",
+    "label": "Case 62",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 63",
+    "label": "Case 63",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 64",
+    "label": "Case 64",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 65",
+    "label": "Case 65",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 66",
+    "label": "Case 66",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 67",
+    "label": "Case 67",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 68",
+    "label": "Case 68",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 69",
+    "label": "Case 69",
+    "root_id": "Cluster8"
+  },
+  {
+    "id": "Case 70",
+    "label": "Case 70",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 71",
+    "label": "Case 71",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 72",
+    "label": "Case 72",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 73",
+    "label": "Case 73",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 74",
+    "label": "Case 74",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 75",
+    "label": "Case 75",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 76",
+    "label": "Case 76",
+    "root_id": "Cluster3"
+  },
+  {
+    "id": "Case 77",
+    "label": "Case 77",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 78",
+    "label": "Case 78",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 79",
+    "label": "Case 79",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 80",
+    "label": "Case 80",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 81",
+    "label": "Case 81",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 82",
+    "label": "Case 82",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 83",
+    "label": "Case 83",
+    "root_id": "Cluster6"
+  },
+  {
+    "id": "Case 84",
+    "label": "Case 84",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 85",
+    "label": "Case 85",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 86",
+    "label": "Case 86",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 87",
+    "label": "Case 87",
+    "root_id": "Cluster3"
+  },
+  {
+    "id": "Case 88",
+    "label": "Case 88",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Case 89",
+    "label": "Case 89",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 90",
+    "label": "Case 90",
+    "root_id": "Cluster6"
+  },
+  {
+    "id": "Case 91",
+    "label": "Case 91",
+    "root_id": "Cluster6"
+  },
+  {
+    "id": "Case 92",
+    "label": "Case 92",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 93",
+    "label": "Case 93",
+    "root_id": "Cluster10"
+  },
+  {
+    "id": "Case 94",
+    "label": "Case 94",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 95",
+    "label": "Case 95",
+    "root_id": "Cluster10"
+  },
+  {
+    "id": "Case 96",
+    "label": "Case 96",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 97",
+    "label": "Case 97",
+    "root_id": "Cluster10"
+  },
+  {
+    "id": "Case 98",
+    "label": "Case 98",
+    "root_id": "Cluster10"
+  },
+  {
+    "id": "Case 99",
+    "label": "Case 99",
+    "root_id": "Cluster10"
+  },
+  {
+    "id": "Case 100",
+    "label": "Case 100",
+    "root_id": "Cluster10"
+  },
+  {
+    "id": "Case 101",
+    "label": "Case 101",
+    "root_id": "Cluster10"
+  },
+  {
+    "id": "Case 102",
+    "label": "Case 102",
+    "root_id": "Cluster10"
+  },
+  {
+    "id": "Case 103",
+    "label": "Case 103",
+    "root_id": "Cluster10"
+  },
+  {
+    "id": "Case 104",
+    "label": "Case 104",
+    "root_id": "Cluster10"
+  },
+  {
+    "id": "Case 105",
+    "label": "Case 105",
+    "root_id": "Cluster10"
+  },
+  {
+    "id": "Case 106",
+    "label": "Case 106",
+    "root_id": "Cluster10"
+  },
+  {
+    "id": "Case 107",
+    "label": "Case 107",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 108",
+    "label": "Case 108",
+    "root_id": "Cluster10"
+  },
+  {
+    "id": "Case 109",
+    "label": "Case 109",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 110",
+    "label": "Case 110",
+    "root_id": "Cluster10"
+  },
+  {
+    "id": "Case 111",
+    "label": "Case 111",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 112",
+    "label": "Case 112",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 113",
+    "label": "Case 113",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 114",
+    "label": "Case 114",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 115",
+    "label": "Case 115",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 116",
+    "label": "Case 116",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 117",
+    "label": "Case 117",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 118",
+    "label": "Case 118",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 119",
+    "label": "Case 119",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 120",
+    "label": "Case 120",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 121",
+    "label": "Case 121",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 122",
+    "label": "Case 122",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 123",
+    "label": "Case 123",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 124",
+    "label": "Case 124",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 125",
+    "label": "Case 125",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 126",
+    "label": "Case 126",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 127",
+    "label": "Case 127",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 128",
+    "label": "Case 128",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 129",
+    "label": "Case 129",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 130",
+    "label": "Case 130",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 131",
+    "label": "Case 131",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 132",
+    "label": "Case 132",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 133",
+    "label": "Case 133",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 134",
+    "label": "Case 134",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 135",
+    "label": "Case 135",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 136",
+    "label": "Case 136",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 137",
+    "label": "Case 137",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 138",
+    "label": "Case 138",
+    "root_id": "Cluster6"
+  },
+  {
+    "id": "Case 139",
+    "label": "Case 139",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 140",
+    "label": "Case 140",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 141",
+    "label": "Case 141",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 142",
+    "label": "Case 142",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 143",
+    "label": "Case 143",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 144",
+    "label": "Case 144",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 145",
+    "label": "Case 145",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 146",
+    "label": "Case 146",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 147",
+    "label": "Case 147",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 148",
+    "label": "Case 148",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 149",
+    "label": "Case 149",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 150",
+    "label": "Case 150",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 151",
+    "label": "Case 151",
+    "root_id": "Cluster6"
+  },
+  {
+    "id": "Case 152",
+    "label": "Case 152",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 153",
+    "label": "Case 153",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 154",
+    "label": "Case 154",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 155",
+    "label": "Case 155",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 156",
+    "label": "Case 156",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 157",
+    "label": "Case 157",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 158",
+    "label": "Case 158",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 159",
+    "label": "Case 159",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 160",
+    "label": "Case 160",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 161",
+    "label": "Case 161",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 162",
+    "label": "Case 162",
+    "root_id": "Cluster13"
+  },
+  {
+    "id": "Case 163",
+    "label": "Case 163",
+    "root_id": "Cluster13"
+  },
+  {
+    "id": "Case 164",
+    "label": "Case 164",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 165",
+    "label": "Case 165",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 166",
+    "label": "Case 166",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 167",
+    "label": "Case 167",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 168",
+    "label": "Case 168",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 169",
+    "label": "Case 169",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 170",
+    "label": "Case 170",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 171",
+    "label": "Case 171",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 172",
+    "label": "Case 172",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 173",
+    "label": "Case 173",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 174",
+    "label": "Case 174",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 175",
+    "label": "Case 175",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 176",
+    "label": "Case 176",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 177",
+    "label": "Case 177",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 178",
+    "label": "Case 178",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 179",
+    "label": "Case 179",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 180",
+    "label": "Case 180",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 181",
+    "label": "Case 181",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 182",
+    "label": "Case 182",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 183",
+    "label": "Case 183",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 184",
+    "label": "Case 184",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 185",
+    "label": "Case 185",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 186",
+    "label": "Case 186",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 187",
+    "label": "Case 187",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 188",
+    "label": "Case 188",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 189",
+    "label": "Case 189",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 190",
+    "label": "Case 190",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 191",
+    "label": "Case 191",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 192",
+    "label": "Case 192",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 193",
+    "label": "Case 193",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 194",
+    "label": "Case 194",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 195",
+    "label": "Case 195",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 196",
+    "label": "Case 196",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 197",
+    "label": "Case 197",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 198",
+    "label": "Case 198",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 199",
+    "label": "Case 199",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 200",
+    "label": "Case 200",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Cluster 1",
+    "label": "Cases Imported From Overseas",
+    "root_id": "Cluster1"
+  },
+  {
+    "id": "Cluster 2",
+    "label": "Singaporeans evacuated from Wuhan on 30\nJan",
+    "root_id": "Cluster2"
+  },
+  {
+    "id": "Cluster 3",
+    "label": "Singaporeans evacuated from Wuhan on 9\nFeb",
+    "root_id": "Cluster3"
+  },
+  {
+    "id": "Cluster 4",
+    "label": "Tour Group From\nGuangxi to Yong Thai Hang",
+    "root_id": "Cluster4"
+  },
+  {
+    "id": "Cluster 5",
+    "label": "Private Business Meeting at Grand Hyatt\nSingapore",
+    "root_id": "Cluster5"
+  },
+  {
+    "id": "Cluster 6",
+    "label": "The Life Church and Missions Singapore",
+    "root_id": "Cluster6"
+  },
+  {
+    "id": "Cluster 7",
+    "label": "CNY family gathering at Mei Hwan Drive\n25 Jan",
+    "root_id": "Cluster7"
+  },
+  {
+    "id": "Cluster 8",
+    "label": "Seletar Aerospace Heights construction\nsite",
+    "root_id": "Cluster8"
+  },
+  {
+    "id": "Cluster 9",
+    "label": "Grace Assembly of God",
+    "root_id": "Cluster9"
+  },
+  {
+    "id": "Cluster 10",
+    "label": "Wizlearn Technologies Pte Ltd",
+    "root_id": "Cluster10"
+  },
+  {
+    "id": "Cluster 11",
+    "label": "Private dinner function at SAFRA Jurong",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Cluster12",
+    "label": "Church of Singapore (Bukit Timah)",
+    "root_id": "Cluster12"
+  },
+  {
+    "id": "Cluster13",
+    "label": "boulder+ Gym",
+    "root_id": "Cluster13"
+  },
+  {
+    "id": "Unlinked",
+    "label": "Unlinked Local Transmission",
+    "root_id": "Unlinked"
+  },
+  {
+    "id": "Imported",
+    "label": "Cases Imported From Overseas",
+    "root_id": "Imported"
+  },
+  {
+    "id": "Case 201",
+    "label": "Case 201",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 202",
+    "label": "Case 202",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 203",
+    "label": "Case 203",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 204",
+    "label": "Case 204",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 205",
+    "label": "Case 205",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 206",
+    "label": "Case 206",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 207",
+    "label": "Case 207",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 208",
+    "label": "Case 208",
+    "root_id": "Cluster12"
+  },
+  {
+    "id": "Case 209",
+    "label": "Case 209",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 210",
+    "label": "Case 210",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 211",
+    "label": "Case 211",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 212",
+    "label": "Case 212",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 213",
+    "label": "Case 213",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 214",
+    "label": "Case 214",
+    "root_id": "Cluster12"
+  },
+  {
+    "id": "Case 215",
+    "label": "Case 215",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 216",
+    "label": "Case 216",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 217",
+    "label": "Case 217",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 218",
+    "label": "Case 218",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 219",
+    "label": "Case 219",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 220",
+    "label": "Case 220",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 221",
+    "label": "Case 221",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 222",
+    "label": "Case 222",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 223",
+    "label": "Case 223",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 224",
+    "label": "Case 224",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 225",
+    "label": "Case 225",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 226",
+    "label": "Case 226",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 227",
+    "label": "Case 227",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 228",
+    "label": "Case 228",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 229",
+    "label": "Case 229",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 230",
+    "label": "Case 230",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 231",
+    "label": "Case 231",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 232",
+    "label": "Case 232",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 233",
+    "label": "Case 233",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 234",
+    "label": "Case 234",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 235",
+    "label": "Case 235",
+    "root_id": "Cluster12"
+  },
+  {
+    "id": "Case 236",
+    "label": "Case 236",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 237",
+    "label": "Case 237",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 238",
+    "label": "Case 238",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 239",
+    "label": "Case 239",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 240",
+    "label": "Case 240",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 241",
+    "label": "Case 241",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 242",
+    "label": "Case 242",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 243",
+    "label": "Case 243",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 244",
+    "label": "Case 244",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 245",
+    "label": "Case 245",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 246",
+    "label": "Case 246",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 247",
+    "label": "Case 247",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 248",
+    "label": "Case 248",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 249",
+    "label": "Case 249",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 250",
+    "label": "Case 250",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 251",
+    "label": "Case 251",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 252",
+    "label": "Case 252",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 253",
+    "label": "Case 253",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 254",
+    "label": "Case 254",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 255",
+    "label": "Case 255",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 256",
+    "label": "Case 256",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 257",
+    "label": "Case 257",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 258",
+    "label": "Case 258",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 259",
+    "label": "Case 259",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 260",
+    "label": "Case 260",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 261",
+    "label": "Case 261",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 262",
+    "label": "Case 262",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 263",
+    "label": "Case 263",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 264",
+    "label": "Case 264",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 265",
+    "label": "Case 265",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 266",
+    "label": "Case 266",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 267",
+    "label": "Case 267",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 268",
+    "label": "Case 268",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 269",
+    "label": "Case 269",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 270",
+    "label": "Case 270",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 271",
+    "label": "Case 271",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 272",
+    "label": "Case 272",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 273",
+    "label": "Case 273",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 274",
+    "label": "Case 274",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 275",
+    "label": "Case 275",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 276",
+    "label": "Case 276",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 277",
+    "label": "Case 277",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 278",
+    "label": "Case 278",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 279",
+    "label": "Case 279",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 280",
+    "label": "Case 280",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 281",
+    "label": "Case 281",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 282",
+    "label": "Case 282",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 283",
+    "label": "Case 283",
+    "root_id": "Cluster12"
+  },
+  {
+    "id": "Case 284",
+    "label": "Case 284",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 285",
+    "label": "Case 285",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 286",
+    "label": "Case 286",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 287",
+    "label": "Case 287",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 288",
+    "label": "Case 288",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 289",
+    "label": "Case 289",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 290",
+    "label": "Case 290",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 291",
+    "label": "Case 291",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 292",
+    "label": "Case 292",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 293",
+    "label": "Case 293",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 294",
+    "label": "Case 294",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 295",
+    "label": "Case 295",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 296",
+    "label": "Case 296",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 297",
+    "label": "Case 297",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 298",
+    "label": "Case 298",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 299",
+    "label": "Case 299",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 300",
+    "label": "Case 300",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 301",
+    "label": "Case 301",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 302",
+    "label": "Case 302",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 303",
+    "label": "Case 303",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 304",
+    "label": "Case 304",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 305",
+    "label": "Case 305",
+    "root_id": "Cluster11"
+  },
+  {
+    "id": "Case 306",
+    "label": "Case 306",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 307",
+    "label": "Case 307",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 308",
+    "label": "Case 308",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 309",
+    "label": "Case 309",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 310",
+    "label": "Case 310",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 311",
+    "label": "Case 311",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 312",
+    "label": "Case 312",
+    "root_id": "unknown"
+  },
+  {
+    "id": "Case 313",
+    "label": "Case 313",
+    "root_id": "unknown"
+  }
+]

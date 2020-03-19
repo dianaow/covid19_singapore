@@ -1,0 +1,1767 @@
+[
+  {
+    "from": "Case 100",
+    "to": "Case 93",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 101",
+    "to": "Case 102",
+    "label": "Foreign domestic worker"
+  },
+  {
+    "from": "Case 101",
+    "to": "Case 108",
+    "label": "Foreign domestic worker"
+  },
+  {
+    "from": "Case 101",
+    "to": "Case 93",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 103",
+    "to": "Case 101",
+    "label": "Close Contact"
+  },
+  {
+    "from": "Case 103",
+    "to": "Case 104",
+    "label": "Foreign domestic worker"
+  },
+  {
+    "from": "Case 103",
+    "to": "Case 93",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 105",
+    "to": "Case 95",
+    "label": "Business meeting at Toa Payoh\nHub"
+  },
+  {
+    "from": "Case 107",
+    "to": "Case 94",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 108",
+    "to": "Case 102",
+    "label": "Works in same household"
+  },
+  {
+    "from": "Case 11",
+    "to": "Case 4",
+    "label": "Travelling Companion"
+  },
+  {
+    "from": "Case 110",
+    "to": "Case 93",
+    "label": "Colleague"
+  },
+  {
+    "from": "Case 112",
+    "to": "Case 94",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 114",
+    "to": "Case 115",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 117",
+    "to": "Case 127",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 118",
+    "to": "Case 114",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 118",
+    "to": "Case 115",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 122",
+    "to": "Case 117",
+    "label": "Close Contact"
+  },
+  {
+    "from": "Case 126",
+    "to": "Case 109",
+    "label": "Stayed in same ward"
+  },
+  {
+    "from": "Case 128",
+    "to": "Case 125",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 13",
+    "to": "Case 2",
+    "label": "Close Contact"
+  },
+  {
+    "from": "Case 13",
+    "to": "Case 26",
+    "label": "Daughter - Mother"
+  },
+  {
+    "from": "Case 13",
+    "to": "Case 44",
+    "label": ""
+  },
+  {
+    "from": "Case 130",
+    "to": "Case 129",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 138",
+    "to": "Case 66",
+    "label": "Close Contact"
+  },
+  {
+    "from": "Case 138",
+    "to": "Case 83",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 138",
+    "to": "Case 91",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 140",
+    "to": "Case 139",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 142",
+    "to": "Case 139",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 142",
+    "to": "Case 140",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 143",
+    "to": "Case 132",
+    "label": "Family member"
+  },
+  {
+    "from": "Case 144",
+    "to": "Case 140",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 145",
+    "to": "Case 134",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 146",
+    "to": "Case 134",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 148",
+    "to": "Case 107",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 15",
+    "to": "Case 23",
+    "label": "Mother - Son"
+  },
+  {
+    "from": "Case 150",
+    "to": "Case 115",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 150",
+    "to": "Case 134",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 151",
+    "to": "Case 66",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 151",
+    "to": "Case 91",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 155",
+    "to": "Case 128",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 157",
+    "to": "Case 137",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 159",
+    "to": "Case 158",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 160",
+    "to": "Case 145",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 161",
+    "to": "Case 107",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 162",
+    "to": "Case 142",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 163",
+    "to": "Case 142",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 164",
+    "to": "Case 134",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 166",
+    "to": "Case 134",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 167",
+    "to": "Case 178",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 169",
+    "to": "Case 165",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 169",
+    "to": "Case 173",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 169",
+    "to": "Case 175",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 170",
+    "to": "Case 152",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 172",
+    "to": "Case 184",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 173",
+    "to": "Case 165",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 173",
+    "to": "Case 175",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 174",
+    "to": "Case 122",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 175",
+    "to": "Case 165",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 179",
+    "to": "Case 121",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 18",
+    "to": "Case 12",
+    "label": "Travelling Companion"
+  },
+  {
+    "from": "Case 181",
+    "to": "Case 182",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 185",
+    "to": "Case 142",
+    "label": ""
+  },
+  {
+    "from": "Case 186",
+    "to": "Case 166",
+    "label": ""
+  },
+  {
+    "from": "Case 19",
+    "to": "Case 21",
+    "label": "Foreign Domestic Worker"
+  },
+  {
+    "from": "Case 19",
+    "to": "Case 21",
+    "label": ""
+  },
+  {
+    "from": "Case 19",
+    "to": "Case 27",
+    "label": ""
+  },
+  {
+    "from": "Case 19",
+    "to": "Case 28",
+    "label": ""
+  },
+  {
+    "from": "Case 19",
+    "to": "Case 40",
+    "label": "Colleagues"
+  },
+  {
+    "from": "Case 20",
+    "to": "Case 19",
+    "label": "Colleagues"
+  },
+  {
+    "from": "Case 20",
+    "to": "Case 40",
+    "label": "Colleagues"
+  },
+  {
+    "from": "Case 25",
+    "to": "Case 24",
+    "label": "Husband - Wife"
+  },
+  {
+    "from": "Case 26",
+    "to": "Case 44",
+    "label": ""
+  },
+  {
+    "from": "Case 27",
+    "to": "Case 19",
+    "label": "Husband - Wife"
+  },
+  {
+    "from": "Case 28",
+    "to": "Case 19",
+    "label": "Mother - Son"
+  },
+  {
+    "from": "Case 28",
+    "to": "Case 27",
+    "label": "Father - Son"
+  },
+  {
+    "from": "Case 3",
+    "to": "Case 1",
+    "label": "Father - Son"
+  },
+  {
+    "from": "Case 34",
+    "to": "Case 19",
+    "label": "Colleagues"
+  },
+  {
+    "from": "Case 34",
+    "to": "Case 20",
+    "label": "Colleagues"
+  },
+  {
+    "from": "Case 40",
+    "to": "Case 34",
+    "label": "Colleagues"
+  },
+  {
+    "from": "Case 41",
+    "to": "Case 75",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 44",
+    "to": "Case 13",
+    "label": "Close Contact"
+  },
+  {
+    "from": "Case 44",
+    "to": "Case 26",
+    "label": "Close Contact"
+  },
+  {
+    "from": "Case 47",
+    "to": "Case 42",
+    "label": "Close Contact"
+  },
+  {
+    "from": "Case 51",
+    "to": "Case 73",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 52",
+    "to": "Case 42",
+    "label": "Close Contact"
+  },
+  {
+    "from": "Case 52",
+    "to": "Case 47",
+    "label": "Close Contact"
+  },
+  {
+    "from": "Case 55",
+    "to": "Case 50",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 56",
+    "to": "Case 42",
+    "label": "Close Contact"
+  },
+  {
+    "from": "Case 56",
+    "to": "Case 47",
+    "label": "Close Contact"
+  },
+  {
+    "from": "Case 56",
+    "to": "Case 52",
+    "label": "Close Contact"
+  },
+  {
+    "from": "Case 61",
+    "to": "Case 67",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 65",
+    "to": "Case 50",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 65",
+    "to": "Case 55",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 66",
+    "to": "Cluster 9",
+    "label": "Attendee"
+  },
+  {
+    "from": "Case 68",
+    "to": "Case 66",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 69",
+    "to": "Case 42",
+    "label": "Close Contact"
+  },
+  {
+    "from": "Case 69",
+    "to": "Case 47",
+    "label": "Close Contact"
+  },
+  {
+    "from": "Case 69",
+    "to": "Case 52",
+    "label": "Close Contact"
+  },
+  {
+    "from": "Case 69",
+    "to": "Case 56",
+    "label": "Close Contact"
+  },
+  {
+    "from": "Case 70",
+    "to": "Case 66",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 70",
+    "to": "Case 68",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 70",
+    "to": "Case 71",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 71",
+    "to": "Case 66",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 72",
+    "to": "Case 59",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 76",
+    "to": "Case 87",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 77",
+    "to": "Case 50",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 79",
+    "to": "Case 72",
+    "label": "Family Member"
+  },
+  {
+    "from": "Case 8",
+    "to": "Cluster 6",
+    "label": "Attendee"
+  },
+  {
+    "from": "Case 80",
+    "to": "Case 60",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 84",
+    "to": "Case 66",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 86",
+    "to": "Case 82",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 88",
+    "to": "Case 66",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 9",
+    "to": "Case 8",
+    "label": "Husband - Wife"
+  },
+  {
+    "from": "Case 9",
+    "to": "Cluster 6",
+    "label": "Attendee"
+  },
+  {
+    "from": "Case 91",
+    "to": "Case 83",
+    "label": "Husband - Wife"
+  },
+  {
+    "from": "Case 91",
+    "to": "Cluster 7",
+    "label": "Attendee"
+  },
+  {
+    "from": "Case 95",
+    "to": "Case 93",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 96",
+    "to": "Case 94",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 97",
+    "to": "Case 93",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 97",
+    "to": "Case 95",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 98",
+    "to": "Case 93",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 98",
+    "to": "Case 95",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 98",
+    "to": "Case 97",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 99",
+    "to": "Case 93",
+    "label": "Contact"
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Case 1",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Case 10",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Case 11",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Case 12",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Case 13",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Case 14",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Case 16",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Case 18",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Case 2",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Case 26",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Case 3",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Case 4",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Case 5",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Case 6",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Case 7",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Case 8",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Case 9",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Cluster 2",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Cluster 3",
+    "label": ""
+  },
+  {
+    "from": "Cluster 1",
+    "to": "Cluster 4",
+    "label": ""
+  },
+  {
+    "from": "Cluster 10",
+    "to": "Case 102",
+    "label": ""
+  },
+  {
+    "from": "Cluster 10",
+    "to": "Case 106",
+    "label": "Worked on the same floor"
+  },
+  {
+    "from": "Cluster 10",
+    "to": "Case 110",
+    "label": ""
+  },
+  {
+    "from": "Cluster 10",
+    "to": "Case 93",
+    "label": ""
+  },
+  {
+    "from": "Cluster 10",
+    "to": "Case 95",
+    "label": ""
+  },
+  {
+    "from": "Cluster 10",
+    "to": "Case 97",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 107",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 115",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 116",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 117",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 120",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 121",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 125",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 128",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 129",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 130",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 131",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 134",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 137",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 139",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 140",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 142",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 144",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 145",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 146",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 149",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 150",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 94",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 96",
+    "label": ""
+  },
+  {
+    "from": "Cluster 2",
+    "to": "Case 15",
+    "label": ""
+  },
+  {
+    "from": "Cluster 2",
+    "to": "Case 17",
+    "label": ""
+  },
+  {
+    "from": "Cluster 2",
+    "to": "Case 22",
+    "label": ""
+  },
+  {
+    "from": "Cluster 2",
+    "to": "Case 23",
+    "label": ""
+  },
+  {
+    "from": "Cluster 2",
+    "to": "Case 45",
+    "label": ""
+  },
+  {
+    "from": "Cluster 3",
+    "to": "Case 76",
+    "label": ""
+  },
+  {
+    "from": "Cluster 3",
+    "to": "Case 87",
+    "label": ""
+  },
+  {
+    "from": "Cluster 4",
+    "to": "Case 19",
+    "label": ""
+  },
+  {
+    "from": "Cluster 4",
+    "to": "Case 20",
+    "label": ""
+  },
+  {
+    "from": "Cluster 4",
+    "to": "Case 24",
+    "label": "Tour Guide"
+  },
+  {
+    "from": "Cluster 4",
+    "to": "Case 25",
+    "label": "Worked at Diamond Industries\nJewellery Company at Harbour\nDrive which was visited by the\nsame tour group from Guangxi"
+  },
+  {
+    "from": "Cluster 4",
+    "to": "Case 34",
+    "label": ""
+  },
+  {
+    "from": "Cluster 4",
+    "to": "Case 40",
+    "label": ""
+  },
+  {
+    "from": "Cluster 5",
+    "to": "Case 30",
+    "label": "Attendee"
+  },
+  {
+    "from": "Cluster 5",
+    "to": "Case 36",
+    "label": "Attendee"
+  },
+  {
+    "from": "Cluster 5",
+    "to": "Case 39",
+    "label": "Attendee"
+  },
+  {
+    "from": "Cluster 6",
+    "to": "Case 31",
+    "label": "Attendee"
+  },
+  {
+    "from": "Cluster 6",
+    "to": "Case 33",
+    "label": "Attendee"
+  },
+  {
+    "from": "Cluster 6",
+    "to": "Case 38",
+    "label": "Attendee"
+  },
+  {
+    "from": "Cluster 6",
+    "to": "Case 83",
+    "label": "Attendee"
+  },
+  {
+    "from": "Cluster 6",
+    "to": "Case 90",
+    "label": "Attendee"
+  },
+  {
+    "from": "Cluster 6",
+    "to": "Case 91",
+    "label": "Attendee"
+  },
+  {
+    "from": "Cluster 7",
+    "to": "Case 151",
+    "label": "Attendee"
+  },
+  {
+    "from": "Cluster 7",
+    "to": "Case 66",
+    "label": "Attendee"
+  },
+  {
+    "from": "Cluster 7",
+    "to": "Case 68",
+    "label": "Attendee"
+  },
+  {
+    "from": "Cluster 7",
+    "to": "Case 70",
+    "label": "Attendee"
+  },
+  {
+    "from": "Cluster 7",
+    "to": "Case 71",
+    "label": "Attendee"
+  },
+  {
+    "from": "Cluster 7",
+    "to": "Case 80",
+    "label": "Attendee"
+  },
+  {
+    "from": "Cluster 7",
+    "to": "Case 84",
+    "label": "Attendee"
+  },
+  {
+    "from": "Cluster 7",
+    "to": "Case 88",
+    "label": "Attendee"
+  },
+  {
+    "from": "Cluster 8",
+    "to": "Case 42",
+    "label": ""
+  },
+  {
+    "from": "Cluster 8",
+    "to": "Case 47",
+    "label": ""
+  },
+  {
+    "from": "Cluster 8",
+    "to": "Case 52",
+    "label": ""
+  },
+  {
+    "from": "Cluster 8",
+    "to": "Case 56",
+    "label": ""
+  },
+  {
+    "from": "Cluster 8",
+    "to": "Case 69",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 48",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 49",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 51",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 53",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 54",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 57",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 58",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 60",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 61",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 62",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 63",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 67",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 68",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 70",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 71",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 73",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 74",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 78",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 80",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 81",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 84",
+    "label": ""
+  },
+  {
+    "from": "Cluster 9",
+    "to": "Case 88",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 109",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 111",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 113",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 119",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 12",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 123",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 124",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 126",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 132",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 135",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 136",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 141",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 143",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 147",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 152",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 153",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 154",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 165",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 167",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 168",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 169",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 170",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 171",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 172",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 173",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 175",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 176",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 177",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 178",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 180",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 181",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 182",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 183",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 184",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 187",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 188",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 189",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 190",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 191",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 192",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 193",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 194",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 195",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 196",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 197",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 198",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 199",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 200",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 26",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 29",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 32",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 35",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 37",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 41",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 43",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 46",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 50",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 55",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 59",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 64",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 65",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 72",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 75",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 77",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 79",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 82",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 85",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 86",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 89",
+    "label": ""
+  },
+  {
+    "from": "unknown",
+    "to": "Case 92",
+    "label": ""
+  },
+  {
+    "from": "Case 165",
+    "to": "Case 200",
+    "label": "Family"
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 201",
+    "label": ""
+  },
+  {
+    "from": "Cluster 12",
+    "to": "Case 208",
+    "label": ""
+  },
+  {
+    "from": "Case 208",
+    "to": "Case 214",
+    "label": "Contact"
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 218",
+    "label": ""
+  },
+  {
+    "from": "Case 142",
+    "to": "Case 219",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 211",
+    "to": "Case 219",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 142",
+    "to": "Case 236",
+    "label": ""
+  },
+  {
+    "from": "Case 211",
+    "to": "Case 236",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 219",
+    "to": "Case 236",
+    "label": "Family"
+  },
+  {
+    "from": "Case 204",
+    "to": "Case 221",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 117",
+    "to": "Case 224",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 225",
+    "to": "Case 237",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 229",
+    "to": "Case 240",
+    "label": "Family"
+  },
+  {
+    "from": "Case 231",
+    "to": "Case 232",
+    "label": "Family"
+  },
+  {
+    "from": "Case 208",
+    "to": "Case 235",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 229",
+    "to": "Case 240",
+    "label": "Family"
+  },
+  {
+    "from": "Case 166",
+    "to": "Case 242",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 243",
+    "to": "Case 244",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 186",
+    "to": "Case 251",
+    "label": "Family"
+  },
+  {
+    "from": "Case 205",
+    "to": "Case 256",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 263",
+    "to": "Case 266",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 230",
+    "to": "Case 270",
+    "label": "Family"
+  },
+  {
+    "from": "Case 270",
+    "to": "Case 272",
+    "label": "Family"
+  },
+  {
+    "from": "Case 272",
+    "to": "Case 230",
+    "label": "Family"
+  },
+  {
+    "from": "Case144",
+    "to": "Case 283",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 208",
+    "to": "Case 283",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 214",
+    "to": "Case 283",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 235",
+    "to": "Case 283",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 267",
+    "to": "Case 287",
+    "label": "Family"
+  },
+  {
+    "from": "Case 212",
+    "to": "Case 289",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 260",
+    "to": "Case 291",
+    "label": "Family"
+  },
+  {
+    "from": "Case 225",
+    "to": "Case 294",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 237",
+    "to": "Case 294",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 259",
+    "to": "Case 298",
+    "label": "Family"
+  },
+  {
+    "from": "Case 250",
+    "to": "Case 299",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 248",
+    "to": "Case 303",
+    "label": "Family"
+  },
+  {
+    "from": "Case 142",
+    "to": "Case 305",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 277",
+    "to": "Case 308",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 230",
+    "to": "Case 309",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 183",
+    "to": "Case 310",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 252",
+    "to": "Case 310",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 234",
+    "to": "Case 311",
+    "label": "Family"
+  },
+  {
+    "from": "Case 142",
+    "to": "Cluster 13",
+    "label": ""
+  },
+  {
+    "from": "Case 142",
+    "to": "Case 162",
+    "label": ""
+  },
+  {
+    "from": "Case 142",
+    "to": "Case 162",
+    "label": ""
+  },
+  {
+    "from": "Cluster 13",
+    "to": "Case 162",
+    "label": ""
+  },
+  {
+    "from": "Cluster 13",
+    "to": "Case 163",
+    "label": ""
+  },
+  {
+    "from": "Case 144",
+    "to": "Cluster 12",
+    "label": ""
+  },
+  {
+    "from": "Cluster 12",
+    "to": "Case 214",
+    "label": ""
+  },
+  {
+    "from": "Cluster 12",
+    "to": "Case 208",
+    "label": ""
+  },
+  {
+    "from": "Cluster 12",
+    "to": "Case 283",
+    "label": ""
+  }
+]

@@ -24,32 +24,39 @@ export const linkedByIndex = {}
 
 export const formatDate = d3.timeFormat("%d %b %Y")
 export const parseDate = d3.timeParse("%d %b %Y")
-export const currentDateString = '14 Mar 2020'
+export const currentDateString = '18 Mar 2020'
 export const currentDate = parseDate(currentDateString)
 
 export const mapping = {'node_shape_1': 'Imported case', 'node_shape_2': 'Local transmission'}
 
 const gender = ['Male', 'Female']
 const status = ['In hospital', 'Recovered']
-const nationality = ['Singaporean', 'Non-Singaporeans']
+const nationality = ['Singaporean/Singapore PR', 'Foreigner']
 const case_type = ['Imported case', 'Local transmission']
 
-//Cluster 1: Cases Imported From Overseas,
-//Cluster 2: Singaporeans evacuated from Wuhan on 30 January,
+//Cluster 1: Cases Imported From Overseas, => 23rd Jan 2020
+//Cluster 2: Singaporeans evacuated from Wuhan on 30 January, => 1 Feb 2020
 //Cluster 3: Singaporeans evacuated from Wuhan on 9 February
-//Cluster 4: Lavender cluster case: Tour Group From Guangxi to Yong Thai Hang
-//Cluster 5: Private Business Meeting at Grand Hyatt Singapore
-//Cluster 6: The Life Church and Missions Singapore
-//Cluster 7: CNY family gathering at Mei Hwan Drive
-//Cluster 8: Seletar Aerospace Heights constructionn site
-//Cluster 9: Grace Assembly of God
-//Cluster 10: Wizlearn Technologies Pte Ltd
-//Cluster 11: Private dinner function at SAFRA Jurong
+//Cluster 4: Lavender cluster case: Tour Group From Guangxi to Yong Thai Hang => 4th Feb 2020
+//Cluster 5: Private Business Meeting at Grand Hyatt Singapore => 8 Feb 2020
+//Cluster 6: The Life Church and Missions Singapore => 8 Feb 2020
+//Cluster 7: CNY family gathering at Mei Hwan Drive => 27 Feb 2020
+//Cluster 8: Seletar Aerospace Heights construction site  => 13 Feb 2020
+//Cluster 9: Grace Assembly of God => 13 Feb 2020
+//Cluster 10: Wizlearn Technologies Pte Ltd => 28th Feb 2020
+//Cluster 11: Private dinner function at SAFRA Jurong => 5 March 2020
 //unknown : unknown
-//undefined
 
-export const clusters = ['Cluster4', 'Cluster8', 'Cluster10', 'Cluster5', 'Cluster1', 'Cluster2', 'Cluster3', 'Cluster4', 'unknown', 'Cluster11', 'Cluster6', 'Cluster7', 'Cluster9']
-//export const clusters = ['unknown', 'Cluster1', 'Cluster4', 'Cluster6', 'Cluster7', 'Cluster9', 'Cluster10', 'Cluster8', 'Cluster10', 'Cluster11', 'Cluster5']
+//wizlearn lifechurch cny grace
+//yth imported unknown wuhan30
+//seletar wuhan9 hyatt safra
+
+//wizlearn   lifechurch  cny       grace  
+//importedb4 wuhan30     imported  unlinked(local-transmission
+//yth        wuhan9      safra     hyatt  seletar  
+                        //boulder  church
+
+export const clusterArrangement = ['Cluster4', 'Cluster3', 'Cluster11', 'Cluster8', 'Cluster5', 'Cluster1', 'Cluster2', 'Unlinked', 'Imported', 'X', 'Cluster10', 'Cluster6', 'Cluster7', 'Cluster9']
 
 // node radius size is scaled based on total number of connections to node (only applied to root or parent nodes)
 const nodeRadiusScale = d3.scaleSqrt()

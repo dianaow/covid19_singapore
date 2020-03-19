@@ -2,6 +2,7 @@ import React from "react"
 
 import Chart from "../Shared/Chart"
 import Graph from "./Graph"
+import Timeline from "./Timeline"
 import Tooltip from "./Tooltip";
 import Legend from "./Legend"
 import FilterPanel from "./FilterPanel"
@@ -14,7 +15,7 @@ import { SceneProvider } from "../contexts/SceneContext"
 
 import { useChartDimensions }  from "../utils"
 
-const Network = () => {
+const Network = ({data, timeline}) => {
 
   const [ref, dms] = useChartDimensions()
 
@@ -43,7 +44,8 @@ const Network = () => {
                     <path d="M 0,-5 L 10 ,0 L 0,5" fill="white" fillOpacity="1" stroke="none"></path>
                   </marker>
                 </defs> 
-                <Graph />    
+                <Graph data={data} />
+                <Timeline timeline={timeline} />   
                 <Tooltip />
               </Chart>
             </SceneProvider>

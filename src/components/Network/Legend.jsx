@@ -136,7 +136,7 @@ const drawShapeLegend = () => {
   const size = 5
 
   return(
-    <svg width='100%' height='40px'>
+    <svg width='100%' height='60px'>
       <g className='legend__category' transform="translate(0,10)">
         <circle 
           cx={10-size} 
@@ -149,10 +149,17 @@ const drawShapeLegend = () => {
           x='20' 
           y='15' 
           fill='white'>
-          Local transmission
+          Singaporean
+        </text>
+        <text
+          className='legend-content-text'
+          x='20' 
+          y='35' 
+          fill='white'>
+          Singapore PR
         </text>
         <rect
-          x='105' 
+          x='115' 
           y={15-size} 
           width={size*2}
           height={size*2}
@@ -160,10 +167,10 @@ const drawShapeLegend = () => {
           stroke='white'/>
         <text
           className='legend-content-text'
-          x={100+size+20} 
+          x={110+size+20} 
           y='15' 
           fill='white'>
-          Imported case
+          Foreigner
         </text>
       </g>
     </svg>  

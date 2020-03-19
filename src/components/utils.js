@@ -228,3 +228,9 @@ export const getRandomArbitrary = (min, max) => {
 export const round = (d) => {
   return Math.round(d * 100)/100
 }
+
+export const uniq = (a) => {
+  return a.sort().filter(function(item, pos, ary) {
+      return !pos || item != ary[pos - 1];
+  })
+}

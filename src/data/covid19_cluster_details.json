@@ -1,0 +1,77 @@
+[
+  {
+    "id": "Cluster1",
+    "label": "Cases Imported From Wuhan",
+    "confirmed_at": "23 Jan 2020"
+  },
+  {
+    "id": "Cluster2",
+    "label": "Singaporeans evacuated from Wuhan on 30 Jan",
+    "confirmed_at": "30 Jan 2020"
+  },
+  {
+    "id": "Cluster3",
+    "label": "Singaporeans evacuated from Wuhan on 9 Feb",
+    "confirmed_at": "16 Feb 2020"
+  },
+  {
+    "id": "Cluster4",
+    "label": "Tour Group From Guangxi to Yong Thai Hang",
+    "confirmed_at": "3 Feb 2020"
+  },
+  {
+    "id": "Cluster5",
+    "label": "Private Business Meeting at Grand Hyatt Singapore",
+    "confirmed_at": "7 Feb 2020"
+  },
+    {
+    "id": "Cluster6",
+    "label": "The Life Church and Missions Singapore",
+    "confirmed_at": "7 Feb 2020"
+  },
+  {
+    "id": "Cluster7",
+    "label": "CNY family gathering at Mei Hwan Drive",
+    "confirmed_at": "27 Feb 2020"
+  },
+  {
+    "id": "Cluster8",
+    "label": "Seletar Aerospace Heights construction site",
+    "confirmed_at": "9 Feb 2020"
+  },
+  {
+    "id": "Cluster9",
+    "label": "Grace Assembly of God",
+    "confirmed_at": "12 Feb 2020"
+  },
+  {
+    "id": "Cluster10",
+    "label": "Wizlearn Technologies Pte Ltd",
+    "confirmed_at": "28 Feb 2020"
+  },
+  {
+    "id": "Cluster11",
+    "label": "Private dinner function at SAFRA Jurong",
+    "confirmed_at": "5 Mar 2020"
+  },
+  {
+    "id": "Cluster12",
+    "label": "Church of Singapore (Bukit Timah)",
+    "confirmed_at": "13 Mar 2020"
+  },
+  {
+    "id": "Cluster13",
+    "label": "boulder+ Gym",
+    "confirmed_at": "13 Mar 2020"
+  },
+  {
+    "id": "Imported",
+    "label": "Cases Imported From Overseas",
+    "confirmed_at": "5 Feb 2020"
+  },
+  {
+    "id": "Unlinked",
+    "label": "Unlinked Local Transmission",
+    "confirmed_at": "5 Feb 2020"
+  }
+]

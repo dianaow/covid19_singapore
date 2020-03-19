@@ -4,13 +4,15 @@ const reducer = (state, action) => {
       return {
         date: action.date,
         nodes: state.nodes,
-        links: state.links
+        links: state.links,
+        timeline: state.timeline
       }
     case 'SET_STATS':
       return {
         date: state.date,
         nodes: action.nodes,
-        links: action.links
+        links: action.links,
+        timeline: action.timeline
       }
     default:
       return state
