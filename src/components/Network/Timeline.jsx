@@ -27,7 +27,7 @@ const Timeline = ({timeline}) => {
       .range([sliderPosX, targetValue])
 
     const yScale = d3.scaleLinear()
-        .domain([0, 30])
+        .domain([0, 50])
         .range([sliderHeight, 0])
 
     const line = d3.line()
@@ -66,7 +66,7 @@ const Timeline = ({timeline}) => {
             textAnchor='left'
             fontSize='11px'
           >
-            { Consts.formatDate(date) }
+            { "Confirmed at: " + Consts.formatDate(date) }
           </text>  
         </g>
       )
@@ -78,7 +78,7 @@ const Timeline = ({timeline}) => {
         <g className='line-group' transform={`translate(0, ${-sliderHeight})`}>
           <rect 
             width={targetValue}
-            height={sliderHeight}
+            height={sliderHeight + 50}
             fill={Consts.nodeFill}
             fillOpacity='0.6'
           />
@@ -100,7 +100,7 @@ const Timeline = ({timeline}) => {
               y2={0}
               fill='none'
               stroke='white'
-              strokeWidth='2'
+              strokeWidth='5'
               strokeOpacity='0'
               pointerEvents='all'
               onMouseEnter={ () => dispatch({ type: 'SET_DATE', date: d.key }) }

@@ -27,13 +27,13 @@ export const parseDate = d3.timeParse("%d %b %Y")
 export const currentDateString = '18 Mar 2020'
 export const currentDate = parseDate(currentDateString)
 
-export const mapping = {'node_shape_1': 'Imported case', 'node_shape_2': 'Local transmission'}
+export const mapping = {'node_shape_1': 'Foreigner', 'node_shape_2': 'Singaporean/Singapore PR'}
 
 const gender = ['Male', 'Female']
 const status = ['In hospital', 'Recovered']
 const nationality = ['Singaporean/Singapore PR', 'Foreigner']
 const case_type = ['Imported case', 'Local transmission']
-
+const days_group = ['In hospital', '0 - 7 days', '8 - 15 days', '> 15 days']
 //Cluster 1: Cases Imported From Overseas, => 23rd Jan 2020
 //Cluster 2: Singaporeans evacuated from Wuhan on 30 January, => 1 Feb 2020
 //Cluster 3: Singaporeans evacuated from Wuhan on 9 February
@@ -79,9 +79,9 @@ const ageScale = d3.scaleLinear()
   .domain([0, 45, 90])
   .range(['aqua', 'white', 'fuchsia'])
 
-const daysScale = d3.scaleLinear()
-  .domain([0, 100])
-  .range(['white', '#60E2A0'])
+const daysScale = d3.scaleOrdinal()
+  .domain(days_group)
+  .range(['white', '#4BE3AB', '#F9B219', '#F03713'])
 
 export const scales = {
   colorAccessor: d => statusScale(d.status), // default color coding
@@ -89,6 +89,6 @@ export const scales = {
   gender: {'label': 'Gender','domain': gender, 'scale': genderScale},
   nationality: {'label': 'Nationality','domain': nationality, 'scale': nationalityScale},
   age: {'label': 'Age','domain': [0, 20, 40, 60, 80, 100], 'scale': ageScale},
-  days: {'label': 'Days','domain': [0, 20, 40, 60, 80, 100], 'scale': daysScale},
-  nodeRadius: {'label': 'Amount of connections','domain': [2, 10, 30], 'scale': nodeRadiusScale}
+  daysGroup: {'label': 'Days to recovery','domain': days_group, 'scale': daysScale},
+  nodeRadius: {'label': 'Number of connections','domain': [1, 5, 12], 'scale': nodeRadiusScale}
 }

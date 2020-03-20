@@ -131,3 +131,8 @@
         border-left: var(--border) transparent;
     }
 }
+
+.cell-wrapped {
+  overflow-wrap: break-word;
+  min-width: 100px !important;
+}

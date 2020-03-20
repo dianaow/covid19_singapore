@@ -62,17 +62,12 @@ const NetworkPage = () => {
   function processCases(cases) {
 
     cases.forEach((d,i) => {
-      //console.log(d['recovered at'])
       d.id = 'Case ' + d.id
-      d.patient = d.patient
       d.age = +d.age
-      d.gender =  d.gender
-      d.nationality = d.nationality
-      d.status = d.status
-      d.type = d.type
-      d.days_to_recover = Number.isInteger(+d['days to recover']) ? +d['days to recover'] : 0
+      d.days_to_recover = Number.isInteger(+d['days to recover']) ? +d['days to recover'] : '-'
+      d.days_to_confirmation = Number.isInteger(+d['SYMPTOMATIC TO\nCONFIRMATION']) ? +d['SYMPTOMATIC TO\nCONFIRMATION'] : 0
       d.confirmed_at = d['confirmed at'].split(",")[0].slice(0, -2) + d['confirmed at'].split(",")[1]
-      d.recovered_at = (d['recovered at']===undefined | d['recovered at']==='-') ? '01 Jan 2021' : d['recovered at'].split(",")[0].slice(0, -2) + d['recovered at'].split(",")[1] //if patient has not recovered, set a dummy date of 1 Jan 2021
+      d.recovered_at = (d['recovered at']===undefined | d['recovered at']==='-') ? '01 Jan 2021' : d['recovered at'].split(",")[0].slice(0, -2) + d['recovered at'].split(",")[1] //if patient has not recovered, set a dummy date of 1 Jan 2021 
     })
     return cases
 
@@ -92,8 +87,13 @@ const NetworkPage = () => {
         d.status = D.status
         d.case_type = D.type
         d.days_to_recover = D.days_to_recover
+        d.days_to_recover_group = groupDays(D.days_to_recover)
+        d.days_to_confirmation = D.days_to_confirmation
         d.confirmed_at = D.confirmed_at
         d.recovered_at = D.recovered_at
+        d.places = D['places visited']
+        d.works_at = D['works at']
+        d.lives_at = D['lives at']
       } else {
         d.id = d.id.replace(/\s/g,'')
         d.case_type = 'Cluster'
@@ -124,6 +124,20 @@ const NetworkPage = () => {
 
   }
 
+  function groupDays(d) {
+    if(d === '-') {
+      return 'In hospital'
+    } else if(d >= 0 & d <= 7) {
+      return '0 - 7 days'
+    } else if(d > 7 & d <= 15) {
+      return '8 - 15 days'
+    } else if(d > 15) {
+      return '> 15 days'
+    } else {
+      //console.log(d)
+    }
+  }
+
   useEffect(() => {
     //setTimeout(function(){
       setLoading({ loading: false })
@@ -145,16 +159,21 @@ const NetworkPage = () => {
         d.root_id = 'Imported'
       } else if (d.case_type === 'Local transmission' & d.root_id === 'unknown'){
         d.root_id = 'Unlinked'
+      } 
+
+      let fromNode = links.find(el=>el.end_id === d.id)
+      if(fromNode){
+        if(nodes.find(d=>d.id === fromNode.start_id).root_id === 'Imported'){
+          d.root_id = 'Imported'
+        }
       }
-      
-      if(d.root_id === 'unknown'){console.log(d.id, d.case_type)}
-      
-      if(d.id === 'Case143'){
+    
+      if(d.id === 'Case143' | d.id === 'Case252'){
         d.root_id = 'Imported'
       }
       d.original_root = d.root_id
     })
-
+    console.log(nodes, links)
     setData({ nodes, links })
     dispatch({ type: 'SET_STATS', nodes, links })
 
@@ -171,7 +190,7 @@ const NetworkPage = () => {
           <div className='chart-statistics'>
             <div className='chart-statistics-total'>
               <div className='nodes_stats'>
-                <div className='nodes_stats_total'><h2>{ current.nodes.length }</h2></div>
+                <div className='nodes_stats_total'><h2>{ current.nodes.filter(d=>d.case_type !== 'Cluster').length }</h2></div>
                 <p>CASES</p>
               </div>
               <div className='edges_stats'>

@@ -12,7 +12,16 @@
     "SYMPTOMATIC AT": "21st, Jan 2020",
     "confirmed at": "23rd, Jan 2020",
     "recovered at": "19th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 3,
+    "link type": "family",
+    "travel history": "arrived in Singapore on 21 January",
+    "travel countries": "China",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Shangri-La’s Rasa Sentosa Resort & Spa in Sentosa",
+    "admitted to": "SGH"
   },
   {
     "id": 2,
@@ -27,7 +36,16 @@
     "SYMPTOMATIC AT": "21st, Jan 2020",
     "confirmed at": "24th, Jan 2020",
     "recovered at": "7th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "arrived in Singapore on 21 January",
+    "travel countries": "China",
+    "places visited": "Orchard Road, Marina Bay Sands, Gardens by the Bay, RH, TTSH",
+    "works at": "",
+    "work address": "",
+    "lives at": "J8 Hotel at 8 Townshend Road",
+    "admitted to": "NCID"
   },
   {
     "id": 3,
@@ -42,7 +60,16 @@
     "SYMPTOMATIC AT": "23rd, Jan 2020",
     "confirmed at": "24th, Jan 2020",
     "recovered at": "21st, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 1,
+    "link type": "family",
+    "travel history": "arrived in Singapore on 21 January",
+    "travel countries": "China",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "SGH"
   },
   {
     "id": 4,
@@ -57,7 +84,16 @@
     "SYMPTOMATIC AT": "23rd, Jan 2020",
     "confirmed at": "25th, Jan 2020",
     "recovered at": "12th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 11,
+    "link type": "travelling companion",
+    "travel history": "arrived in Singapore with his family on 22 January",
+    "travel countries": "China",
+    "places visited": "USS, Vivocity",
+    "works at": "",
+    "work address": "",
+    "lives at": "Village Hotel Sentosa",
+    "admitted to": "SKH"
   },
   {
     "id": 5,
@@ -72,7 +108,16 @@
     "SYMPTOMATIC AT": "24th, Jan 2020",
     "confirmed at": "27th, Jan 2020",
     "recovered at": "18th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "arrived in Singapore with her family on 18 January",
+    "travel countries": "China",
+    "places visited": "TTSH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Ceylon Road",
+    "admitted to": "NCID"
   },
   {
     "id": 6,
@@ -87,7 +132,16 @@
     "SYMPTOMATIC AT": "25th, Jan 2020",
     "confirmed at": "27th, Jan 2020",
     "recovered at": "20th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "arrived in Singapore with his family on 19 January",
+    "travel countries": "China",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Pasir Ris Grove",
+    "admitted to": "CGH"
   },
   {
     "id": 7,
@@ -102,7 +156,16 @@
     "SYMPTOMATIC AT": "24th, Jan 2020",
     "confirmed at": "27th, Jan 2020",
     "recovered at": "4th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "arrived in Singapore on 23 January",
+    "travel countries": "China",
+    "places visited": "Marina Bay Sands Singapore, RH",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 8,
@@ -117,7 +180,16 @@
     "SYMPTOMATIC AT": "24th, Jan 2020",
     "confirmed at": "28th, Jan 2020",
     "recovered at": "18th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 9,
+    "link type": "family",
+    "travel history": "arrived together in Singapore on 19 January",
+    "travel countries": "China",
+    "places visited": "TTSH, The Life Church and Missions Singapore (146B Paya Lebar Road)",
+    "works at": "",
+    "work address": "",
+    "lives at": "Lorong Lew Lian",
+    "admitted to": "NCID"
   },
   {
     "id": 9,
@@ -132,7 +204,16 @@
     "SYMPTOMATIC AT": "24th, Jan 2020",
     "confirmed at": "29th, Jan 2020",
     "recovered at": "23rd, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 8,
+    "link type": "family",
+    "travel history": "arrived together in Singapore on 19 January",
+    "travel countries": "China",
+    "places visited": "TTSH, The Life Church and Missions Singapore (146B Paya Lebar Road)",
+    "works at": "",
+    "work address": "",
+    "lives at": "Lorong Lew Lian",
+    "admitted to": "NCID"
   },
   {
     "id": 10,
@@ -147,7 +228,16 @@
     "SYMPTOMATIC AT": "21st, Jan 2020",
     "confirmed at": "29th, Jan 2020",
     "recovered at": "9th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "arrived in Singapore from Wuhan on 20 January",
+    "travel countries": "China",
+    "places visited": "Marina South Pier",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 11,
@@ -162,7 +252,16 @@
     "SYMPTOMATIC AT": "27th, Jan 2020",
     "confirmed at": "29th, Jan 2020",
     "recovered at": "10th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 4,
+    "link type": "travelling companion",
+    "travel history": "arrived in Singapore on 22 January",
+    "travel countries": "China",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 12,
@@ -177,7 +276,16 @@
     "SYMPTOMATIC AT": "26th, Jan 2020",
     "confirmed at": "29th, Jan 2020",
     "recovered at": "12th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 18,
+    "link type": "travelling companion",
+    "travel history": "arrived in Singapore with her family on 22 January",
+    "travel countries": "China",
+    "places visited": "Orchard Road, Geylang, TTSH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Village Hotel Sentosa, Hotel 81 Princess, Home Suite View Hotel",
+    "admitted to": "NCID"
   },
   {
     "id": 13,
@@ -192,7 +300,16 @@
     "SYMPTOMATIC AT": "28th, Jan 2020",
     "confirmed at": "30th, Jan 2020",
     "recovered at": "9th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "2,26, 44",
+    "link type": "contact, family, contact",
+    "travel history": "arrived in Singapore from Wuhan on 21 January",
+    "travel countries": "China",
+    "places visited": "Changi Airport, Jewel",
+    "works at": "",
+    "work address": "",
+    "lives at": "ParkRoyal Collection Pickering, Oasia Hotel Downtown",
+    "admitted to": "NCID"
   },
   {
     "id": 14,
@@ -207,7 +324,16 @@
     "SYMPTOMATIC AT": "28th, Jan 2020",
     "confirmed at": "30th, Jan 2020",
     "recovered at": "17th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "arrived in Singapore from Wuhan on 26 January",
+    "travel countries": "China",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong East Street 13",
+    "admitted to": "NCID"
   },
   {
     "id": 15,
@@ -222,7 +348,16 @@
     "SYMPTOMATIC AT": "30th, Jan 2020",
     "confirmed at": "30th, Jan 2020",
     "recovered at": "16th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 23,
+    "link type": "family",
+    "travel history": "evacuated from Wuhan on 30 January",
+    "travel countries": "China",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 16,
@@ -237,7 +372,16 @@
     "SYMPTOMATIC AT": "23rd, Jan 2020",
     "confirmed at": "30th, Jan 2020",
     "recovered at": "20th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "arrived in Singapore from Wuhan on 22 January",
+    "travel countries": "China",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Nathan Road",
+    "admitted to": "SGH"
   },
   {
     "id": 17,
@@ -252,7 +396,16 @@
     "SYMPTOMATIC AT": "30th, Jan 2020",
     "confirmed at": "31st, Jan 2020",
     "recovered at": "11th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "evacuated from Wuhan on 30 January",
+    "travel countries": "China",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 18,
@@ -267,7 +420,16 @@
     "SYMPTOMATIC AT": "30th, Jan 2020",
     "confirmed at": "1st, Feb 2020",
     "recovered at": "27th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 12,
+    "link type": "travelling companion",
+    "travel history": "arrived in Singapore from Wuhan on 22 January",
+    "travel countries": "China",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Home Suite View Hotel (12 Lorong 12 Geylang)",
+    "admitted to": "NCID"
   },
   {
     "id": 19,
@@ -282,7 +444,16 @@
     "SYMPTOMATIC AT": "29th, Jan 2020",
     "confirmed at": "3rd, Feb 2020",
     "recovered at": "22nd, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "20, 21, 27, 28, 34, 40",
+    "link type": "colleague, foreign domestic worker, family, family, colleague, colleague",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Yong Thai Hang (24 Cavan Road)",
+    "work address": "24 Cavan Road",
+    "lives at": "Jalan Bukit Merah",
+    "admitted to": "SGH"
   },
   {
     "id": 20,
@@ -297,7 +468,16 @@
     "SYMPTOMATIC AT": "25th, Jan 2020",
     "confirmed at": "4th, Feb 2020",
     "recovered at": "29th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "19, 34, 40",
+    "link type": "colleague, colleaegue, colleague",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Yong Thai Hang (24 Cavan Road)",
+    "work address": "24 Cavan Road",
+    "lives at": "Hougang Street 61",
+    "admitted to": "NCID"
   },
   {
     "id": 21,
@@ -312,7 +492,16 @@
     "SYMPTOMATIC AT": "2nd, Feb 2020",
     "confirmed at": "4th, Feb 2020",
     "recovered at": "18th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 19,
+    "link type": "foreign domestic worker",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jalan Bukit Merah",
+    "admitted to": "SGH"
   },
   {
     "id": 22,
@@ -327,7 +516,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "3rd, Feb 2020",
     "recovered at": "9th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "FALSE"
+    "DISPLAYED SYMPTOMS?": "FALSE",
+    "connections": "",
+    "link type": "",
+    "travel history": "evacuated from Wuhan on 30 January",
+    "travel countries": "China",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 23,
@@ -342,7 +540,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "3rd, Feb 2020",
     "recovered at": "21st, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "FALSE"
+    "DISPLAYED SYMPTOMS?": "FALSE",
+    "connections": 15,
+    "link type": "family",
+    "travel history": "evacuated from Wuhan on 30 January",
+    "travel countries": "China",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 24,
@@ -357,7 +564,16 @@
     "SYMPTOMATIC AT": "30th, Jan 2020",
     "confirmed at": "3rd, Feb 2020",
     "recovered at": "15th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 25,
+    "link type": "family",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Hougang polyclinic, Yong Thai Hang (24 Cavan Road)",
+    "works at": "Jalan Besar",
+    "work address": "",
+    "lives at": "Buangkok Green",
+    "admitted to": "NCID"
   },
   {
     "id": 25,
@@ -372,7 +588,16 @@
     "SYMPTOMATIC AT": "24th, Jan 2020",
     "confirmed at": "4th, Feb 2020",
     "recovered at": "12th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 24,
+    "link type": "family",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Hougang polyclinic, Pasir Panjang Hawker Centre",
+    "works at": "Diamond Industries Jewellery Company (Harbour Drive)",
+    "work address": "Harbour Drive",
+    "lives at": "Buangkok Green",
+    "admitted to": "NCID"
   },
   {
     "id": 26,
@@ -387,7 +612,16 @@
     "SYMPTOMATIC AT": "28th, Jan 2020",
     "confirmed at": "4th, Feb 2020",
     "recovered at": "9th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "13, 44",
+    "link type": "family, contact",
+    "travel history": "arrived in Singapore from Wuhan on 21 January",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 27,
@@ -402,7 +636,16 @@
     "SYMPTOMATIC AT": "1st, Feb 2020",
     "confirmed at": "5th, Feb 2020",
     "recovered at": "21st, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "19, 28",
+    "link type": "family, family",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Tiong Bahru Plaza, Tiong Bahru Market, Beo Crescent Market and Food Centre",
+    "works at": "private hire driver",
+    "work address": "",
+    "lives at": "Jalan Bukit Merah",
+    "admitted to": "NCID"
   },
   {
     "id": 28,
@@ -417,7 +660,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "5th, Feb 2020",
     "recovered at": "22nd, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "19, 27",
+    "link type": "family, family",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jalan Bukit Merah",
+    "admitted to": "KKH"
   },
   {
     "id": 29,
@@ -432,7 +684,16 @@
     "SYMPTOMATIC AT": "28th, Jan 2020",
     "confirmed at": "5th, Feb 2020",
     "recovered at": "12th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "MENH",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 30,
@@ -447,7 +708,16 @@
     "SYMPTOMATIC AT": "21st, Jan 2020",
     "confirmed at": "6th, Feb 2020",
     "recovered at": "14th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Grand Hyatt Singapore, Far East Square (19 China Street), Junction 8 (9 Bishan Place)",
+    "works at": "",
+    "work address": "",
+    "lives at": "Shunfu Road",
+    "admitted to": "NCID"
   },
   {
     "id": 31,
@@ -462,7 +732,16 @@
     "SYMPTOMATIC AT": "23rd, Jan 2020",
     "confirmed at": "6th, Feb 2020",
     "recovered at": "17th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Malaysia on 6, 11 and 17 January",
+    "travel countries": "Malaysia",
+    "places visited": "The Life Church and Missions Singapore (146B Paya Lebar Road)",
+    "works at": "",
+    "work address": "",
+    "lives at": "Tampines Street 24",
+    "admitted to": "CGH"
   },
   {
     "id": 32,
@@ -477,7 +756,16 @@
     "SYMPTOMATIC AT": "2nd, Feb 2020",
     "confirmed at": "6th, Feb 2020",
     "recovered at": "19th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Changi Airport, Singapore Zoo",
+    "works at": "Victoria Junior College",
+    "work address": "",
+    "lives at": "Elias Road",
+    "admitted to": "PEH"
   },
   {
     "id": 33,
@@ -492,7 +780,16 @@
     "SYMPTOMATIC AT": "30th, Jan 2020",
     "confirmed at": "6th, Feb 2020",
     "recovered at": "19th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Malaysia from 22 to 29 January",
+    "travel countries": "Malaysia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "SKH"
   },
   {
     "id": 34,
@@ -507,7 +804,16 @@
     "SYMPTOMATIC AT": "27th, Jan 2020",
     "confirmed at": "7th, Feb 2020",
     "recovered at": "12th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "19, 20, 40",
+    "link type": "colleague, colleague, colleague",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Yong Thai Hang (24 Cavan Road)",
+    "work address": "24 Cavan Road",
+    "lives at": "Sin Ming Road",
+    "admitted to": "NCID"
   },
   {
     "id": 35,
@@ -522,7 +828,16 @@
     "SYMPTOMATIC AT": "30th, Jan 2020",
     "confirmed at": "7th, Feb 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Redhill Market, Hawker centre at Bukit Merah, Bukit Merah Polyclinic",
+    "works at": "taxi driver",
+    "work address": "",
+    "lives at": "Henderson Crescent",
+    "admitted to": "SGH"
   },
   {
     "id": 36,
@@ -537,7 +852,16 @@
     "SYMPTOMATIC AT": "24th, Jan 2020",
     "confirmed at": "7th, Feb 2020",
     "recovered at": "11th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Johor Bahru from 25 to 28 January",
+    "travel countries": "Malaysia",
+    "places visited": "Grand Hyatt Singapore, NTFGH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Bukit Batok Street 31",
+    "admitted to": "KKH"
   },
   {
     "id": 37,
@@ -552,7 +876,16 @@
     "SYMPTOMATIC AT": "30th, Jan 2020",
     "confirmed at": "7th, Feb 2020",
     "recovered at": "2nd, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "NTFGH",
+    "works at": "private hire car driver",
+    "work address": "",
+    "lives at": "Jurong East Street 32",
+    "admitted to": "NCID"
   },
   {
     "id": 38,
@@ -567,7 +900,16 @@
     "SYMPTOMATIC AT": "3rd, Feb 2020",
     "confirmed at": "8th, Feb 2020",
     "recovered at": "18th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Choa Chu Kang polyclinic, The Life Church and Missions Singapore, Marina Bay Sands, Chinatown, Plaza Singapura",
+    "works at": "",
+    "work address": "",
+    "lives at": "Choa Chu Kang Avenue 3",
+    "admitted to": "NCID"
   },
   {
     "id": 39,
@@ -582,7 +924,16 @@
     "SYMPTOMATIC AT": "29th, Jan 2020",
     "confirmed at": "8th, Feb 2020",
     "recovered at": "16th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Malaysia",
+    "travel countries": "Malaysia",
+    "places visited": "Grand Hyatt Singapore",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Central",
+    "admitted to": "NCID"
   },
   {
     "id": 40,
@@ -597,7 +948,16 @@
     "SYMPTOMATIC AT": "30th, Jan 2020",
     "confirmed at": "8th, Feb 2020",
     "recovered at": "12th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "19, 20, 34",
+    "link type": "colleague, colleague, colleague",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Yong Thai Hang (24 Cavan Road)",
+    "work address": "24 Cavan Road",
+    "lives at": "Bedok North Street",
+    "admitted to": "NCID"
   },
   {
     "id": 41,
@@ -612,7 +972,16 @@
     "SYMPTOMATIC AT": "1st, Feb 2020",
     "confirmed at": "8th, Feb 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 75,
+    "link type": "family",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Hougang polyclinic, Paya Lebar Methodist Church (5 Boundary Road), Braddell Heights Residents’ Committee, Pat’s Schoolhouse Kovan (755 Upper Serangoon Road)",
+    "works at": "",
+    "work address": "",
+    "lives at": "Upper Serangoon Road",
+    "admitted to": "NCID"
   },
   {
     "id": 42,
@@ -627,7 +996,16 @@
     "SYMPTOMATIC AT": "1st, Feb 2020",
     "confirmed at": "8th, Feb 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "47, 52, 56, 69",
+    "link type": "contact, contact, contact, contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "CGH, Bedok polyclinic, Mustafa Centre (145 Syed Alwi Road)",
+    "works at": "Seletar Aerospace Heights construction site",
+    "work address": "8 Seletar Aerospace Heights",
+    "lives at": "The Leo dormitory (25 Kaki Bukit Road)",
+    "admitted to": "NCID"
   },
   {
     "id": 43,
@@ -642,7 +1020,16 @@
     "SYMPTOMATIC AT": "30th, Jan 2020",
     "confirmed at": "8th, Feb 2020",
     "recovered at": "7th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Malaysia on 26 January 2020",
+    "travel countries": "Malaysia",
+    "places visited": "",
+    "works at": "Resorts World Sentosa",
+    "work address": "",
+    "lives at": "Fernvale Close",
+    "admitted to": "SKH"
   },
   {
     "id": 44,
@@ -657,7 +1044,16 @@
     "SYMPTOMATIC AT": "31st, Jan 2020",
     "confirmed at": "9th, Feb 2020",
     "recovered at": "19th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "13, 26",
+    "link type": "contact, contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Chingay 2020",
+    "works at": "Certis Cisco Centre (20 Jalan Afifi)",
+    "work address": "20 Jalan Afifi",
+    "lives at": "Sembawang Drive",
+    "admitted to": "KPTH"
   },
   {
     "id": 45,
@@ -672,7 +1068,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "10th, Feb 2020",
     "recovered at": "14th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "FALSE"
+    "DISPLAYED SYMPTOMS?": "FALSE",
+    "connections": "",
+    "link type": "",
+    "travel history": "evacuated from Wuhan on 30 January",
+    "travel countries": "China",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "KKH"
   },
   {
     "id": 46,
@@ -687,7 +1092,16 @@
     "SYMPTOMATIC AT": "5th, Feb 2020",
     "confirmed at": "10th, Feb 2020",
     "recovered at": "24th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Malaysia",
+    "travel countries": "Malaysia",
+    "places visited": "",
+    "works at": "Resorts World Sentosa Casino",
+    "work address": "8 Sentosa Gateway",
+    "lives at": "",
+    "admitted to": "TTSH"
   },
   {
     "id": 47,
@@ -702,7 +1116,16 @@
     "SYMPTOMATIC AT": "6th, Feb 2020",
     "confirmed at": "10th, Feb 2020",
     "recovered at": "7th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "42, 52, 56, 69",
+    "link type": "contact, contact, contact, contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Seletar Aerospace Heights construction site",
+    "work address": "10 Seletar Aerospace Heights",
+    "lives at": "Veerasamy Road",
+    "admitted to": "NCID"
   },
   {
     "id": 48,
@@ -717,7 +1140,16 @@
     "SYMPTOMATIC AT": "1st, Feb 2020",
     "confirmed at": "11th, Feb 2020",
     "recovered at": "17th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Malaysia on 26 January 2020",
+    "travel countries": "Malaysia",
+    "places visited": "Plaza Singapura (68 Orchard Road), Star Vista (1 Vista Exchange Green), Fusionopolis (1 Fusionopolis Place)",
+    "works at": "Grace Assembly of God (Tanglin), Grace Assembly of God (Bukit Batok)",
+    "work address": "355 Tanglin Road, 1 Bukit Batok West Avenue 4",
+    "lives at": "Bukit Batok Street 25",
+    "admitted to": "NCID"
   },
   {
     "id": 49,
@@ -732,7 +1164,16 @@
     "SYMPTOMATIC AT": "3rd, Feb 2020",
     "confirmed at": "11th, Feb 2020",
     "recovered at": "26th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Grace Assembly of God (Tanglin), Grace Assembly of God (Bukit Batok)",
+    "work address": "355 Tanglin Road, 1 Bukit Batok West Avenue 4",
+    "lives at": "Toh Guan Road",
+    "admitted to": "NUH"
   },
   {
     "id": 50,
@@ -747,7 +1188,16 @@
     "SYMPTOMATIC AT": "7th, Feb 2020",
     "confirmed at": "12th, Feb 2020",
     "recovered at": "21st, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "55, 65, 77",
+    "link type": "family, family, contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "DBS Asia Central at Marina Bay Financial Centre (12 Marina Boulevard)",
+    "work address": "12 Marina Boulevard",
+    "lives at": "Mei Hwan Drive",
+    "admitted to": "NCID"
   },
   {
     "id": 51,
@@ -762,7 +1212,16 @@
     "SYMPTOMATIC AT": "4th, Feb 2020",
     "confirmed at": "12th, Feb 2020",
     "recovered at": "21st, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 73,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Grace Assembly of God (Tanglin), Grace Assembly of God (Bukit Batok)",
+    "work address": "355 Tanglin Road",
+    "lives at": "Bishan Street 13",
+    "admitted to": "NCID"
   },
   {
     "id": 52,
@@ -777,7 +1236,16 @@
     "SYMPTOMATIC AT": "7th, Feb 2020",
     "confirmed at": "12th, Feb 2020",
     "recovered at": "28th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "42, 47, 56, 69",
+    "link type": "contact, contact, contact, contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "TTSH",
+    "works at": "Seletar Aerospace Heights construction site",
+    "work address": "8 Seletar Aerospace Heights",
+    "lives at": "Campbell Lane",
+    "admitted to": "NCID"
   },
   {
     "id": 53,
@@ -792,7 +1260,16 @@
     "SYMPTOMATIC AT": "7th, Feb 2020",
     "confirmed at": "12th, Feb 2020",
     "recovered at": "14th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Grace Assembly of God, NUS",
+    "work address": "",
+    "lives at": "Hillview Avenue",
+    "admitted to": "NCID"
   },
   {
     "id": 54,
@@ -807,7 +1284,16 @@
     "SYMPTOMATIC AT": "10th, Feb 2020",
     "confirmed at": "13th, Feb 2020",
     "recovered at": "1st, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Grace Assembly of God (Tanglin) (355 Tanglin Road)",
+    "work address": "355 Tanglin Road",
+    "lives at": "Ang Mo Kio Avenue 5",
+    "admitted to": "NCID"
   },
   {
     "id": 55,
@@ -822,7 +1308,16 @@
     "SYMPTOMATIC AT": "30th, Jan 2020",
     "confirmed at": "13th, Feb 2020",
     "recovered at": "19th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "50, 65",
+    "link type": "family, family",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Church of Christ the King (2221 Ang Mo Kio Avenue 8)",
+    "works at": "Pulau Bukom",
+    "work address": "Pulau Bukom",
+    "lives at": "Mei Hwan Drive",
+    "admitted to": "NCID"
   },
   {
     "id": 56,
@@ -837,7 +1332,16 @@
     "SYMPTOMATIC AT": "12th, Feb 2020",
     "confirmed at": "13th, Feb 2020",
     "recovered at": "26th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "42, 47, 52, 69",
+    "link type": "contact, contact, contact, contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Government quarantine facility",
+    "works at": "Seletar Aerospace Heights construction site",
+    "work address": "8 Seletar Aerospace Heights",
+    "lives at": "",
+    "admitted to": "TTSH"
   },
   {
     "id": 57,
@@ -852,7 +1356,16 @@
     "SYMPTOMATIC AT": "11th, Feb 2020",
     "confirmed at": "13th, Feb 2020",
     "recovered at": "21st, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Grace Assembly of God (Tanglin)",
+    "work address": "355 Tanglin Road",
+    "lives at": "Senja Road",
+    "admitted to": "NCID"
   },
   {
     "id": 58,
@@ -867,7 +1380,16 @@
     "SYMPTOMATIC AT": "10th, Feb 2020",
     "confirmed at": "13th, Feb 2020",
     "recovered at": "25th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Grace Assembly of God (Tanglin)",
+    "work address": "355 Tanglin Road",
+    "lives at": "Jalan Kelichap",
+    "admitted to": "NCID"
   },
   {
     "id": 59,
@@ -882,7 +1404,16 @@
     "SYMPTOMATIC AT": "7th, Feb 2020",
     "confirmed at": "13th, Feb 2020",
     "recovered at": "26th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 72,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "FPH, MEH",
+    "works at": "private hospital in singapore",
+    "work address": "",
+    "lives at": "Wilkinson Road",
+    "admitted to": "NCID"
   },
   {
     "id": 60,
@@ -897,7 +1428,16 @@
     "SYMPTOMATIC AT": "8th, Feb 2020",
     "confirmed at": "13th, Feb 2020",
     "recovered at": "1st, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 80,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Grace Assembly of God",
+    "work address": "355 Tanglin Road",
+    "lives at": "Ang Mo Kio Avenue 3",
+    "admitted to": "NCID"
   },
   {
     "id": 61,
@@ -912,7 +1452,16 @@
     "SYMPTOMATIC AT": "6th, Feb 2020",
     "confirmed at": "13th, Feb 2020",
     "recovered at": "4th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "NTFGH, Pioneer polyclinic",
+    "works at": "Legacy Office Supplies Pte Ltd (56 Senang Crescent)",
+    "work address": "56 Senang Crescent",
+    "lives at": "Jurong West Street 64",
+    "admitted to": "NUH"
   },
   {
     "id": 62,
@@ -927,7 +1476,16 @@
     "SYMPTOMATIC AT": "9th, Feb 2020",
     "confirmed at": "13th, Feb 2020",
     "recovered at": "25th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Tanjong Pagar Road",
+    "admitted to": "SGH"
   },
   {
     "id": 63,
@@ -942,7 +1500,16 @@
     "SYMPTOMATIC AT": "10th, Feb 2020",
     "confirmed at": "14th, Feb 2020",
     "recovered at": "21st, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Marisson Hotel Bugis (103 Beach Road)",
+    "works at": "PUB",
+    "work address": "",
+    "lives at": "Potong Pasir Avenue 3",
+    "admitted to": "NCID"
   },
   {
     "id": 64,
@@ -957,7 +1524,16 @@
     "SYMPTOMATIC AT": "3rd, Feb 2020",
     "confirmed at": "14th, Feb 2020",
     "recovered at": "23rd, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 67,
+    "link type": "family",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "taxi driver",
+    "work address": "",
+    "lives at": "Jurong West Street 81",
+    "admitted to": "NUH"
   },
   {
     "id": 65,
@@ -972,7 +1548,16 @@
     "SYMPTOMATIC AT": "12th, Feb 2020",
     "confirmed at": "14th, Feb 2020",
     "recovered at": "17th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "50, 55",
+    "link type": "family, family",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Church of Christ the King (2221 Ang Mo Kio Avenue 8)",
+    "works at": "",
+    "work address": "",
+    "lives at": "Mei Hwan Drive",
+    "admitted to": "NCID"
   },
   {
     "id": 66,
@@ -987,7 +1572,16 @@
     "SYMPTOMATIC AT": "29th, Jan 2020",
     "confirmed at": "14th, Feb 2020",
     "recovered at": "20th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "68, 70, 71, 84, 88, 138, 151",
+    "link type": "family, family, contact, contact, contact, contact, contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "God’s Kingdom Bread of Life Church (37 Jalan Pemimpin)",
+    "works at": "Grace Assembly of God (Tanglin)",
+    "work address": "355 Tanglin Road",
+    "lives at": "Mei Hwan Drive",
+    "admitted to": "NCID"
   },
   {
     "id": 67,
@@ -1002,7 +1596,16 @@
     "SYMPTOMATIC AT": "9th, Feb 2020",
     "confirmed at": "14th, Feb 2020",
     "recovered at": "2nd, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 64,
+    "link type": "family",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Grace Assembly of God (Bukit Batok), NTFGH, NUH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 64",
+    "admitted to": "NCID"
   },
   {
     "id": 68,
@@ -1017,7 +1620,16 @@
     "SYMPTOMATIC AT": "30th, Jan 2020",
     "confirmed at": "14th, Feb 2020",
     "recovered at": "29th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "66, 70",
+    "link type": "family, family",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Bethany Presbyterian Church (364A Paya Lebar Road)",
+    "works at": "",
+    "work address": "",
+    "lives at": "Mei Hwan Drive",
+    "admitted to": "NCID"
   },
   {
     "id": 69,
@@ -1032,7 +1644,16 @@
     "SYMPTOMATIC AT": "14th, Feb 2020",
     "confirmed at": "15th, Feb 2020",
     "recovered at": "2nd, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "42, 47, 54, 56",
+    "link type": "contact, contact, contact, contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Government quarantine facility",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 70,
@@ -1047,7 +1668,16 @@
     "SYMPTOMATIC AT": "3rd, Feb 2020",
     "confirmed at": "15th, Feb 2020",
     "recovered at": "21st, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "66, 68, 71",
+    "link type": "family, family, contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "God’s Kingdom Bread of Life Church (37 Jalan Pemimpin), HipVan Singapore (19 Kallang Avenue)",
+    "works at": "",
+    "work address": "",
+    "lives at": "Mei Hwan Drive",
+    "admitted to": "NCID"
   },
   {
     "id": 71,
@@ -1062,7 +1692,16 @@
     "SYMPTOMATIC AT": "1st, Feb 2020",
     "confirmed at": "15th, Feb 2020",
     "recovered at": "5th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "66, 70",
+    "link type": "contact, contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "SKGH, God’s Kingdom Bread of Life Church",
+    "works at": "",
+    "work address": "construction site at Fernvale Lane",
+    "lives at": "Fernvale Road",
+    "admitted to": "NCID"
   },
   {
     "id": 72,
@@ -1077,7 +1716,16 @@
     "SYMPTOMATIC AT": "10th, Feb 2020",
     "confirmed at": "15th, Feb 2020",
     "recovered at": "27th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "59, 79",
+    "link type": "contact, family",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Marina Bay Sands Casino (10 Bayfront Avenue)",
+    "works at": "Aim Heng Car Service Pte Ltd (Woodlands Industrial Park)",
+    "work address": "Woodlands Industrial Park",
+    "lives at": "Woodlands Crescent",
+    "admitted to": "NCID"
   },
   {
     "id": 73,
@@ -1092,7 +1740,16 @@
     "SYMPTOMATIC AT": "9th, Feb 2020",
     "confirmed at": "15th, Feb 2020",
     "recovered at": "26th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 51,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Grace Assembly of God (Tanglin) (355 Tanglin Road)",
+    "works at": "Singapore Armed Forces (SAF) Regular Serviceman",
+    "work address": "Building 613 of Tengah Air Base",
+    "lives at": "Lorong 8 Toa Payoh",
+    "admitted to": "NCID"
   },
   {
     "id": 74,
@@ -1107,7 +1764,16 @@
     "SYMPTOMATIC AT": "12th, Feb 2020",
     "confirmed at": "15th, Feb 2020",
     "recovered at": "7th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Hi-Yew Technology Pte Ltd",
+    "work address": "3031A Ubi Road",
+    "lives at": "Mei Ling Street",
+    "admitted to": "AH"
   },
   {
     "id": 75,
@@ -1122,7 +1788,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "16th, Feb 2020",
     "recovered at": "29th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 41,
+    "link type": "family",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 76,
@@ -1137,7 +1812,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "16th, Feb 2020",
     "recovered at": "18th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "FALSE"
+    "DISPLAYED SYMPTOMS?": "FALSE",
+    "connections": 87,
+    "link type": "contact",
+    "travel history": "evacuated from Wuhan on 9 February",
+    "travel countries": "China",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "KKH"
   },
   {
     "id": 77,
@@ -1152,7 +1836,16 @@
     "SYMPTOMATIC AT": "10th, Feb 2020",
     "confirmed at": "17th, Feb 2020",
     "recovered at": "25th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 50,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "TTSH",
+    "works at": "",
+    "work address": "",
+    "lives at": "McNair Road",
+    "admitted to": "NCID"
   },
   {
     "id": 78,
@@ -1167,7 +1860,16 @@
     "SYMPTOMATIC AT": "9th, Feb 2020",
     "confirmed at": "17th, Feb 2020",
     "recovered at": "27th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "VWO-run community hospital",
+    "work address": "",
+    "lives at": "Dairy Farm",
+    "admitted to": "NCID"
   },
   {
     "id": 79,
@@ -1182,7 +1884,16 @@
     "SYMPTOMATIC AT": "12th, Feb 2020",
     "confirmed at": "17th, Feb 2020",
     "recovered at": "28th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 72,
+    "link type": "family",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "FoodXchange @ Admiralty (8A Admiralty Street)",
+    "work address": "8A Admiralty Street",
+    "lives at": "Woodlands Crescent",
+    "admitted to": "NCID"
   },
   {
     "id": 80,
@@ -1197,7 +1908,16 @@
     "SYMPTOMATIC AT": "4th, Feb 2020",
     "confirmed at": "18th, Feb 2020",
     "recovered at": "27th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 60,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "NUH",
+    "lives at": "Fernvale Link",
+    "admitted to": "NUH"
   },
   {
     "id": 81,
@@ -1212,7 +1932,16 @@
     "SYMPTOMATIC AT": "16th, Feb 2020",
     "confirmed at": "18th, Feb 2020",
     "recovered at": "25th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Lower Delta Road",
+    "admitted to": "NCID"
   },
   {
     "id": 82,
@@ -1227,7 +1956,16 @@
     "SYMPTOMATIC AT": "9th, Feb 2020",
     "confirmed at": "18th, Feb 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 86,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Jurong polyclinic",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 41",
+    "admitted to": "NTFGH"
   },
   {
     "id": 83,
@@ -1242,7 +1980,16 @@
     "SYMPTOMATIC AT": "28th, Jan 2020",
     "confirmed at": "19th, Feb 2020",
     "recovered at": "21st, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "91, 138",
+    "link type": "family, family",
+    "travel history": "Malaysia",
+    "travel countries": "Malaysia",
+    "places visited": "Philemon Singapore Pte Ltd",
+    "works at": "",
+    "work address": "",
+    "lives at": "Rivervale Drive",
+    "admitted to": "NCID"
   },
   {
     "id": 84,
@@ -1257,7 +2004,16 @@
     "SYMPTOMATIC AT": "4th, Feb 2020",
     "confirmed at": "19th, Feb 2020",
     "recovered at": "21st, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 66,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Lonza Biologics (35 Tuas South Avenue 6), Bugis Junction",
+    "works at": "",
+    "work address": "",
+    "lives at": "Aljunied Road",
+    "admitted to": "NCID"
   },
   {
     "id": 85,
@@ -1272,7 +2028,16 @@
     "SYMPTOMATIC AT": "14th, Feb 2020",
     "confirmed at": "20th, Feb 2020",
     "recovered at": "7th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Yishun polyclinic, KTPH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Woodlands Avenue 6",
+    "admitted to": "NCID"
   },
   {
     "id": 86,
@@ -1287,7 +2052,16 @@
     "SYMPTOMATIC AT": "14th, Feb 2020",
     "confirmed at": "20th, Feb 2020",
     "recovered at": "7th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 82,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Singapore Institute of Technology",
+    "work address": "",
+    "lives at": "Bukit Batok East Avenue 5",
+    "admitted to": "NTFGH"
   },
   {
     "id": 87,
@@ -1302,7 +2076,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "21st, Feb 2020",
     "recovered at": "24th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "FALSE"
+    "DISPLAYED SYMPTOMS?": "FALSE",
+    "connections": 76,
+    "link type": "contact",
+    "travel history": "evacuated from Wuhan on 9 February",
+    "travel countries": "China",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 88,
@@ -1317,7 +2100,16 @@
     "SYMPTOMATIC AT": "16th, Feb 2020",
     "confirmed at": "21st, Feb 2020",
     "recovered at": "2nd, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 66,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Hougang Street 91",
+    "admitted to": "NCID"
   },
   {
     "id": 89,
@@ -1332,7 +2124,16 @@
     "SYMPTOMATIC AT": "3rd, Feb 2020",
     "confirmed at": "22nd, Feb 2020",
     "recovered at": "28th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Bishan Community Club (51 Bishan Street 13)",
+    "works at": "Affinity Equity Partners (S) Pte Ltd (8 Temasek Boulevard)",
+    "work address": "8 Temasek Boulevard",
+    "lives at": "Serangoon Avenue 3",
+    "admitted to": "NCID"
   },
   {
     "id": 90,
@@ -1347,7 +2148,16 @@
     "SYMPTOMATIC AT": "9th, Feb 2020",
     "confirmed at": "23rd, Feb 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "TTSH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Bishan Street 12",
+    "admitted to": "NCID"
   },
   {
     "id": 91,
@@ -1362,7 +2172,16 @@
     "SYMPTOMATIC AT": "23rd, Jan 2020",
     "confirmed at": "22nd, Feb 2020",
     "recovered at": "25th, Feb 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "81, 138, 151",
+    "link type": "family, family, contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Rivervale Drive",
+    "admitted to": "NCID"
   },
   {
     "id": 92,
@@ -1377,7 +2196,16 @@
     "SYMPTOMATIC AT": "17th, Feb 2020",
     "confirmed at": "26th, Feb 2020",
     "recovered at": "11th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Serangoon Avenue 3",
+    "admitted to": "SKGH"
   },
   {
     "id": 93,
@@ -1392,7 +2220,16 @@
     "SYMPTOMATIC AT": "17th, Feb 2020",
     "confirmed at": "26th, Feb 2020",
     "recovered at": "7th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "95, 97, 98, 99, 100, 101, 103, 110",
+    "link type": "contact, contact, contact, contact, contact, contact, family, colleague",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Bukit Batok Street 31",
+    "admitted to": "NTFGH"
   },
   {
     "id": 94,
@@ -1407,7 +2244,16 @@
     "SYMPTOMATIC AT": "11th, Feb 2020",
     "confirmed at": "26th, Feb 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "96, 107, 112",
+    "link type": "contact, contact, contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jalan Jurong Kechil",
+    "admitted to": ""
   },
   {
     "id": 95,
@@ -1422,7 +2268,16 @@
     "SYMPTOMATIC AT": "22nd, Feb 2020",
     "confirmed at": "27th, Feb 2020",
     "recovered at": "14th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "93, 97, 98, 105",
+    "link type": "contact, contact, contact, business meeting",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Sport Singapore (3 Stadium Drive), Singapore Aviation Academy (1 Aviation Drive), Toa Payoh Hub (490 Lorong 6 Toa Payoh), Toa Payoh Sport Centre (297 Lorong 6 Toa Payoh)",
+    "works at": "",
+    "work address": "",
+    "lives at": "Choa Chu Kang",
+    "admitted to": "NCID"
   },
   {
     "id": 96,
@@ -1437,7 +2292,16 @@
     "SYMPTOMATIC AT": "21st, Feb 2020",
     "confirmed at": "27th, Feb 2020",
     "recovered at": "7th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 94,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Raffles Institution",
+    "work address": "",
+    "lives at": "Jalan Jurong Kechil",
+    "admitted to": "KKH"
   },
   {
     "id": 97,
@@ -1452,7 +2316,16 @@
     "SYMPTOMATIC AT": "20th, Feb 2020",
     "confirmed at": "27th, Feb 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "93, 95, 98",
+    "link type": "contact, contact, contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Agency for Integrated Care (5 Maxwell Road)",
+    "works at": "Wizlearn Technologies Pte Ltd (10 Science Park Road)",
+    "work address": "",
+    "lives at": "Choa Chu Kang North 5",
+    "admitted to": "NCID"
   },
   {
     "id": 98,
@@ -1467,7 +2340,16 @@
     "SYMPTOMATIC AT": "27th, Feb 2020",
     "confirmed at": "28th, Feb 2020",
     "recovered at": "5th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "93, 95, 97",
+    "link type": "contact, contact, contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 61",
+    "admitted to": "NCID"
   },
   {
     "id": 99,
@@ -1475,14 +2357,23 @@
     "age": 27,
     "gender": "Male",
     "nationality": "Singaporean",
-    "status": "In hospital",
+    "status": "Recovered",
     "type": "Local transmission",
     "SYMPTOMATIC TO\nCONFIRMATION": 8,
-    "days to recover": "-",
+    "days to recover": 16,
     "SYMPTOMATIC AT": "21st, Feb 2020",
     "confirmed at": "28th, Feb 2020",
-    "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "recovered at": "16th, Mar 2020",
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 93,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Pioneer polyclinic",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 81",
+    "admitted to": "NCID"
   },
   {
     "id": 100,
@@ -1490,14 +2381,23 @@
     "age": 20,
     "gender": "Male",
     "nationality": "Malaysian",
-    "status": "In hospital",
+    "status": "Recovered",
     "type": "Local transmission",
     "SYMPTOMATIC TO\nCONFIRMATION": 2,
-    "days to recover": "-",
+    "days to recover": 16,
     "SYMPTOMATIC AT": "27th, Feb 2020",
     "confirmed at": "28th, Feb 2020",
-    "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "recovered at": "16th, Mar 2020",
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 93,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Holland Avenue",
+    "admitted to": "NCID"
   },
   {
     "id": 101,
@@ -1505,14 +2405,23 @@
     "age": 61,
     "gender": "Male",
     "nationality": "Singaporean",
-    "status": "In hospital",
+    "status": "Recovered",
     "type": "Local transmission",
     "SYMPTOMATIC TO\nCONFIRMATION": 4,
-    "days to recover": "-",
+    "days to recover": 18,
     "SYMPTOMATIC AT": "25th, Feb 2020",
     "confirmed at": "29th, Feb 2020",
-    "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "recovered at": "18th, Mar 2020",
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "93, 102, 103, 108",
+    "link type": "contact, foreign domestic worker, contact, foreign domestic worker",
+    "travel history": "Batam from 21 February to 23 February",
+    "travel countries": "Indonesia",
+    "places visited": "Asia Asset Recovery Pte Ltd, NTFGH eye clinic",
+    "works at": "",
+    "work address": "",
+    "lives at": "Bukit Batok Street 24",
+    "admitted to": "NTFGH"
   },
   {
     "id": 102,
@@ -1527,7 +2436,16 @@
     "SYMPTOMATIC AT": "25th, Feb 2020",
     "confirmed at": "29th, Feb 2020",
     "recovered at": "14th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "101, 108",
+    "link type": "foreign domestic worker, same house",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "NTFGH eye clinic",
+    "works at": "Bukit Batok Street 24",
+    "work address": "Bukit Batok Street 24",
+    "lives at": "Bukit Batok Street 24",
+    "admitted to": "NTFGH"
   },
   {
     "id": 103,
@@ -1542,7 +2460,16 @@
     "SYMPTOMATIC AT": "20th, Feb 2020",
     "confirmed at": "1st, Mar 2020",
     "recovered at": "14th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "93, 101, 104",
+    "link type": "family, contact, foreign domestic worker",
+    "travel history": "Batam from 21 February to 23 February",
+    "travel countries": "Indonesia",
+    "places visited": "",
+    "works at": "Asia Asset Recovery Pte Ltd (2019 Bukit Batok Industrial Park A)",
+    "work address": "2019 Bukit Batok Industrial Park A",
+    "lives at": "Bukit Batok Street 31",
+    "admitted to": "NCID"
   },
   {
     "id": 104,
@@ -1557,7 +2484,16 @@
     "SYMPTOMATIC AT": "23rd, Feb 2020",
     "confirmed at": "1st, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 103,
+    "link type": "foreign domestic worker",
+    "travel history": "Batam from 21 February to 23 February",
+    "travel countries": "Indonesia",
+    "places visited": "",
+    "works at": "Bukit Batok Street 31",
+    "work address": "Bukit Batok Street 31",
+    "lives at": "Bukit Batok Street 31",
+    "admitted to": "NCID"
   },
   {
     "id": 105,
@@ -1572,7 +2508,16 @@
     "SYMPTOMATIC AT": "26th, Feb 2020",
     "confirmed at": "1st, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 95,
+    "link type": "business meeting",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Toa Payoh Hub",
+    "works at": "",
+    "work address": "",
+    "lives at": "Upper Bukit Timah Road",
+    "admitted to": "NCID"
   },
   {
     "id": 106,
@@ -1587,7 +2532,16 @@
     "SYMPTOMATIC AT": "23rd, Feb 2020",
     "confirmed at": "1st, Mar 2020",
     "recovered at": "11th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "WinTech Nano-Technology Services Pte Ltd (10 Science Park Road)",
+    "work address": "10 Science Park Road",
+    "lives at": "Tampines Street 45",
+    "admitted to": "CGH"
   },
   {
     "id": 107,
@@ -1602,7 +2556,16 @@
     "SYMPTOMATIC AT": "16th, Feb 2020",
     "confirmed at": "1st, Mar 2020",
     "recovered at": "6th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "94, 148, 161",
+    "link type": "contact, contact, family",
+    "travel history": "Jakarta (Indonesia)",
+    "travel countries": "Indonesia",
+    "places visited": "TTSH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Bishan Street 13",
+    "admitted to": "NCID"
   },
   {
     "id": 108,
@@ -1617,7 +2580,16 @@
     "SYMPTOMATIC AT": "25th, Feb 2020",
     "confirmed at": "2nd, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "101, 102",
+    "link type": "foreign domestic worker, same house",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Bukit Batok Street 24",
+    "work address": "Bukit Batok Street 24",
+    "lives at": "Bukit Batok Street 24",
+    "admitted to": "NTFGH"
   },
   {
     "id": 109,
@@ -1632,7 +2604,16 @@
     "SYMPTOMATIC AT": "25th, Feb 2020",
     "confirmed at": "2nd, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Fish Mart Sakuraya (154 West Coast Road)",
+    "work address": "154 West Coast Road",
+    "lives at": "Everton Park",
+    "admitted to": "SGH"
   },
   {
     "id": 110,
@@ -1647,7 +2628,16 @@
     "SYMPTOMATIC AT": "22nd, Feb 2020",
     "confirmed at": "2nd, Mar 2020",
     "recovered at": "7th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 93,
+    "link type": "colleague",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Wizlearn Technologies Pte Ltd (10 Science Park Road)",
+    "work address": "10 Science Park Road",
+    "lives at": "Upper Boon Keng Road",
+    "admitted to": "NCID"
   },
   {
     "id": 111,
@@ -1662,7 +2652,16 @@
     "SYMPTOMATIC AT": "24th, Feb 2020",
     "confirmed at": "3rd, Mar 2020",
     "recovered at": "13th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Malaysia from 18 February to 21 February",
+    "travel countries": "Malaysia",
+    "places visited": "SKGH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Compassvale Street",
+    "admitted to": "NUH"
   },
   {
     "id": 112,
@@ -1677,7 +2676,16 @@
     "SYMPTOMATIC AT": "21st, Feb 2020",
     "confirmed at": "4th, Mar 2020",
     "recovered at": "9th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 94,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries",
+    "travel countries": 0,
+    "places visited": "Bukit Batok polyclinic, GP clinic",
+    "works at": "Creative O Preschoolers’ Bay (31 International Business Park)",
+    "work address": "31 International Business Park",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 113,
@@ -1692,7 +2700,16 @@
     "SYMPTOMATIC AT": "3rd, Mar 2020",
     "confirmed at": "4th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "France, Portugal and the UK between 8 February and 3 March",
+    "travel countries": "France, Portugal, UK, Instanbul",
+    "places visited": "Gleneagles Hospital",
+    "works at": "",
+    "work address": "",
+    "lives at": "Mount Sophia",
+    "admitted to": "NCID"
   },
   {
     "id": 114,
@@ -1707,7 +2724,16 @@
     "SYMPTOMATIC AT": "28th, Feb 2020",
     "confirmed at": "4th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "115, 118",
+    "link type": "family, family",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong",
+    "works at": "",
+    "work address": "",
+    "lives at": "Westwood Avenue",
+    "admitted to": "NUH"
   },
   {
     "id": 115,
@@ -1722,7 +2748,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "5th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "114, 118, 150",
+    "link type": "family, family, contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong, Pioneer polyclinic",
+    "works at": "",
+    "work address": "",
+    "lives at": "Westwood Avenue",
+    "admitted to": "NUH"
   },
   {
     "id": 116,
@@ -1737,7 +2772,16 @@
     "SYMPTOMATIC AT": "29th, Feb 2020",
     "confirmed at": "5th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 81",
+    "admitted to": "NCID"
   },
   {
     "id": 117,
@@ -1752,7 +2796,16 @@
     "SYMPTOMATIC AT": "2nd, Mar 2020",
     "confirmed at": "5th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "122, 127",
+    "link type": "contact, contact",
+    "travel history": "Malaysia on 1 March",
+    "travel countries": "Malaysia",
+    "places visited": "SAFRA Jurong, 131 Marsiling Rise, 731 Yishun Street 72, Petir Park, Zhenghua Nature Park",
+    "works at": "",
+    "work address": "",
+    "lives at": "Senja Road",
+    "admitted to": "NCID"
   },
   {
     "id": 118,
@@ -1760,14 +2813,23 @@
     "age": 33,
     "gender": "Female",
     "nationality": "Singaporean",
-    "status": "In hospital",
+    "status": "Recovered",
     "type": "Local transmission",
     "SYMPTOMATIC TO\nCONFIRMATION": 6,
-    "days to recover": "-",
+    "days to recover": 12,
     "SYMPTOMATIC AT": "29th, Feb 2020",
     "confirmed at": "5th, Mar 2020",
-    "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "recovered at": "18th, Mar 2020",
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "114, 115",
+    "link type": "family, family",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong, Pioneer polyclinic",
+    "works at": "",
+    "work address": "",
+    "lives at": "Westwood Avenue area",
+    "admitted to": "NUH"
   },
   {
     "id": 119,
@@ -1782,7 +2844,16 @@
     "SYMPTOMATIC AT": "27th, Feb 2020",
     "confirmed at": "5th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Singtel (Singtel Comcentre 1, Level 20)",
+    "work address": "Singtel Comcentre 1, Level 20",
+    "lives at": "Stirling Road",
+    "admitted to": "AH"
   },
   {
     "id": 120,
@@ -1797,7 +2868,16 @@
     "SYMPTOMATIC AT": "2nd, Mar 2020",
     "confirmed at": "5th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong, Boon Lay Shopping Centre",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 65",
+    "admitted to": "NCID"
   },
   {
     "id": 121,
@@ -1812,7 +2892,16 @@
     "SYMPTOMATIC AT": "26th, Feb 2020",
     "confirmed at": "5th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 179,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong",
+    "works at": "",
+    "work address": "",
+    "lives at": "Corporation Drive",
+    "admitted to": "NCID"
   },
   {
     "id": 122,
@@ -1820,14 +2909,23 @@
     "age": 64,
     "gender": "Female",
     "nationality": "Singaporean",
-    "status": "In hospital",
+    "status": "Recovered",
     "type": "Local transmission",
     "SYMPTOMATIC TO\nCONFIRMATION": 3,
-    "days to recover": "-",
+    "days to recover": 11,
     "SYMPTOMATIC AT": "3rd, Mar 2020",
     "confirmed at": "5th, Mar 2020",
-    "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "recovered at": "17th, Mar 2020",
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 117,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong, Westgate, Keat Hong Community Club",
+    "works at": "",
+    "work address": "",
+    "lives at": "Petir Road",
+    "admitted to": "NCID"
   },
   {
     "id": 123,
@@ -1835,14 +2933,23 @@
     "age": 47,
     "gender": "Male",
     "nationality": "Singaporean",
-    "status": "In hospital",
+    "status": "Recovered",
     "type": "Imported case",
     "SYMPTOMATIC TO\nCONFIRMATION": 8,
-    "days to recover": "-",
+    "days to recover": 11,
     "SYMPTOMATIC AT": "27th, Feb 2020",
     "confirmed at": "5th, Mar 2020",
-    "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "recovered at": "17th, Mar 2020",
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "South Africa from 14 February to 17 February, France from 22 February to 24 February",
+    "travel countries": "South Africa, France",
+    "places visited": "",
+    "works at": "Singapore Airlines",
+    "work address": "cabin crew",
+    "lives at": "Fernvale Close",
+    "admitted to": "SKGH"
   },
   {
     "id": 124,
@@ -1857,7 +2964,16 @@
     "SYMPTOMATIC AT": "5th, Mar 2020",
     "confirmed at": "6th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Germany from 27 February to 5 March",
+    "travel countries": "Germany",
+    "places visited": "TTSH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Admiralty Link",
+    "admitted to": "NCID"
   },
   {
     "id": 125,
@@ -1872,7 +2988,16 @@
     "SYMPTOMATIC AT": "5th, Mar 2020",
     "confirmed at": "6th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 128,
+    "link type": "family",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 72",
+    "admitted to": "NCID"
   },
   {
     "id": 126,
@@ -1887,7 +3012,16 @@
     "SYMPTOMATIC AT": "5th, Mar 2020",
     "confirmed at": "6th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 109,
+    "link type": "same ward",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SGH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Eunos Crescent",
+    "admitted to": "NCID"
   },
   {
     "id": 127,
@@ -1902,7 +3036,16 @@
     "SYMPTOMATIC AT": "5th, Mar 2020",
     "confirmed at": "5th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 117,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong, TTSH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Bukit Panjang Road",
+    "admitted to": "NCID"
   },
   {
     "id": 128,
@@ -1917,7 +3060,16 @@
     "SYMPTOMATIC AT": "5th, Mar 2020",
     "confirmed at": "6th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "125, 155",
+    "link type": "family, contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 72",
+    "admitted to": "NCID"
   },
   {
     "id": 129,
@@ -1932,7 +3084,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "6th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 130,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong, Pioneer polyclinic, 966 Jurong West Street 91",
+    "works at": "Jurong Port Road Food Centre",
+    "work address": "",
+    "lives at": "Jurong West Street 71",
+    "admitted to": "NTFGH"
   },
   {
     "id": 130,
@@ -1947,7 +3108,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "6th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 129,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong, Bukit Batok Community Club (21 Bukit Batok Central)",
+    "works at": "Jurong Port Road Food Centre",
+    "work address": "",
+    "lives at": "Jurong West Street 71",
+    "admitted to": "NTFGH"
   },
   {
     "id": 131,
@@ -1955,14 +3125,23 @@
     "age": 66,
     "gender": "Male",
     "nationality": "Singaporean",
-    "status": "In hospital",
+    "status": "Recovered",
     "type": "Local transmission",
     "SYMPTOMATIC TO\nCONFIRMATION": 5,
-    "days to recover": "-",
+    "days to recover": 10,
     "SYMPTOMATIC AT": "2nd, Mar 2020",
     "confirmed at": "6th, Mar 2020",
-    "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "recovered at": "17th, Mar 2020",
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong, Ayer Rajah Zone 3 Residents’ Committee",
+    "works at": "Liang Guan Hak Kee (8 Pandan Crescent)",
+    "work address": "8 Pandan Crescent",
+    "lives at": "Pandan Gardens",
+    "admitted to": "NTFGH"
   },
   {
     "id": 132,
@@ -1977,7 +3156,16 @@
     "SYMPTOMATIC AT": "29th, Feb 2020",
     "confirmed at": "6th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 143,
+    "link type": "family",
+    "travel history": "London from 23 February to 27 February",
+    "travel countries": "London",
+    "places visited": "Camden Medical Centre",
+    "works at": "",
+    "work address": "",
+    "lives at": "Tanglin Road",
+    "admitted to": "NUH"
   },
   {
     "id": 133,
@@ -1992,11 +3180,20 @@
     "SYMPTOMATIC AT": "29th, Feb 2020",
     "confirmed at": "6th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "Pioneer polyclinic",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 61",
+    "admitted to": "NUH"
   },
   {
     "id": 134,
-    "patient": "56 year-old female Singaporea Citizen",
+    "patient": "56 year-old female Singapore Citizen",
     "age": 56,
     "gender": "Female",
     "nationality": "Singaporean",
@@ -2007,11 +3204,20 @@
     "SYMPTOMATIC AT": "28th, Feb 2020",
     "confirmed at": "6th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "145, 146, 150, 164, 166",
+    "link type": "contact, contact, contact, contact, contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 71",
+    "admitted to": "NCID"
   },
   {
     "id": 135,
-    "patient": "40 year-old male Singaporea Citizen",
+    "patient": "40 year-old male Singapore Citizen",
     "age": 40,
     "gender": "Male",
     "nationality": "Singaporean",
@@ -2022,7 +3228,16 @@
     "SYMPTOMATIC AT": "26th, Feb 2020",
     "confirmed at": "6th, Mar 2020",
     "recovered at": "14th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "ST Electronics (100 Jurong East Street 21)",
+    "work address": "100 Jurong East Street 21",
+    "lives at": "Telok Blangah Crescent",
+    "admitted to": "SGH"
   },
   {
     "id": 136,
@@ -2037,7 +3252,16 @@
     "SYMPTOMATIC AT": "1st, Mar 2020",
     "confirmed at": "6th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "US from 7 February to 22 February, Italy from 23 February to 29 February",
+    "travel countries": "US, Italy",
+    "places visited": "RH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Tanjong Pagar Road",
+    "admitted to": "NCID"
   },
   {
     "id": 137,
@@ -2052,7 +3276,16 @@
     "SYMPTOMATIC AT": "5th, Mar 2020",
     "confirmed at": "6th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 157,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 41",
+    "admitted to": "NCID"
   },
   {
     "id": 138,
@@ -2067,7 +3300,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "6th, Mar 2020",
     "recovered at": "9th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "FALSE"
+    "DISPLAYED SYMPTOMS?": "FALSE",
+    "connections": "66, 83, 91",
+    "link type": "contact, family, family",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Punggol",
+    "works at": "",
+    "work address": "",
+    "lives at": "Rivervale Drive",
+    "admitted to": "NCID"
   },
   {
     "id": 139,
@@ -2082,7 +3324,16 @@
     "SYMPTOMATIC AT": "3rd, Mar 2020",
     "confirmed at": "7th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "140, 142",
+    "link type": "family, family",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 81",
+    "admitted to": "NTFGH"
   },
   {
     "id": 140,
@@ -2097,7 +3348,16 @@
     "SYMPTOMATIC AT": "28th, Feb 2020",
     "confirmed at": "7th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "139, 142, 144",
+    "link type": "family, family, contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Landom Distributions Pte Ltd",
+    "work address": "",
+    "lives at": "Jurong West Street 81",
+    "admitted to": "NTFGH"
   },
   {
     "id": 141,
@@ -2112,7 +3372,16 @@
     "SYMPTOMATIC AT": "1st, Mar 2020",
     "confirmed at": "7th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "NTU Innovation Center",
+    "work address": "",
+    "lives at": "Jurong West Street 64",
+    "admitted to": "NTFGH"
   },
   {
     "id": 142,
@@ -2127,7 +3396,16 @@
     "SYMPTOMATIC AT": "5th, Mar 2020",
     "confirmed at": "7th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "139, 140, 162, 163, 185",
+    "link type": "family, family, contact, contact, contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "Aperia Mall (12 Kallang Avenue), boulder+ Gym (12 Kallang Avenue)",
+    "works at": "First Page Digital Singapore",
+    "work address": "",
+    "lives at": "Jurong West Street 81",
+    "admitted to": "NTFGH"
   },
   {
     "id": 143,
@@ -2142,7 +3420,16 @@
     "SYMPTOMATIC AT": "5th, Mar 2020",
     "confirmed at": "7th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 132,
+    "link type": "family",
+    "travel history": "Thailand 4 to 6 March",
+    "travel countries": "Thailand",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Tanglin Road",
+    "admitted to": "NUH"
   },
   {
     "id": 144,
@@ -2157,7 +3444,16 @@
     "SYMPTOMATIC AT": "3rd, Mar 2020",
     "confirmed at": "7th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 140,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "Church of Singapore (Bukit Timah) (2B Hindhede Road)",
+    "works at": "Jurong West Street 74",
+    "work address": "",
+    "lives at": "Jurong West Street 74",
+    "admitted to": "NTFGH"
   },
   {
     "id": 145,
@@ -2172,7 +3468,16 @@
     "SYMPTOMATIC AT": "29th, Feb 2020",
     "confirmed at": "8th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "134, 160",
+    "link type": "contact, family",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "16 Teck Whye Lane",
+    "works at": "",
+    "work address": "",
+    "lives at": "Teck Whye Lane",
+    "admitted to": "NCID"
   },
   {
     "id": 146,
@@ -2187,7 +3492,16 @@
     "SYMPTOMATIC AT": "4th, Mar 2020",
     "confirmed at": "8th, Mar 2020",
     "recovered at": "14th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 134,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Yio Chu Kang Road",
+    "admitted to": "NCID"
   },
   {
     "id": 147,
@@ -2202,7 +3516,16 @@
     "SYMPTOMATIC AT": "3rd, Mar 2020",
     "confirmed at": "8th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "arrived in Singapore on 7 March",
+    "travel countries": "Indonesia",
+    "places visited": "Seletar airport",
+    "works at": "",
+    "work address": "",
+    "lives at": "Oxley Road",
+    "admitted to": "NCID"
   },
   {
     "id": 148,
@@ -2217,7 +3540,16 @@
     "SYMPTOMATIC AT": "24th, Feb 2020",
     "confirmed at": "8th, Mar 2020",
     "recovered at": "11th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 107,
+    "link type": "contact",
+    "travel history": "Indonesia from 11 February to 14 February",
+    "travel countries": "Indonesia",
+    "places visited": "Marina Bay Sands Casino",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jalan Lim Tai See",
+    "admitted to": "NCID"
   },
   {
     "id": 149,
@@ -2225,14 +3557,23 @@
     "age": 62,
     "gender": "Male",
     "nationality": "Singaporean",
-    "status": "In hospital",
+    "status": "Recovered",
     "type": "Local transmission",
     "SYMPTOMATIC TO\nCONFIRMATION": 14,
-    "days to recover": "-",
+    "days to recover": 8,
     "SYMPTOMATIC AT": "23rd, Feb 2020",
     "confirmed at": "8th, Mar 2020",
-    "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "recovered at": "16th, Mar 2020",
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "TTSH, Tong Whye Temple Senior Citizen Club (306 Jurong East Street 32)",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong East Street 32",
+    "admitted to": "TTSH"
   },
   {
     "id": 150,
@@ -2247,7 +3588,16 @@
     "SYMPTOMATIC AT": "29th, Feb 2020",
     "confirmed at": "8th, Mar 2020",
     "recovered at": "14th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "115, 134",
+    "link type": "contact, contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "Nanyang Community Club",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 64",
+    "admitted to": "NCID"
   },
   {
     "id": 151,
@@ -2262,7 +3612,16 @@
     "SYMPTOMATIC AT": "4th, Feb 2020",
     "confirmed at": "8th, Mar 2020",
     "recovered at": "8th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "66, 91",
+    "link type": "contact, contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "Yishun polyclinic, Mei Hwan Drive",
+    "works at": "",
+    "work address": "",
+    "lives at": "Yishun Ring Road",
+    "admitted to": "NCID"
   },
   {
     "id": 152,
@@ -2277,7 +3636,16 @@
     "SYMPTOMATIC AT": "28th, Feb 2020",
     "confirmed at": "8th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 170,
+    "link type": "family",
+    "travel history": "arrived in Singapore on 7 March",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "SGH"
   },
   {
     "id": 153,
@@ -2292,7 +3660,16 @@
     "SYMPTOMATIC AT": "3rd, Mar 2020",
     "confirmed at": "8th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Indonesia from 25 February to 28 February",
+    "travel countries": "Indonesia",
+    "places visited": "Choa Chu Kang Polyclinic",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jalan Teck Whye",
+    "admitted to": "SGH"
   },
   {
     "id": 154,
@@ -2307,7 +3684,16 @@
     "SYMPTOMATIC AT": "8th, Mar 2020",
     "confirmed at": "9th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Switzerland from 26 February to 28 February, UK from 29 February to 5 March",
+    "travel countries": "Switzerland, UK",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Raffles Hotel",
+    "admitted to": "NCID"
   },
   {
     "id": 155,
@@ -2322,7 +3708,16 @@
     "SYMPTOMATIC AT": "4th, Mar 2020",
     "confirmed at": "9th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 128,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong",
+    "works at": "",
+    "work address": "",
+    "lives at": "Boon Lay Place",
+    "admitted to": "NCID"
   },
   {
     "id": 156,
@@ -2337,7 +3732,16 @@
     "SYMPTOMATIC AT": "7th, Mar 2020",
     "confirmed at": "9th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 74",
+    "admitted to": "NCID"
   },
   {
     "id": 157,
@@ -2352,7 +3756,16 @@
     "SYMPTOMATIC AT": "8th, Mar 2020",
     "confirmed at": "9th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 137,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 81",
+    "admitted to": "NCID"
   },
   {
     "id": 158,
@@ -2367,7 +3780,16 @@
     "SYMPTOMATIC AT": "5th, Mar 2020",
     "confirmed at": "9th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 159,
+    "link type": "family",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "FPH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Pending Road",
+    "admitted to": "NTFGH"
   },
   {
     "id": 159,
@@ -2382,7 +3804,16 @@
     "SYMPTOMATIC AT": "5th, Mar 2020",
     "confirmed at": "9th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 158,
+    "link type": "family",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong, FPH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Pending Road",
+    "admitted to": "NTFGH"
   },
   {
     "id": 160,
@@ -2397,7 +3828,16 @@
     "SYMPTOMATIC AT": "7th, Mar 2020",
     "confirmed at": "9th, Mar 2020",
     "recovered at": "14th, Mar 2020",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 145,
+    "link type": "family",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong",
+    "works at": "Orange Tree Preschool @ Choa Chu Kang (10 Choa Chu Kang Road)",
+    "work address": "10 Choa Chu Kang Road",
+    "lives at": "Teck Whye Lane",
+    "admitted to": "KKH"
   },
   {
     "id": 161,
@@ -2412,7 +3852,16 @@
     "SYMPTOMATIC AT": "27th, Feb 2020",
     "confirmed at": "9th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 107,
+    "link type": "family",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SAFRA Jurong",
+    "works at": "",
+    "work address": "",
+    "lives at": "Bishan Street 13",
+    "admitted to": "NCID"
   },
   {
     "id": 162,
@@ -2427,7 +3876,16 @@
     "SYMPTOMATIC AT": "7th, Mar 2020",
     "confirmed at": "9th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 142,
+    "link type": "contact",
+    "travel history": "Indonesia from 29 February to 2 March",
+    "travel countries": "Indonesia",
+    "places visited": "26 Jalan Membina, boulder+ Gym (12 Kallang Avenue)",
+    "works at": "",
+    "work address": "",
+    "lives at": "Kim Tian Road",
+    "admitted to": "NCID"
   },
   {
     "id": 163,
@@ -2442,7 +3900,16 @@
     "SYMPTOMATIC AT": "8th, Mar 2020",
     "confirmed at": "9th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 142,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "Funan Mall (107 North Bridge Road), PUB Recreation Club (48 Woodleigh Park), boulder+ Gym (12 Kallang Avenue)",
+    "works at": "",
+    "work address": "",
+    "lives at": "Redhill Road",
+    "admitted to": "NCID"
   },
   {
     "id": 164,
@@ -2457,7 +3924,16 @@
     "SYMPTOMATIC AT": "8th, Mar 2020",
     "confirmed at": "10th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 134,
+    "link type": "contact",
+    "travel history": "Malaysia from 20 February to 23 February",
+    "travel countries": "Malaysia",
+    "places visited": "SAFRA Jurong",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 93",
+    "admitted to": "NCID"
   },
   {
     "id": 165,
@@ -2472,7 +3948,16 @@
     "SYMPTOMATIC AT": "9th, Mar 2020",
     "confirmed at": "10th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "169, 173, 175, 200",
+    "link type": "contact, contact, contact, family",
+    "travel history": "France from 15 February to 7 March",
+    "travel countries": "France",
+    "places visited": "",
+    "works at": "Republic of Singapore Air Force serviceman",
+    "work address": "",
+    "lives at": "Jalan Mulia",
+    "admitted to": "NCID"
   },
   {
     "id": 166,
@@ -2487,7 +3972,16 @@
     "SYMPTOMATIC AT": "4th, Mar 2020",
     "confirmed at": "10th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "134, 186",
+    "link type": "contact, contact",
+    "travel history": "Malaysia on 3 March and 7 March",
+    "travel countries": "Malaysia",
+    "places visited": "SAFRA Jurong",
+    "works at": "Samwoh Corporation Pte Ltd (25E Sungei Kadut Street 1)",
+    "work address": "25E Sungei Kadut Street 1",
+    "lives at": "Bukit Panjang Road",
+    "admitted to": "NTFGH"
   },
   {
     "id": 167,
@@ -2502,7 +3996,16 @@
     "SYMPTOMATIC AT": "8th, Mar 2020",
     "confirmed at": "10th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 178,
+    "link type": "family",
+    "travel history": "Philippines from 11 February to 17 February",
+    "travel countries": "Philippines",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong East Street 21",
+    "admitted to": "NCID"
   },
   {
     "id": 168,
@@ -2517,7 +4020,16 @@
     "SYMPTOMATIC AT": "1st, Mar 2020",
     "confirmed at": "10th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Rivervale Street",
+    "admitted to": "SKH"
   },
   {
     "id": 169,
@@ -2532,7 +4044,16 @@
     "SYMPTOMATIC AT": "9th, Mar 2020",
     "confirmed at": "10th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "165, 173, 175",
+    "link type": "contact, contact, contact",
+    "travel history": "France from 15 February to 7 March",
+    "travel countries": "France",
+    "places visited": "HPB",
+    "works at": "Republic of Singapore Air Force serviceman",
+    "work address": "",
+    "lives at": "Yishun Street 81",
+    "admitted to": "KTPH"
   },
   {
     "id": 170,
@@ -2547,7 +4068,16 @@
     "SYMPTOMATIC AT": "6th, Mar 2020",
     "confirmed at": "10th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 152,
+    "link type": "family",
+    "travel history": "arrived in Singapore on 9 March",
+    "travel countries": "Indonesia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "SGH"
   },
   {
     "id": 171,
@@ -2555,14 +4085,23 @@
     "age": 27,
     "gender": "Male",
     "nationality": "Singaporean",
-    "status": "In hospital",
+    "status": "Recovered",
     "type": "Imported case",
     "SYMPTOMATIC TO\nCONFIRMATION": 2,
-    "days to recover": "-",
+    "days to recover": 6,
     "SYMPTOMATIC AT": "9th, Mar 2020",
     "confirmed at": "11th, Mar 2020",
-    "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "recovered at": "17th, Mar 2020",
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "France from 25 February to 1 March, Spain from 1 March to 6 March",
+    "travel countries": "France, Spain",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jalan Haji Salam",
+    "admitted to": "NCID"
   },
   {
     "id": 172,
@@ -2577,7 +4116,16 @@
     "SYMPTOMATIC AT": "5th, Mar 2020",
     "confirmed at": "11th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "184, 190",
+    "link type": "contact, contact",
+    "travel history": "Philippines from 27 February to 2 March",
+    "travel countries": "Philippines",
+    "places visited": "",
+    "works at": "AXA Singapore (10 Choa Chu Kang Road)",
+    "work address": "8 Shenton Way",
+    "lives at": "Lorong 28 Geylang",
+    "admitted to": "NCID"
   },
   {
     "id": 173,
@@ -2592,7 +4140,16 @@
     "SYMPTOMATIC AT": "9th, Mar 2020",
     "confirmed at": "11th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "165, 169, 175",
+    "link type": "contact, contact, contact",
+    "travel history": "France from 15 February to 7 March",
+    "travel countries": "France",
+    "places visited": "",
+    "works at": "Republic of Singapore Air Force serviceman",
+    "work address": "",
+    "lives at": "Telok Blangah Street 31",
+    "admitted to": "NCID"
   },
   {
     "id": 174,
@@ -2607,7 +4164,16 @@
     "SYMPTOMATIC AT": "7th, Mar 2020",
     "confirmed at": "11th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Gangsa Road",
+    "admitted to": "NCID"
   },
   {
     "id": 175,
@@ -2622,7 +4188,16 @@
     "SYMPTOMATIC AT": "10th, Mar 2020",
     "confirmed at": "11th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "165, 169, 173",
+    "link type": "contact, contact, contact",
+    "travel history": "France from 15 February to 7 March",
+    "travel countries": "France",
+    "places visited": "",
+    "works at": "Republic of Singapore Air Force serviceman",
+    "work address": "",
+    "lives at": "Toh Tuck Road",
+    "admitted to": "NCID"
   },
   {
     "id": 176,
@@ -2637,7 +4212,16 @@
     "SYMPTOMATIC AT": "7th, Mar 2020",
     "confirmed at": "11th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Japan from 24 February to 4 March, UK from 4 March to 8 March",
+    "travel countries": "Japan, UK",
+    "places visited": "GEH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Dover Road",
+    "admitted to": "NCID"
   },
   {
     "id": 177,
@@ -2652,7 +4236,16 @@
     "SYMPTOMATIC AT": "9th, Mar 2020",
     "confirmed at": "11th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "US from 14 February to 24 February, UK from 28 February to 1 March, France from 2 March to 7 March",
+    "travel countries": "US, UK, France",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Telok Blangah Street 31",
+    "admitted to": "NCID"
   },
   {
     "id": 178,
@@ -2667,7 +4260,16 @@
     "SYMPTOMATIC AT": "8th, Mar 2020",
     "confirmed at": "11th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 167,
+    "link type": "family",
+    "travel history": "Philippines from 11 February to 19 February, 23 February to 2 March",
+    "travel countries": "Philippines",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong East Street 21",
+    "admitted to": "NTFGH"
   },
   {
     "id": 179,
@@ -2682,7 +4284,16 @@
     "SYMPTOMATIC AT": "27th, Feb 2020",
     "confirmed at": "11th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 121,
+    "link type": "contact",
+    "travel history": "Malaysia on 22 February",
+    "travel countries": "Malaysia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 73",
+    "admitted to": "NUH"
   },
   {
     "id": 180,
@@ -2697,7 +4308,16 @@
     "SYMPTOMATIC AT": "10th, Mar 2020",
     "confirmed at": "12th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "US from 27 February to 10 March",
+    "travel countries": "US",
+    "places visited": "TTSH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Bishan Street 23",
+    "admitted to": "NCID"
   },
   {
     "id": 181,
@@ -2712,7 +4332,16 @@
     "SYMPTOMATIC AT": "8th, Mar 2020",
     "confirmed at": "12th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 182,
+    "link type": "family",
+    "travel history": "arrived in Singapore on 9 March",
+    "travel countries": "Indonesia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Bukit Timah Road",
+    "admitted to": "GEH"
   },
   {
     "id": 182,
@@ -2727,7 +4356,16 @@
     "SYMPTOMATIC AT": "9th, Mar 2020",
     "confirmed at": "12th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 181,
+    "link type": "family",
+    "travel history": "arrived in Singapore on 9 March",
+    "travel countries": "Indonesia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Bukit Timah Road",
+    "admitted to": "GEH"
   },
   {
     "id": 183,
@@ -2742,7 +4380,16 @@
     "SYMPTOMATIC AT": "6th, Mar 2020",
     "confirmed at": "12th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Malaysia from 29 February to 4 March",
+    "travel countries": "Malaysia",
+    "places visited": "Masjid Al-Iman (10 Bukit Panjang Ring Road), Masjid Kassim (450 Changi Road), Masjid Hajjah Fatimah (4001 Beach Road), Pergas (448 Changi Road)",
+    "works at": "Masjid Al-Muttaqin (5140 Ang Mo Kio Avenue 6)",
+    "work address": "",
+    "lives at": "Bukit Panjang Ring Road",
+    "admitted to": "NCID"
   },
   {
     "id": 184,
@@ -2757,7 +4404,16 @@
     "SYMPTOMATIC AT": "9th, Mar 2020",
     "confirmed at": "12th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 172,
+    "link type": "contact",
+    "travel history": "Philippines from 24 February to 1 March",
+    "travel countries": "Philippines",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Lorong 28 Geylang",
+    "admitted to": "NCID"
   },
   {
     "id": 185,
@@ -2772,7 +4428,16 @@
     "SYMPTOMATIC AT": "7th, Mar 2020",
     "confirmed at": "12th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 142,
+    "link type": "contact",
+    "travel history": "Malaysia from 22 February to 23 February",
+    "travel countries": "Malaysia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Circuit Road",
+    "admitted to": "NCID"
   },
   {
     "id": 186,
@@ -2787,7 +4452,16 @@
     "SYMPTOMATIC AT": "5th, Mar 2020",
     "confirmed at": "12th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 166,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Samwoh Corporation Pte Ltd (25E Sungei Kadut Street 1)",
+    "work address": "",
+    "lives at": "Woodlands Street 13",
+    "admitted to": "NCID"
   },
   {
     "id": 187,
@@ -2802,7 +4476,16 @@
     "SYMPTOMATIC AT": "4th, Mar 2020",
     "confirmed at": "12th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Malaysia from 28 February to 2 March",
+    "travel countries": "Malaysia",
+    "places visited": "Masjid Hajjah Rahimabi Kebun Limau (76 Kim Keat Road)",
+    "works at": "",
+    "work address": "",
+    "lives at": "Whampoa Drive",
+    "admitted to": "NCID"
   },
   {
     "id": 188,
@@ -2817,7 +4500,16 @@
     "SYMPTOMATIC AT": "7th, Mar 2020",
     "confirmed at": "12th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Thailand from 23 February to 1 March",
+    "travel countries": "Thailand",
+    "places visited": "",
+    "works at": "Northpoint City (930 Yishun Avenue 2), 743 Yishun Avenue 5",
+    "work address": "",
+    "lives at": "Yishun Street 51",
+    "admitted to": "KTPH"
   },
   {
     "id": 189,
@@ -2825,14 +4517,23 @@
     "age": 36,
     "gender": "Male",
     "nationality": "Indian",
-    "status": "In hospital",
+    "status": "Recovered",
     "type": "Imported case",
     "SYMPTOMATIC TO\nCONFIRMATION": 1,
-    "days to recover": "-",
+    "days to recover": 4,
     "SYMPTOMATIC AT": "11th, Mar 2020",
     "confirmed at": "12th, Mar 2020",
-    "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "recovered at": "16th, Mar 2020",
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "India from 21 February to 1 March",
+    "travel countries": "India",
+    "places visited": "",
+    "works at": "Sumitomo Mitsui Banking Corporation (3 Temasek Ave)",
+    "work address": "",
+    "lives at": "St George’s Road",
+    "admitted to": "NCID"
   },
   {
     "id": 190,
@@ -2847,7 +4548,16 @@
     "SYMPTOMATIC AT": "10th, Mar 2020",
     "confirmed at": "13th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 172,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "taxi driver",
+    "work address": "",
+    "lives at": "Yishun Ave 11",
+    "admitted to": "NCID"
   },
   {
     "id": 191,
@@ -2862,7 +4572,16 @@
     "SYMPTOMATIC AT": "9th, Mar 2020",
     "confirmed at": "13th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Germany from 24 February to 28 February, Malaysia from 28 February to 3 March",
+    "travel countries": "Germany, Malaysia",
+    "places visited": "",
+    "works at": "Singapore Airlines",
+    "work address": "",
+    "lives at": "Pasir Ris Grove",
+    "admitted to": "NCID"
   },
   {
     "id": 192,
@@ -2877,7 +4596,16 @@
     "SYMPTOMATIC AT": "13th, Mar 2020",
     "confirmed at": "13th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "arrived in Singapore on 10 March from the US",
+    "travel countries": "US",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "The Pod @ Beach Road (289 Beach Road)",
+    "admitted to": "NCID"
   },
   {
     "id": 193,
@@ -2892,7 +4620,16 @@
     "SYMPTOMATIC AT": "12th, Mar 2020",
     "confirmed at": "13th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 194,
+    "link type": "contact",
+    "travel history": "Germany from 1 March to 3 March, Czech Republic from 4 March to 6 March, Austria from 7 March to 8 March, Hungary from 9 March to 10 March",
+    "travel countries": "Germany, Czech Republic, Austria, Hungary",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Telok Blangah Street 31",
+    "admitted to": "NCID"
   },
   {
     "id": 194,
@@ -2907,7 +4644,16 @@
     "SYMPTOMATIC AT": "8th, Mar 2020",
     "confirmed at": "13th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 193,
+    "link type": "contact",
+    "travel history": "Germany from 1 March to 3 March, Czech Republic from 4 March to 6 March, Austria from 7 March to 8 March, Hungary from 9 March to 10 March",
+    "travel countries": "Germany, Czech Republic, Austria, Hungary",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Telok Blangah Street 31",
+    "admitted to": "NCID"
   },
   {
     "id": 195,
@@ -2922,7 +4668,16 @@
     "SYMPTOMATIC AT": "6th, Mar 2020",
     "confirmed at": "13th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "United States from 4 February to 17 February, Canada from 17 February to 9 March",
+    "travel countries": "US",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Bukit Batok Ave 3",
+    "admitted to": "NCID"
   },
   {
     "id": 196,
@@ -2930,14 +4685,23 @@
     "age": 73,
     "gender": "Female",
     "nationality": "Singaporean",
-    "status": "In hospital",
+    "status": "Recovered",
     "type": "Local transmission",
     "SYMPTOMATIC TO\nCONFIRMATION": 10,
-    "days to recover": "-",
+    "days to recover": 4,
     "SYMPTOMATIC AT": "3rd, Mar 2020",
     "confirmed at": "13th, Mar 2020",
-    "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "recovered at": "17th, Mar 2020",
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Holland Close",
+    "admitted to": "NCID"
   },
   {
     "id": 197,
@@ -2952,7 +4716,16 @@
     "SYMPTOMATIC AT": "4th, Mar 2020",
     "confirmed at": "13th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Malaysia from 28 February to 2 March",
+    "travel countries": "Malaysia",
+    "places visited": "Masjid Kassim (450 Changi Road), Masjid Petempatan Melayu Sembawang (25 Jln Mempurong), Masjid Sultan (3 Muscat Street), Fong Leong Engineering Pte Ltd (10 Buroh Street)",
+    "works at": "Vopak Terminals Singapore Pte Ltd (51 Banyan Avenue)",
+    "work address": "",
+    "lives at": "Canberra Street",
+    "admitted to": "NCID"
   },
   {
     "id": 198,
@@ -2967,7 +4740,16 @@
     "SYMPTOMATIC AT": "7th, Mar 2020",
     "confirmed at": "13th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Saraca Road",
+    "admitted to": "NCID"
   },
   {
     "id": 199,
@@ -2982,7 +4764,16 @@
     "SYMPTOMATIC AT": "3rd, Mar 2020",
     "confirmed at": "13th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Malaysia from 26 February to 2 March",
+    "travel countries": "Malaysia",
+    "places visited": "Masjid Al-Mawaddah (151 Compassvale Bow)",
+    "works at": "GrabFood delivery personnel",
+    "work address": "",
+    "lives at": "Hougang Street 51",
+    "admitted to": "NCID"
   },
   {
     "id": 200,
@@ -2997,7 +4788,16 @@
     "SYMPTOMATIC AT": "12th, Mar 2020",
     "confirmed at": "13th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 165,
+    "link type": "family",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jalan Mulia",
+    "admitted to": "NCID"
   },
   {
     "id": 201,
@@ -3005,14 +4805,23 @@
     "age": 52,
     "gender": "Female",
     "nationality": "Singaporean",
-    "status": "In hospital",
+    "status": "Recovered",
     "type": "Local transmission",
     "SYMPTOMATIC TO\nCONFIRMATION": 8,
     "days to recover": "-",
     "SYMPTOMATIC AT": "5th, Mar 2020",
     "confirmed at": "13th, Mar 2020",
-    "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "recovered at": "18th, Mar 2020",
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": 0,
+    "travel countries": "",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Teck Whye Lane",
+    "admitted to": "NTFGH"
   },
   {
     "id": 202,
@@ -3027,7 +4836,16 @@
     "SYMPTOMATIC AT": "3rd, Mar 2020",
     "confirmed at": "13th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Malaysia from 28 February to 3 March",
+    "travel countries": "Malaysia",
+    "places visited": "Masjid Al-Mawaddah (151 Compassvale Bow), Masjid Jamae (Chulia) (218 South Bridge Road), Masjid Al-Istiqamah (2 Serangoon North Avenue 2)",
+    "works at": "",
+    "work address": "",
+    "lives at": "Anchorvale Drive",
+    "admitted to": "SKH"
   },
   {
     "id": 203,
@@ -3042,7 +4860,16 @@
     "SYMPTOMATIC AT": "11th, Mar 2020",
     "confirmed at": "13th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Indonesia from 6 March to 8 March",
+    "travel countries": "Indonesia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Pasir Ris Street 51",
+    "admitted to": "CGH"
   },
   {
     "id": 204,
@@ -3057,7 +4884,16 @@
     "SYMPTOMATIC AT": "11th, Mar 2020",
     "confirmed at": "13th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Japan from 29 February to 8 March",
+    "travel countries": "Japan",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Tanjong Pagar Road",
+    "admitted to": "SGH"
   },
   {
     "id": 205,
@@ -3072,7 +4908,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "14th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Philippines from 27 February to 6 March",
+    "travel countries": "Philippines",
+    "places visited": "",
+    "works at": "DNATA Cargo (45 Airport Cargo Road)",
+    "work address": "",
+    "lives at": "Flora Drive",
+    "admitted to": "NCID"
   },
   {
     "id": 206,
@@ -3087,7 +4932,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "14th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "United States from 28 February to 13 March",
+    "travel countries": "US",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Upper Paya Lebar Road",
+    "admitted to": "NCID"
   },
   {
     "id": 207,
@@ -3102,7 +4956,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "14th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "United Kingdom from 6 March to 11 March",
+    "travel countries": "UK",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Yishun Central",
+    "admitted to": "NCID"
   },
   {
     "id": 208,
@@ -3117,7 +4980,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "14th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SGH, Church of Singapore (Bukit Timah) (2B Hindhede Road)",
+    "works at": "Medical Social Worker at SGH (Outram Road)",
+    "work address": "",
+    "lives at": "Tiong Bahru Road",
+    "admitted to": "NCID"
   },
   {
     "id": 209,
@@ -3132,7 +5004,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "14th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "United States from 2 March to 7 March",
+    "travel countries": "US",
+    "places visited": "SGH",
+    "works at": "Psychologist at SGH",
+    "work address": "",
+    "lives at": "Serangoon Avenue 3",
+    "admitted to": "NCID"
   },
   {
     "id": 210,
@@ -3147,7 +5028,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "14th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Germany from 27 February to 3 March, 11 March to 12 March, Switzerland from 3 March to 10 March",
+    "travel countries": "Germany, Switzerland",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Leedon Park",
+    "admitted to": "NCID"
   },
   {
     "id": 211,
@@ -3162,7 +5052,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "14th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 142,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Crawford Lane",
+    "admitted to": "NCID"
   },
   {
     "id": 212,
@@ -3177,7 +5076,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "14th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "arrived from Indonesia on 13 Mar",
+    "travel countries": "Indonesia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Ibis Hotel Novena (6 Irrawaddy Road)",
+    "admitted to": "NCID"
   },
   {
     "id": 213,
@@ -3192,7 +5100,16 @@
     "SYMPTOMATIC AT": "8th, Mar 2020",
     "confirmed at": "14th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Indonesia from 4 March to 13 March",
+    "travel countries": "Indonesia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Serangoon North Avenue 3",
+    "admitted to": "SKH"
   },
   {
     "id": 214,
@@ -3207,7 +5124,16 @@
     "SYMPTOMATIC AT": "5th, Mar 2020",
     "confirmed at": "14th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 208,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "Youth Go! (403 Fajar Road), Project 180 @ Simei (145 Simei Street 2), Singapore University of Social Sciences (463 Clementi Road), Church of Singapore (Bukit Timah) (2B Hindhede Road)",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jurong West Street 71",
+    "admitted to": "NCID"
   },
   {
     "id": 215,
@@ -3222,7 +5148,16 @@
     "SYMPTOMATIC AT": "13th, Mar 2020",
     "confirmed at": "14th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Thailand from 7 March to 10 March",
+    "travel countries": "Thailand",
+    "places visited": "Cash Box (1 Jurong West Central 2)",
+    "works at": "",
+    "work address": "",
+    "lives at": "Mei Ling Street",
+    "admitted to": "SGH"
   },
   {
     "id": 216,
@@ -3237,7 +5172,16 @@
     "SYMPTOMATIC AT": "9th, Mar 2020",
     "confirmed at": "14th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Germany from 28 February to 1 March, and again on 5 March to 6 March, and Czech Republic from 1 March to 5 March",
+    "travel countries": "Germany, Czech Republic",
+    "places visited": "",
+    "works at": "SAP Asia (30 Pasir Panjang Road)",
+    "work address": "",
+    "lives at": "Bukit Batok West Avenue 6",
+    "admitted to": "NCID"
   },
   {
     "id": 217,
@@ -3252,7 +5196,16 @@
     "SYMPTOMATIC AT": "13th, Mar 2020",
     "confirmed at": "14th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Spain from 9 March to 13 March",
+    "travel countries": "Spain",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Mount Sophia",
+    "admitted to": "NCID"
   },
   {
     "id": 218,
@@ -3267,7 +5220,16 @@
     "SYMPTOMATIC AT": "2nd, Mar 2020",
     "confirmed at": "14th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Pending Road",
+    "admitted to": "NUH"
   },
   {
     "id": 219,
@@ -3282,7 +5244,16 @@
     "SYMPTOMATIC AT": "13th, Mar 2020",
     "confirmed at": "15th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "142, 211, 236",
+    "link type": "contact, contact, family",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "Meiban Mold Manufacture Pte Ltd (26 Ang Mo Kio Industrial Park 2), Furama Riverfront (405 Havelock Road)",
+    "works at": "Sengkang Fire Station (50 Buangkok Drive)",
+    "work address": "",
+    "lives at": "Bishan Street 22",
+    "admitted to": "SKH"
   },
   {
     "id": 220,
@@ -3297,7 +5268,16 @@
     "SYMPTOMATIC AT": "12th, Mar 2020",
     "confirmed at": "15th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "France from 10 March to 12 March",
+    "travel countries": "France",
+    "places visited": "",
+    "works at": "INSEAD Asia Campus (1 Ayer Rajah Avenue)",
+    "work address": "",
+    "lives at": "Dover Rise",
+    "admitted to": "NCID"
   },
   {
     "id": 221,
@@ -3312,7 +5292,16 @@
     "SYMPTOMATIC AT": "11th, Mar 2020",
     "confirmed at": "15th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 204,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "Training Masters Workforce Institute (10 Arumugam Road), OUE Downtown Gallery (6A Shenton Way)",
+    "works at": "MY World Preschool Ltd (52 Lengkok Bahru)",
+    "work address": "",
+    "lives at": "Tanjong Pagar Road",
+    "admitted to": "NCID"
   },
   {
     "id": 222,
@@ -3327,7 +5316,16 @@
     "SYMPTOMATIC AT": "13th, Mar 2020",
     "confirmed at": "15th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "France from 28 February to 7 March and 9 March to 10 March, Spain from 7 March to 9 March, and the Philippines from 12 March to 13 March",
+    "travel countries": "France, Spain, Philippines",
+    "places visited": "",
+    "works at": "Airbus Singapore Pte Ltd (12 Seletar Aerospace Link)",
+    "work address": "",
+    "lives at": "Kensington Park Road",
+    "admitted to": "NCID"
   },
   {
     "id": 223,
@@ -3342,7 +5340,16 @@
     "SYMPTOMATIC AT": "13th, Mar 2020",
     "confirmed at": "15th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "United States from 28 February to 7 March and Australia from 7 to 13 March",
+    "travel countries": "US, Australia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Serangoon Garden Terrace",
+    "admitted to": "NCID"
   },
   {
     "id": 224,
@@ -3357,7 +5364,16 @@
     "SYMPTOMATIC AT": "13th, Mar 2020",
     "confirmed at": "15th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 117,
+    "link type": "contact",
+    "travel history": "Malaysia from 1 March to 4 March",
+    "travel countries": "Malaysia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Senja Road",
+    "admitted to": "NCID"
   },
   {
     "id": 225,
@@ -3372,7 +5388,16 @@
     "SYMPTOMATIC AT": "9th, Mar 2020",
     "confirmed at": "15th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 237,
+    "link type": "contact",
+    "travel history": "Indonesia from 3 March to 7 March",
+    "travel countries": "Indonesia",
+    "places visited": "MEH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Newton Road",
+    "admitted to": "NCID"
   },
   {
     "id": 226,
@@ -3387,7 +5412,16 @@
     "SYMPTOMATIC AT": "12th, Mar 2020",
     "confirmed at": "15th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Netherlands from 29 February to 13 March",
+    "travel countries": "Netherlands",
+    "places visited": "GEH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Sixth Avenue",
+    "admitted to": "NCID"
   },
   {
     "id": 227,
@@ -3402,7 +5436,16 @@
     "SYMPTOMATIC AT": "11th, Mar 2020",
     "confirmed at": "15th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "France from 7 March to 12 March",
+    "travel countries": "France",
+    "places visited": "",
+    "works at": "Lighthouse Evangelism Church (Tampines Street 82)",
+    "work address": "",
+    "lives at": "Pasir Panjang Road",
+    "admitted to": "NUH"
   },
   {
     "id": 228,
@@ -3417,7 +5460,16 @@
     "SYMPTOMATIC AT": "3rd, Mar 2020",
     "confirmed at": "15th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Sea Breeze Avenue",
+    "admitted to": "CGH"
   },
   {
     "id": 229,
@@ -3432,7 +5484,16 @@
     "SYMPTOMATIC AT": "15th, Mar 2020",
     "confirmed at": "15th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 240,
+    "link type": "family",
+    "travel history": "Spain from 14 February to 14 March",
+    "travel countries": "Spain",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Kim Keat Road",
+    "admitted to": "NCID"
   },
   {
     "id": 230,
@@ -3447,7 +5508,16 @@
     "SYMPTOMATIC AT": "14th, Mar 2020",
     "confirmed at": "15th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Eastern Europe from 3 March to 14 March",
+    "travel countries": "Eastern Europe",
+    "places visited": "",
+    "works at": "Republic Polytechnic, Singapore Polytechnic",
+    "work address": "",
+    "lives at": "Ewe Boon Road",
+    "admitted to": "NCID"
   },
   {
     "id": 231,
@@ -3462,7 +5532,16 @@
     "SYMPTOMATIC AT": "4th, Mar 2020",
     "confirmed at": "14th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "United States from 23 February to 14 March",
+    "travel countries": "US",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Robertson Quay",
+    "admitted to": "SGH"
   },
   {
     "id": 232,
@@ -3477,7 +5556,16 @@
     "SYMPTOMATIC AT": "2nd, Mar 2020",
     "confirmed at": "15th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 231,
+    "link type": "family",
+    "travel history": "United States from 23 February to 14 March",
+    "travel countries": "US",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Robertson Quay",
+    "admitted to": "SGH"
   },
   {
     "id": 233,
@@ -3492,7 +5580,16 @@
     "SYMPTOMATIC AT": "15th, Mar 2020",
     "confirmed at": "16th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "United Kingdom from 6 March to 14 March",
+    "travel countries": "UK",
+    "places visited": "PEH",
+    "works at": "",
+    "work address": "",
+    "lives at": "East Coast Road",
+    "admitted to": "NCID"
   },
   {
     "id": 234,
@@ -3507,7 +5604,16 @@
     "SYMPTOMATIC AT": "28th, Feb 2020",
     "confirmed at": "16th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "Bukit Merah Polyclinic",
+    "works at": "",
+    "work address": "",
+    "lives at": "Telok Blangah Heights",
+    "admitted to": "SGH"
   },
   {
     "id": 235,
@@ -3522,7 +5628,16 @@
     "SYMPTOMATIC AT": "11th, Mar 2020",
     "confirmed at": "16th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 208,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "SGH",
+    "works at": "Medical Social Worker at SGH",
+    "work address": "",
+    "lives at": "Bukit Batok West Avenue 8",
+    "admitted to": "SGH"
   },
   {
     "id": 236,
@@ -3537,7 +5652,16 @@
     "SYMPTOMATIC AT": "10th, Mar 2020",
     "confirmed at": "16th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "142, 211, 219",
+    "link type": "contact, contact, family",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Bishan Street 22",
+    "admitted to": "NCID"
   },
   {
     "id": 237,
@@ -3552,7 +5676,16 @@
     "SYMPTOMATIC AT": "12th, Mar 2020",
     "confirmed at": "16th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 225,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Beach Road",
+    "admitted to": "NCID"
   },
   {
     "id": 238,
@@ -3567,7 +5700,16 @@
     "SYMPTOMATIC AT": "14th, Mar 2020",
     "confirmed at": "16th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "arrived in Singapore on 6 March",
+    "travel countries": "",
+    "places visited": "RH",
+    "works at": "",
+    "work address": "",
+    "lives at": "Jalan Besar",
+    "admitted to": "NCID"
   },
   {
     "id": 239,
@@ -3582,7 +5724,16 @@
     "SYMPTOMATIC AT": "14th, Mar 2020",
     "confirmed at": "16th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "France from 7 March to 14 March",
+    "travel countries": "France",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Cairnhill Rise",
+    "admitted to": "NCID"
   },
   {
     "id": 240,
@@ -3597,7 +5748,16 @@
     "SYMPTOMATIC AT": "14th, Mar 2020",
     "confirmed at": "16th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 229,
+    "link type": "family",
+    "travel history": "Spain from 7 March to 14 March",
+    "travel countries": "Spain",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Kim Keat Road",
+    "admitted to": "NUH"
   },
   {
     "id": 241,
@@ -3612,7 +5772,16 @@
     "SYMPTOMATIC AT": "11th, Mar 2020",
     "confirmed at": "16th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "France from 7 March to 14 March",
+    "travel countries": "France",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Cairnhill Road",
+    "admitted to": "NCID"
   },
   {
     "id": 242,
@@ -3627,7 +5796,16 @@
     "SYMPTOMATIC AT": "14th, Mar 2020",
     "confirmed at": "16th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 166,
+    "link type": "contact",
+    "travel history": "Malaysia on 7 March and 8 March",
+    "travel countries": "Malaysia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Gangsa Road",
+    "admitted to": "NCID"
   },
   {
     "id": 243,
@@ -3642,7 +5820,16 @@
     "SYMPTOMATIC AT": "11th, Mar 2020",
     "confirmed at": "16th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Germany from 26 February to 29 February, Italy from 29 February to 7 March and Switzerland from 7 March to 14 March",
+    "travel countries": "Germany, Italy, Switzerland",
+    "places visited": "",
+    "works at": "home office at River Valley Road",
+    "work address": "",
+    "lives at": "Havelock Road",
+    "admitted to": "NCID"
   },
   {
     "id": 244,
@@ -3657,7 +5844,16 @@
     "SYMPTOMATIC AT": "7th, Mar 2020",
     "confirmed at": "16th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 243,
+    "link type": "contact",
+    "travel history": "Germany from 26 February to 29 February, Italy from 29 February to 7 March, and Switzerland from 7 March to 14 March",
+    "travel countries": "Germany, Italy, Switzerland",
+    "places visited": "GEH",
+    "works at": "home office at River Valley Road",
+    "work address": "",
+    "lives at": "Alexandra Road",
+    "admitted to": "NCID"
   },
   {
     "id": 245,
@@ -3672,7 +5868,16 @@
     "SYMPTOMATIC AT": "12th, Mar 2020",
     "confirmed at": "16th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "Marina One West Tower (9 Straits View)",
+    "work address": "",
+    "lives at": "Boon Lay Drive",
+    "admitted to": "SGH"
   },
   {
     "id": 246,
@@ -3687,7 +5892,16 @@
     "SYMPTOMATIC AT": "9th, Mar 2020",
     "confirmed at": "16th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Japan from 23 February to 7 March",
+    "travel countries": "",
+    "places visited": "Singtel Comcentre (31 Exeter Road)",
+    "works at": "",
+    "work address": "",
+    "lives at": "Tanjong Pagar",
+    "admitted to": "SGH"
   },
   {
     "id": 247,
@@ -3702,7 +5916,16 @@
     "SYMPTOMATIC AT": "16th, Mar 2020",
     "confirmed at": "16th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "United Kingdom from 5 March to 8 March, and again from 10 March to 12 March, and France from 8 March to 10 March",
+    "travel countries": "UK, France",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "Tampines Avenue 8",
+    "admitted to": "NCID"
   },
   {
     "id": 248,
@@ -3717,7 +5940,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Malaysia from 12 March to 13 March",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 249,
@@ -3732,7 +5964,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "United States from 4 March to 16 March",
+    "travel countries": "US",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 250,
@@ -3747,7 +5988,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "United Kingdom and Austria from 29 February to 14 March",
+    "travel countries": "UK, Austria",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 251,
@@ -3762,7 +6012,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 186,
+    "link type": "family",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 252,
@@ -3777,7 +6036,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Malaysia from 25 February to 29 February",
+    "travel countries": "Malaysia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 253,
@@ -3792,7 +6060,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Spain from 12 February to 16 March",
+    "travel countries": "Spain",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 254,
@@ -3807,7 +6084,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "France from 22 February to 13 March",
+    "travel countries": "France",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 255,
@@ -3822,7 +6108,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Norway, Denmark and Sweden from 1 March to 9 March",
+    "travel countries": "Norway, Denmark, Sweden",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 256,
@@ -3837,7 +6132,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 205,
+    "link type": "contact",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 257,
@@ -3852,7 +6156,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "United Kingdom from 16 October 2019 to March 2020",
+    "travel countries": "UK",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NUH"
   },
   {
     "id": 258,
@@ -3867,7 +6180,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Europe from 9 February to 15 March",
+    "travel countries": "Europe",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 259,
@@ -3882,7 +6204,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Philippines from 7 March to 9 March",
+    "travel countries": "Philippines",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 260,
@@ -3897,7 +6228,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "no recent travel history to affected countries and regions",
+    "travel countries": 0,
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "FPH"
   },
   {
     "id": 261,
@@ -3912,7 +6252,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "United States from 23 February to 9 March, and France from 9 March to 15 March",
+    "travel countries": "US, France",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 262,
@@ -3927,7 +6276,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "United Kingdom from late January to 16 March",
+    "travel countries": "",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 263,
@@ -3942,7 +6300,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Spain from 6 March to 8 March and again from 9 March to 14 March, and Portugal from 8 March to 9 March",
+    "travel countries": "Spain, Portugal",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 264,
@@ -3957,7 +6324,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "arrived in Singapore on 16 March",
+    "travel countries": "",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 265,
@@ -3972,7 +6348,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "United Kingdom from 6 March to 14 March",
+    "travel countries": "UK",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 266,
@@ -3987,7 +6372,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 263,
+    "link type": "contact",
+    "travel history": "Spain from 6 March to 8 March and again from 9 March to 14 March, and Portugal from 8 March to 9 March",
+    "travel countries": "Spain, Portugal",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 267,
@@ -4002,7 +6396,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Indonesia",
+    "travel countries": "Indonesia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "KTPH"
   },
   {
     "id": 268,
@@ -4017,7 +6420,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Switzerland, UK",
+    "travel countries": "Switzerland, UK",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 269,
@@ -4032,7 +6444,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "UK",
+    "travel countries": "UK",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 270,
@@ -4047,7 +6468,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "230, 272",
+    "link type": "family, family",
+    "travel history": "Croatia, Bosnia, Serbia, Slovenia, Austria",
+    "travel countries": "Croatia, Bosnia, Serbia, Slovenia, Austria",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NTFGH"
   },
   {
     "id": 271,
@@ -4062,7 +6492,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "UK",
+    "travel countries": "UK",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NTFGH"
   },
   {
     "id": 272,
@@ -4077,7 +6516,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "230, 270",
+    "link type": "family, family",
+    "travel history": "Eastern Europe",
+    "travel countries": "Eastern Europe",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NTFGH"
   },
   {
     "id": 273,
@@ -4092,7 +6540,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "",
+    "travel countries": "",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NUH"
   },
   {
     "id": 274,
@@ -4107,7 +6564,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "US",
+    "travel countries": "US",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 275,
@@ -4122,7 +6588,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Indonesia, Malaysia",
+    "travel countries": "Indonesia, Malaysia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NTFGH"
   },
   {
     "id": 276,
@@ -4137,7 +6612,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "UK",
+    "travel countries": "UK",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NTFGH"
   },
   {
     "id": 277,
@@ -4152,7 +6636,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "US",
+    "travel countries": "US",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "CGH"
   },
   {
     "id": 278,
@@ -4167,7 +6660,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Switzerland, US",
+    "travel countries": "Switzerland, US",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 279,
@@ -4182,7 +6684,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Philippines",
+    "travel countries": "Philippines",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 280,
@@ -4197,7 +6708,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "UK",
+    "travel countries": "UK",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 281,
@@ -4212,7 +6732,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "US, Canada",
+    "travel countries": "US, Canada",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 282,
@@ -4227,7 +6756,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "France",
+    "travel countries": "France",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 283,
@@ -4242,7 +6780,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "144, 208, 214, 235",
+    "link type": "contact, contact, contact, contact",
+    "travel history": "Malaysia",
+    "travel countries": "Malaysia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 284,
@@ -4257,7 +6804,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "US",
+    "travel countries": "US",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 285,
@@ -4272,7 +6828,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Thailand",
+    "travel countries": "Thailand",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 286,
@@ -4287,7 +6852,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "UK",
+    "travel countries": "UK",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 287,
@@ -4302,7 +6876,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "17th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 267,
+    "link type": "family",
+    "travel history": "",
+    "travel countries": "",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "KTPH"
   },
   {
     "id": 288,
@@ -4317,7 +6900,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Malaysia",
+    "travel countries": "Malaysia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 289,
@@ -4332,7 +6924,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 212,
+    "link type": "contact",
+    "travel history": "",
+    "travel countries": "",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 290,
@@ -4347,7 +6948,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "",
+    "travel countries": "",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 291,
@@ -4362,7 +6972,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 260,
+    "link type": "family",
+    "travel history": "Indonesia",
+    "travel countries": "Indonesia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 292,
@@ -4377,7 +6996,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Turkey",
+    "travel countries": "Turkey",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 293,
@@ -4392,7 +7020,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "UK",
+    "travel countries": "UK",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 294,
@@ -4407,7 +7044,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "225, 237",
+    "link type": "contact, contact",
+    "travel history": "Indonesia",
+    "travel countries": "Indonesia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 295,
@@ -4422,7 +7068,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "US",
+    "travel countries": "US",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 296,
@@ -4437,7 +7092,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "UK",
+    "travel countries": "UK",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 297,
@@ -4452,7 +7116,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Indonesia",
+    "travel countries": "Indonesia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 298,
@@ -4467,7 +7140,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 259,
+    "link type": "famly",
+    "travel history": "India",
+    "travel countries": "India",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 299,
@@ -4482,7 +7164,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 250,
+    "link type": "contact",
+    "travel history": "Philippines",
+    "travel countries": "Philippines",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 300,
@@ -4497,7 +7188,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Switzerland, Austria",
+    "travel countries": "Switzerland, Austria",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 301,
@@ -4512,7 +7212,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Austria, Switzerland",
+    "travel countries": "Austria, Switzerland",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 302,
@@ -4527,7 +7236,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "",
+    "travel countries": "",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "KTPH"
   },
   {
     "id": 303,
@@ -4542,7 +7260,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 248,
+    "link type": "family",
+    "travel history": "Malaysia",
+    "travel countries": "Malaysia",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 304,
@@ -4557,7 +7284,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "UK, Switzerland, Austria",
+    "travel countries": "UK, Switzerland, Austria",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 305,
@@ -4572,7 +7308,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 142,
+    "link type": "contact",
+    "travel history": "",
+    "travel countries": "",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 306,
@@ -4587,7 +7332,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "UK",
+    "travel countries": "UK",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 307,
@@ -4602,7 +7356,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "Philippines",
+    "travel countries": "Philippines",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 308,
@@ -4617,7 +7380,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 277,
+    "link type": "contact",
+    "travel history": "US",
+    "travel countries": "US",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 309,
@@ -4632,7 +7404,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 230,
+    "link type": "contact",
+    "travel history": "Croatia, Austria",
+    "travel countries": "Croatia, Austria",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 310,
@@ -4647,7 +7428,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "183, 252",
+    "link type": "contact, contact",
+    "travel history": "",
+    "travel countries": "",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 311,
@@ -4662,7 +7452,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": 234,
+    "link type": "family",
+    "travel history": "",
+    "travel countries": "",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 312,
@@ -4677,7 +7476,16 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "France, Germany",
+    "travel countries": "France, Germany",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   },
   {
     "id": 313,
@@ -4692,6 +7500,15 @@
     "SYMPTOMATIC AT": "-",
     "confirmed at": "18th, Mar 2020",
     "recovered at": "-",
-    "DISPLAYED SYMPTOMS?": "TRUE"
+    "DISPLAYED SYMPTOMS?": "TRUE",
+    "connections": "",
+    "link type": "",
+    "travel history": "UK",
+    "travel countries": "UK",
+    "places visited": "",
+    "works at": "",
+    "work address": "",
+    "lives at": "",
+    "admitted to": "NCID"
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
-    "from": "Case 100",
-    "to": "Case 93",
+    "from": "Case 93",
+    "to": "Case 100",
     "label": "Contact"
   },
   {
@@ -15,8 +15,8 @@
     "label": "Foreign domestic worker"
   },
   {
-    "from": "Case 101",
-    "to": "Case 93",
+    "from": "Case 93",
+    "to": "Case 101",
     "label": "Contact"
   },
   {
@@ -30,13 +30,13 @@
     "label": "Foreign domestic worker"
   },
   {
-    "from": "Case 103",
-    "to": "Case 93",
+    "from": "Case 93",
+    "to": "Case 103",
     "label": "Family Member"
   },
   {
-    "from": "Case 105",
-    "to": "Case 95",
+    "from": "Case 95",
+    "to": "Case 105",
     "label": "Business meeting at Toa Payoh\nHub"
   },
   {
@@ -55,13 +55,13 @@
     "label": "Travelling Companion"
   },
   {
-    "from": "Case 110",
-    "to": "Case 93",
+    "from": "Case 93",
+    "to": "Case 110",
     "label": "Colleague"
   },
   {
-    "from": "Case 112",
-    "to": "Case 94",
+    "from": "Case 94",
+    "to": "Case 112",
     "label": "Contact"
   },
   {
@@ -85,8 +85,8 @@
     "label": "Family Member"
   },
   {
-    "from": "Case 122",
-    "to": "Case 117",
+    "from": "Case 117",
+    "to": "Case 122",
     "label": "Close Contact"
   },
   {
@@ -160,18 +160,23 @@
     "label": "Contact"
   },
   {
-    "from": "Case 145",
-    "to": "Case 134",
+    "from": "Case 134",
+    "to": "Case 145",
     "label": "Contact"
   },
   {
-    "from": "Case 146",
-    "to": "Case 134",
+    "from": "Case 134",
+    "to": "Case 146",
+    "label": "Contact"
+  },
+  {
+    "from": "Case 107",
+    "to": "Case 148",
     "label": "Contact"
   },
   {
     "from": "Case 148",
-    "to": "Case 107",
+    "to": "Case 196",
     "label": "Contact"
   },
   {
@@ -180,13 +185,13 @@
     "label": "Mother - Son"
   },
   {
-    "from": "Case 150",
-    "to": "Case 115",
+    "from": "Case 115",
+    "to": "Case 150",
     "label": "Contact"
   },
   {
-    "from": "Case 150",
-    "to": "Case 134",
+    "from": "Case 134",
+    "to": "Case 150",
     "label": "Contact"
   },
   {
@@ -200,13 +205,13 @@
     "label": "Contact"
   },
   {
-    "from": "Case 155",
-    "to": "Case 128",
+    "from": "Case 128",
+    "to": "Case 155",
     "label": "Contact"
   },
   {
-    "from": "Case 157",
-    "to": "Case 137",
+    "from": "Case 137",
+    "to": "Case 157",
     "label": "Contact"
   },
   {
@@ -220,28 +225,18 @@
     "label": "Family Member"
   },
   {
-    "from": "Case 161",
-    "to": "Case 107",
+    "from": "Case 107",
+    "to": "Case 161",
     "label": "Family Member"
   },
   {
-    "from": "Case 162",
-    "to": "Case 142",
+    "from": "Case 134",
+    "to": "Case 164",
     "label": "Contact"
   },
   {
-    "from": "Case 163",
-    "to": "Case 142",
-    "label": "Contact"
-  },
-  {
-    "from": "Case 164",
-    "to": "Case 134",
-    "label": "Contact"
-  },
-  {
-    "from": "Case 166",
-    "to": "Case 134",
+    "from": "Case 134",
+    "to": "Case 166",
     "label": "Contact"
   },
   {
@@ -285,8 +280,8 @@
     "label": "Contact"
   },
   {
-    "from": "Case 174",
-    "to": "Case 122",
+    "from": "Case 122",
+    "to": "Case 174",
     "label": "Contact"
   },
   {
@@ -295,8 +290,8 @@
     "label": "Contact"
   },
   {
-    "from": "Case 179",
-    "to": "Case 121",
+    "from": "Case 121",
+    "to": "Case 179",
     "label": "Contact"
   },
   {
@@ -310,13 +305,13 @@
     "label": "Family Member"
   },
   {
-    "from": "Case 185",
-    "to": "Case 142",
+    "from": "Case 142",
+    "to": "Case 185",
     "label": ""
   },
   {
-    "from": "Case 186",
-    "to": "Case 166",
+    "from": "Case 166",
+    "to": "Case 186",
     "label": ""
   },
   {
@@ -585,18 +580,18 @@
     "label": "Attendee"
   },
   {
-    "from": "Case 95",
-    "to": "Case 93",
+    "from": "Case 93",
+    "to": "Case 95",
     "label": "Contact"
   },
   {
-    "from": "Case 96",
-    "to": "Case 94",
+    "from": "Case 94",
+    "to": "Case 96",
     "label": "Contact"
   },
   {
-    "from": "Case 97",
-    "to": "Case 93",
+    "from": "Case 93",
+    "to": "Case 97",
     "label": "Contact"
   },
   {
@@ -605,8 +600,8 @@
     "label": "Contact"
   },
   {
-    "from": "Case 98",
-    "to": "Case 93",
+    "from": "Case 93",
+    "to": "Case 98",
     "label": "Contact"
   },
   {
@@ -620,8 +615,8 @@
     "label": "Contact"
   },
   {
-    "from": "Case 99",
-    "to": "Case 93",
+    "from": "Case 93",
+    "to": "Case 99",
     "label": "Contact"
   },
   {
@@ -722,11 +717,6 @@
   {
     "from": "Cluster 1",
     "to": "Cluster 4",
-    "label": ""
-  },
-  {
-    "from": "Cluster 10",
-    "to": "Case 102",
     "label": ""
   },
   {
@@ -1370,7 +1360,7 @@
     "label": ""
   },
   {
-    "from": "unknown",
+    "from": "Case 107",
     "to": "Case 196",
     "label": ""
   },
@@ -1695,6 +1685,11 @@
     "label": "Contact"
   },
   {
+    "from": "Cluster 13",
+    "to": "Case 305",
+    "label": "Contact"
+  },
+  {
     "from": "Case 277",
     "to": "Case 308",
     "label": "Contact"
@@ -1731,7 +1726,7 @@
   },
   {
     "from": "Case 142",
-    "to": "Case 162",
+    "to": "Case 163",
     "label": ""
   },
   {
@@ -1756,12 +1751,22 @@
   },
   {
     "from": "Cluster 12",
-    "to": "Case 208",
+    "to": "Case 235",
     "label": ""
   },
   {
-    "from": "Cluster 12",
-    "to": "Case 283",
+    "from": "Cluster 11",
+    "to": "Case 133",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 156",
+    "label": ""
+  },
+  {
+    "from": "Cluster 11",
+    "to": "Case 158",
     "label": ""
   }
 ]

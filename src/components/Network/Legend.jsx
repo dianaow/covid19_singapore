@@ -6,7 +6,7 @@ import * as Consts from "../consts"
 
 const Legend = () => {
 
-  const { status, gender, nationality, age, days, nodeRadius } = Consts.scales
+  const { status, gender, nationality, age, daysGroup, nodeRadius } = Consts.scales
   const { panelState } = useContext(PanelContext)
   let activeFilter = Object.keys(panelState).filter(id=>panelState[id])
   let toColor = activeFilter[0].indexOf('color') !== -1
@@ -17,8 +17,9 @@ const Legend = () => {
       return drawCategoryLegend(status)
     } else if(attribute === 'node_color_2'){
       return drawLinearLegend(age)
+    } else if(attribute === 'node_color_3'){
+      return drawCategoryLegend(daysGroup)
     } 
-
   } 
 
   return(
@@ -111,15 +112,20 @@ const drawRadiusLegend = (data) => {
 
   const { label, domain, scale } = data
 
+  var xCircle = 25
+  var xLabel = 80
+  var yCircle = 30
+
   return(
-    <svg width='100%' height='100px'>
+    <svg width='100%' height='50px'>
       <g className='legend__radius' transform="translate(0,10)">
-        <text className='legend-header'>{ label }</text>
+        <text className='legend-header' x='55' y='15'>{ label }</text>
+        <text className='legend-header' x='55' y='30'>for each case</text>
         {domain.map((d,i) => (
           <g className='legend__colorEle'>
             <circle 
-              cx='45'
-              cy={80 - scale(d)}
+              cx={xCircle}
+              cy={yCircle - scale(d)}
               r={scale(d)}
               fill='none'
               stroke='white' />
@@ -130,6 +136,22 @@ const drawRadiusLegend = (data) => {
   )
 
 }
+
+// <line 
+//   x1={xCircle + scale(d)}
+//   x2={xLabel}
+//   y1={yCircle - scale(d)}
+//   y2={yCircle - scale(d)}
+//   stroke='white'
+//   strokeDasharray="2, 2" />
+// <text
+//   x={xLabel}
+//   y={yCircle - scale(d)}
+//   fontSize='7'
+//   fill='white'
+//   alignmentBaseline='middle'>
+//   {d}
+// </text>
 
 const drawShapeLegend = () => {
 

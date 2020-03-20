@@ -20,7 +20,7 @@ const simulation = d3.forceSimulation()
     .distance(function(d) { return d.distance })
     .strength(function(d) { return d.strength })
   )
-  .force("charge", d3.forceManyBody().strength(-80))
+  .force("charge", d3.forceManyBody().strength(-90))
   .force("collide", d3.forceCollide(function(d){ return d.radius * 2 }))
   //.alphaTarget(0.8)
 
@@ -126,7 +126,7 @@ function draw(nodes, links, accessors, misc) {
 
   let { zoom, setTooltip, clicker, dimensions } = misc
 
-  let { root, parent, rootparent, berects } = accessors
+  let { root, parent, rootparent, berects, linkOpacityAccessor } = accessors
   let graphNodesGroup = d3.select('.Network').select('.nodes')
   let graphLinksGroup = d3.select('.Network').select('.links')
 
@@ -324,7 +324,7 @@ function draw(nodes, links, accessors, misc) {
   graphLinksData = graphLinksEnter.merge(graphLinksData)
 
   graphLinksData.selectAll('.link').transition().duration(Consts.transitionDuration)
-    //.attr("opacity", d => d.opacity)
+    .attr("opacity", d => d.opacity)
     .attr("d", function(d) { 
       return generatePath({
           source: {x: d.source.x, y: d.source.y, r: d.source.radius},
@@ -461,7 +461,7 @@ function draw(nodes, links, accessors, misc) {
     graphNodesData.selectAll('.parent-node-label').attr('opacity', Consts.nodeTextOpacity)
     graphNodesData.selectAll('.children-node-label').attr('opacity', nodeTextOpacity)
 
-    graphLinksData.selectAll('.link').attr('opacity', Consts.linkOpacity)
+    graphLinksData.selectAll('.link').attr('opacity', o => linkOpacityAccessor(o))
     graphLinksData.selectAll('.edge-label').attr('opacity', linkTextOpacity)
 
   }
@@ -495,7 +495,9 @@ function updateAttributes(nodes, links){
   const imported = d => importedIDs.indexOf(d.id) !== -1
   const foreigners = d => foreignerIDs.indexOf(d.id) !== -1
   const berects = foreigners // choose node types to be rendered as rectangles
-  const accessors = { root, parent, child, rootparent, imported, berects }
+
+  const linkOpacityAccessor = d => d.start_id.includes('Cluster') ? 1 : Consts.linkOpacity
+  const accessors = { root, parent, child, rootparent, imported, berects, linkOpacityAccessor }
 
   function findType(d){
     if(root(d)) {
@@ -560,7 +562,7 @@ function updateAttributes(nodes, links){
   links.forEach((d,i) => {
     d.strokeColor = Consts.linkStroke
     d.strokeWidth = Consts.linkStrokeWidth
-    d.opacity = Consts.linkOpacity
+    d.opacity = linkOpacityAccessor(d)
   })
 
   nodes.forEach((d,i) => {
@@ -611,16 +613,15 @@ function updateGraph(OrigData, data, misc) {
     // originally unlinked: at selected time, cluster does not exist (ie. cluster node is not rendered yet). They should belong in 'Unknown'
     // overwrite their node's root_id to 'unknown'. Do not create new nodes so that existing node will move towards its found cluster
     //console.log(clusters.find(el=>el.id === d.root_id), d.root_id)
-    console.log(OrigData.nodes.find(el=>el.id === d.id).original_root, d.root_id, d.id)
-    let no_cluster = Consts.parseDate(clusters.find(el=>el.id === d.root_id).confirmed_at).getTime() > date.getTime()
+    let no_cluster = Consts.parseDate(clusters.find(el=>el.id === d.original_root).confirmed_at).getTime() > date.getTime()
     if(no_cluster){
       d.root_id = 'Unlinked'
     } else { // if cluster already exists, but node has been discovered yet to belong to it (eg. unlinked initially /unknown -> discovered to belong to a cluster)
       //console.log(d.id, OrigData.nodes.find(el=>el.id === d.id).root_id)
       d.root_id = OrigData.nodes.find(el=>el.id === d.id).original_root
     }
-  })
 
+  })
   // remove links that do not have either a start or end node in nodes variable
   let nodeIDs = nodes.map(d=>d.id)
   links = links.filter(d=>nodeIDs.indexOf(d.start_id) !== -1)
@@ -685,7 +686,7 @@ function findClusterCenter(graphWrapper) {
 
   //Specify module position for the 9 largest modules. This is the x-y center of the modules singletons and small modules will be handled as a whole
   var modsPerRow = 5
-  var modsSize = graphWrapper.width / 5
+  var modsSize = (graphWrapper.width * 0.95) / 5
   var modulePosition = []
   for(var i = 0; i < Consts.clusterArrangement.length ; i++) {
     var rowNumber = Math.floor(i / modsPerRow)
@@ -718,17 +719,26 @@ function findClusterCenter(graphWrapper) {
     }
   })
 
+  let cny = modulePosition.find(g=>g.group == 'Cluster7').coordinates
+  cny.x = cny.x - 100
+  cny.y = cny.y + 200
+
+  let c4 = modulePosition.find(g=>g.group == 'Cluster4').coordinates
+  c4.y = c4.y - 40
+
   //Make the x-position equal to the x-position specified in the module positioning object or, if module not labeled, set it to center
   var forceX = d3.forceX(function (d) { 
     let mod = modulePosition.find(g=>g.group == d.root_id)
     return mod ? mod.coordinates.x : graphWrapper.width - 100
-  }).strength(0.25)
+  }).strength(function (d) { 
+    return d.root_id === 'Imported' | d.root_id === 'Unlinked' ? 0.3 : 0.25 
+  })
 
   //Same for forceY--these act as a gravity parameter so the different strength determines how closely the individual nodes are pulled to the center of their module position
   var forceY = d3.forceY(function (d) {
     let mod = modulePosition.find(g=>g.group == d.root_id)
     return mod ? mod.coordinates.y : graphWrapper.height - 300
-  }).strength(0.25)
+  }).strength(d => d.root_id === 'Imported' | d.root_id === 'Unlinked' ? 0.3 : 0.25)
 
   simulation
     .force("x", forceX)
