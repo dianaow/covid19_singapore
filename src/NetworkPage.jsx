@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useReducer, createContext } from "react"
 import { Dimmer, Loader, Image, Segment } from 'semantic-ui-react'
 import * as d3 from "d3"
+import { Icon } from 'semantic-ui-react'
 
 import graphNodes from './data/covid19_graph_nodes.json';
 import graphEdges from './data/covid19_graph_edges.json';
@@ -17,6 +18,7 @@ import * as Consts from "./components/consts"
 
 export const NetworkContext = createContext()
 
+var T, index
 const showLoader = () => (
   <div className='Loading'>
     <Segment>
@@ -33,7 +35,8 @@ const showLoader = () => (
 const NetworkPage = () => {
 
   const [data, setData] = useState({})
-  const [loading, setLoading] = useState({ loading: true })
+  const [loading, setLoading] = useState(true)
+  const [timerun, setTimeRun] = useState({playing: false, status: 'play', initial: true })
   const processedCases = processCases(cases)
   const timeline = processTimeline(processedCases)
 
@@ -94,12 +97,14 @@ const NetworkPage = () => {
         d.places = D['places visited']
         d.works_at = D['works at']
         d.lives_at = D['lives at']
+        d.secondary_root_id = d['secondary_root_id'] ? d['secondary_root_id'] : []
       } else {
         d.id = d.id.replace(/\s/g,'')
         d.case_type = 'Cluster'
         //console.log(d.id, clusters.find(el=>el.id === d.id))
         // a cluster is established when 2 or more people are found linked to the location. Date the cluster is made known to the public through MOH press release
         d.confirmed_at = clusters.find(el=>el.id === d.id).confirmed_at 
+        d.secondary_root_id = []
       }
     })
     return nodes
@@ -139,9 +144,9 @@ const NetworkPage = () => {
   }
 
   useEffect(() => {
-    //setTimeout(function(){
-      setLoading({ loading: false })
-    //}, 500)
+    setTimeout(function(){
+      setLoading(false)
+    }, 1000)
   }, [data])
 
   useEffect(() => {
@@ -173,17 +178,63 @@ const NetworkPage = () => {
       }
       d.original_root = d.root_id
     })
-    console.log(nodes, links)
+    //console.log(nodes, links)
     setData({ nodes, links })
     dispatch({ type: 'SET_STATS', nodes, links })
 
   }, [])
 
+  useEffect(() => {
+    let dates = timeline.map(d=>d.key.getTime())
+    if(timerun.initial){
+      index = 0
+    } else {
+      index = dates.indexOf(current.date.getTime()) // restart animation from date last stopped at
+    }
+
+    if(timerun.playing){
+      T = setInterval(step, 1000)
+    } 
+   
+    function step() {
+      dispatch({ type: 'SET_DATE', date: timeline[index].key }) 
+      index++
+      if(index > dates.length-1){
+        clearInterval(T)
+        setTimeRun({playing: false, status: 'end', initial: true})
+      }
+    } 
+
+    if(timerun.playing === false & timerun.status === 'pause'){
+      //setTimeout(function() {clearInterval(T); }, 350);
+      clearInterval(T)
+      dispatch({ type: 'SET_DATE', date: timeline[index].key }) 
+    }
+
+    if(timerun.playing === false & timerun.status === 'end'){
+      clearInterval(T)
+      dispatch({ type: 'SET_DATE', date: timeline[dates.length-1].key }) 
+    }
+
+  }, [timerun])
+
+
+  // currentStage: stage before button click
+  // nextStage: stage upon button click
   return(
     <div className='App__wrapper'>
       <div className="Entity__Right">
 
         <div className='Chart_info_section'>
+          <div type="button" onClick={ () => {setTimeRun({playing: !timerun.playing, status: 'play', initial: timerun.initial})} }>
+            <Icon name={ timerun.playing ? 'big play circle disabled' : 'big play circle'} />
+          </div>
+          <div type="button" onClick={ () => setTimeRun({playing: false, status: 'pause', initial: false}) }>
+            <Icon name={ timerun.playing ? 'big pause circle' : 'big pause circle disabled'} />
+          </div>
+          <div type="button" onClick={ () => setTimeRun({playing: false, status: 'end', initial: true}) }>
+            <Icon name={ timerun.playing | timerun.status === 'pause' ? 'big stop circle' : 'big stop circle disabled'} />
+          </div>      
           <div className='time'>
             <h2>{ Consts.formatDate(current.date) }</h2>
           </div>
@@ -194,18 +245,18 @@ const NetworkPage = () => {
                 <p>CASES</p>
               </div>
               <div className='edges_stats'>
-                <div className='edges_stats_total'><h2>{ current.links.length }</h2></div>
-                <p>CONNECTIONS</p>
+                <div className='edges_stats_total'><h2>{ current.nodes.filter(d=>d.case_type !== 'Cluster' & d.status === "In hospital").length }</h2></div>
+                <p>IN HOSPITAL</p>
               </div>
             </div>
             <div className='chart-statistics-breakdown'></div>
           </div>
         </div>
 
-        { loading.loading && showLoader() }
+        { loading && showLoader() }
 
         <NetworkContext.Provider value={{ current, dispatch }}>
-          { loading.loading === false && <Network data={data} timeline={timeline} /> }
+          { loading === false && <Network data={data} timeline={timeline} /> }
         </NetworkContext.Provider>
 
       </div>

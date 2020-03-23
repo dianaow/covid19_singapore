@@ -17,7 +17,6 @@ const FilterPanel = () => {
   let graphNodesGroup = d3.select('.Network').select('.nodes')
   let graphLinksGroup = d3.select('.Network').select('.links')
  
-  console.log(panelState.node_shape_1, panelState.node_shape_2) 
   //////////////// Control panel logic and set initial setting /////////////
   useEffect(() => {
 

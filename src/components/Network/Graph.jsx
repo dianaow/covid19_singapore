@@ -44,13 +44,13 @@ const Graph = ({data}) => {
   // This object passes required variables to graph helper functions placed outside the component
   const graphWrapper = {width: dimensions.width, height: dimensions.height}
   const misc = {zoom, setTooltip, clicker, dimensions: graphWrapper } 
+  const modulePosition = findClusterCenter(graphWrapper)
+  misc.modulePosition = modulePosition
 
   ///////////////////////// Initial Graph Render //////////////////////////
   useEffect(() => {
     if(current.date === Consts.currentDate){
       if(dimensions.width>0 & dimensions.height>0){
-        let modulePosition = findClusterCenter(graphWrapper)
-        misc.modulePosition = modulePosition
         updateGraph(data, current, misc) 
       }
     }
@@ -60,8 +60,6 @@ const Graph = ({data}) => {
   useEffect(() => {
     if(dimensions.width>0 & dimensions.height>0){
       simulation.stop()
-      let modulePosition = findClusterCenter(graphWrapper)
-      misc.modulePosition = modulePosition
       let graph = updateGraph(data, current, misc) 
       dispatch({ type: 'SET_STATS', nodes: graph.nodes, links: graph.links })
     }
@@ -289,7 +287,7 @@ function draw(nodes, links, accessors, misc) {
     .remove()
 
   graphLinksData.exit()
-    .transition().duration(Consts.transitionDuration).delay(150)
+    .transition().duration(Consts.transitionDuration)
     .remove()
 
   let graphLinksEnter = graphLinksData.enter().append("g").attr('id', d => 'path-group-' + linkKey(d))
@@ -367,7 +365,7 @@ function draw(nodes, links, accessors, misc) {
 
     if(Scene === 0){
       let hoverAttr = {hover_textOpacity: 0, hover_strokeOpacity: 0.2, hover_arrow: 'url(#arrowhead)'}
-      highlightConnections(d, hoverAttr)
+      highlightConnections(graphNodesData, graphLinksData, d, hoverAttr)
     }
 
     if(!root(d)){
@@ -384,9 +382,8 @@ function draw(nodes, links, accessors, misc) {
   }
 
   function hoverOut(d) {
-    console.log('root hovered out')
     if(Scene === 0){
-      unhighlightConnections(d)
+      unhighlightConnections(graphNodesData, graphLinksData, d)
       setTooltip(initialTooltipState)
     }
   }
@@ -401,7 +398,7 @@ function draw(nodes, links, accessors, misc) {
       case 1: // zoom into singular graph
 
         let hoverAttr = {hover_textOpacity: 0, hover_strokeOpacity: 0, hover_arrow: 'url(#arrowheadTransparent)'}
-        highlightConnections(d, hoverAttr)
+        highlightNetwork(d, hoverAttr)
 
         var thisX = dimensions.width/2 - d.x*2
         var thisY = dimensions.height/2 - d.y*2
@@ -413,13 +410,12 @@ function draw(nodes, links, accessors, misc) {
           d3.zoomIdentity.translate(thisX, thisY).scale(2)
         );
 
-        graphLinksData.selectAll('.edge-label').attr('opacity', o => (o.source === d || o.target === d ? 0.5 : Consts.linkTextOpacity))
         break;
 
       case maxScene: // zoom out
 
         setTimeout(function(){
-          unhighlightConnections(d)
+          unhighlightConnections(graphNodesData, graphLinksData, d)
         }, 1000)
 
         svg.transition().duration(350).delay(300).call(zoom.transform, d3.zoomIdentity)
@@ -428,30 +424,79 @@ function draw(nodes, links, accessors, misc) {
 
   }
 
-
-  function highlightConnections(d, hoverAttr) {
+  function highlightNetwork(d, hoverAttr) {
 
     const { hover_textOpacity, hover_strokeOpacity, hover_arrow } = hoverAttr
+
+    function isNetwork(d, o) {
+      return o.root_id === d.id | o.secondary_root_id.indexOf(d.id) !== -1
+    }
+
+    function isNetworkEdge(o){
+      return nodesHighlighted.indexOf(o.source.id) !== -1 & nodesHighlighted.indexOf(o.target.id) !== -1
+    }
+
+    let nodesHighlighted = []
     graphNodesData.selectAll('.node')
       .attr('opacity', function (o) {
-        const thisOpacity =  isConnected(d, o) ? 1 : hover_strokeOpacity
+        if(isNetwork(d, o)){ nodesHighlighted.push(o.id) }
+        const thisOpacity =  isNetwork(d, o) ? 1 : hover_strokeOpacity
+        return thisOpacity
+      })
+      .style('pointer-events', o => isNetwork(d, o) ? 'auto' : 'none')
+
+    graphNodesData.selectAll('.root-label').attr('opacity', o => (isNetwork(d, o) ? 1 : hover_textOpacity))
+    graphNodesData.selectAll('.parent-node-label').attr('opacity', o => (isNetwork(d, o) ? 1 : hover_textOpacity))
+    graphNodesData.selectAll('.children-node-label').attr('opacity', o => (isNetwork(d, o) ? 1 : hover_textOpacity))
+
+    graphLinksData.selectAll('.link')
+      .attr('opacity', o => isNetworkEdge(o) ? o.opacity : hover_strokeOpacity)
+      .attr('marker-mid', o => isNetworkEdge(o) ? 'url(#arrowheadOpaque)' : hover_arrow)
+    graphLinksData.selectAll('.edge-label').attr('opacity', o => isNetworkEdge(o) ? 0.5 : hover_textOpacity)
+
+    let networkNodes = graphNodesData.filter(o=>isNetwork(d, o))
+    let networkLinks = graphLinksData.filter(o=>isNetworkEdge(o))
+
+    networkNodes.selectAll('.node')
+      .on('mouseover', ele => {
+        let hoverAttr = {hover_textOpacity: 0, hover_strokeOpacity: 0.2, hover_arrow: 'url(#arrowhead)'}
+        highlightConnections(networkNodes, networkLinks, ele, hoverAttr)
+      })
+      .on('mouseout', ele => {
+        unhighlightConnections(networkNodes, networkLinks, ele)
+      })
+
+
+  }
+
+  function highlightConnections(graphNodesData, graphLinksData, d, hoverAttr) {
+
+    const { hover_textOpacity, hover_strokeOpacity, hover_arrow } = hoverAttr
+
+    function isDirectConn(d, o) {
+      return isConnected(d, o) | o.root_id === d.id
+    }
+
+    graphNodesData.selectAll('.node')
+      .attr('opacity', function (o) {
+        const thisOpacity =  isDirectConn(d, o) ? 1 : hover_strokeOpacity
         //this.setAttribute('fill-opacity', thisOpacity)
         return thisOpacity
       })
-      .style('pointer-events', o => (isConnected(d, o) ? 'auto' : 'none'))
+      .style('pointer-events', o => (isDirectConn(d, o) ? 'auto' : 'none'))
 
-    graphNodesData.selectAll('.root-label').attr('opacity', o => (isConnected(d, o) ? 1 : hover_textOpacity))
-    graphNodesData.selectAll('.parent-node-label').attr('opacity', o => (isConnected(d, o) ? 1 : hover_textOpacity))
-    graphNodesData.selectAll('.children-node-label').attr('opacity', o => (isConnected(d, o) ? 1 : hover_textOpacity))
+    graphNodesData.selectAll('.root-label').attr('opacity', o => (isDirectConn(d, o) ? 1 : hover_textOpacity))
+    graphNodesData.selectAll('.parent-node-label').attr('opacity', o => (isDirectConn(d, o) ? 1 : hover_textOpacity))
+    graphNodesData.selectAll('.children-node-label').attr('opacity', o => (isDirectConn(d, o) ? 1 : hover_textOpacity))
 
     graphLinksData.selectAll('.link')
       .attr('opacity', o => (o.source === d || o.target === d ? 1 : hover_strokeOpacity))
       .attr('marker-mid', o => (o.source === d || o.target === d) ? 'url(#arrowheadOpaque)' : hover_arrow)
-    graphLinksData.selectAll('.edge-label').attr('opacity', o => (o.source === d || o.target === d ? linkTextOpacity : hover_textOpacity))
+    graphLinksData.selectAll('.edge-label').attr('opacity', o => (o.source === d || o.target === d ? 0.5 : hover_textOpacity))
 
   }
 
-  function unhighlightConnections(d) {
+  function unhighlightConnections(graphNodesData, graphLinksData, d) {
 
     graphNodesData.selectAll('.node')
       .attr('opacity', Consts.nodeOpacity)
@@ -552,7 +597,7 @@ function updateAttributes(nodes, links){
   // create custom link distance scale based on node type
   var distanceScale = d3.scaleOrdinal()
     .domain(['root', 'parent', 'child'])
-    .range([150, 60, 30])
+    .range([150, 50, 30])
 
   nodes.forEach((d,i) => {
     d.strokeWidth = Consts.nodeStrokeWidth
@@ -595,6 +640,7 @@ function updateAttributes(nodes, links){
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 function updateGraph(OrigData, data, misc) {
 
+  simulation.stop()
   let { nodes, links, date } = data 
   const { dimensions, modulePosition} = misc
 
@@ -750,22 +796,6 @@ function findClusterCenter(graphWrapper) {
 
 function isConnected(a, b) {
   return Consts.linkedByIndex[`${a.id},${b.id}`] || Consts.linkedByIndex[`${b.id},${a.id}`] || a.id === b.id;
-}
-
-function comparerLinks(otherArray){
-  return function(current){
-    return otherArray.filter(function(other){
-      return other.source.id === current.source.id && other.target.id === current.target.id
-    }).length === 0;
-  }
-}
-
-function comparerNodes(otherArray){
-  return function(current){
-    return otherArray.filter(function(other){
-      return other.id === current.id
-    }).length === 0;
-  }
 }
 
 function generatePath(d, exclude_radius=false) {

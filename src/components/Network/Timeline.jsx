@@ -19,7 +19,7 @@ const Timeline = ({timeline}) => {
     const { width, height } = dimensions
     const targetValue = width - 160
     const sliderPosX = 80
-    const sliderPosY = height - 50
+    const sliderPosY = height - 40
     const sliderHeight = 90
 
     const xScale = d3.scaleTime()
@@ -27,7 +27,7 @@ const Timeline = ({timeline}) => {
       .range([sliderPosX, targetValue])
 
     const yScale = d3.scaleLinear()
-        .domain([0, 50])
+        .domain([0, 45])
         .range([sliderHeight, 0])
 
     const line = d3.line()
