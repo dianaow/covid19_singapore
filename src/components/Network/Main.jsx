@@ -15,7 +15,7 @@ import { SceneProvider } from "../contexts/SceneContext"
 
 import { useChartDimensions }  from "../utils"
 
-const Network = ({data, timeline}) => {
+const Main = ({data, timeline}) => {
 
   const [ref, dms] = useChartDimensions()
 
@@ -56,4 +56,4 @@ const Network = ({data, timeline}) => {
   )
 }
 
-export default Network
+export default Main

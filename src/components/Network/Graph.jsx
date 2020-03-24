@@ -20,8 +20,6 @@ const simulation = d3.forceSimulation()
     .distance(function(d) { return d.distance })
     .strength(function(d) { return d.strength })
   )
-  .force("charge", d3.forceManyBody().strength(-90))
-  .force("collide", d3.forceCollide(function(d){ return d.radius * 2 }))
   //.alphaTarget(0.8)
 
 // store states in a global variable as a hack to pass state values to helper functions placed outside the component
@@ -474,7 +472,11 @@ function draw(nodes, links, accessors, misc) {
     const { hover_textOpacity, hover_strokeOpacity, hover_arrow } = hoverAttr
 
     function isDirectConn(d, o) {
-      return isConnected(d, o) | o.root_id === d.id
+      if(d.root_id === 'Unknown' | d.root_id === 'Unlinked'){
+        return o.root_id === d.id
+      } else {
+        return isConnected(d, o)
+      }
     }
 
     graphNodesData.selectAll('.node')
@@ -597,7 +599,7 @@ function updateAttributes(nodes, links){
   // create custom link distance scale based on node type
   var distanceScale = d3.scaleOrdinal()
     .domain(['root', 'parent', 'child'])
-    .range([150, 50, 30])
+    .range([150, 40, 30])
 
   nodes.forEach((d,i) => {
     d.strokeWidth = Consts.nodeStrokeWidth
@@ -681,9 +683,11 @@ function updateGraph(OrigData, data, misc) {
   // for the timeline, if patient has not recovered yet on the selected date, overwrite recovery status so color of nodes accurately reflects situation
   // amongst all the attributes, only recovery status is dynamic
   nodes.forEach(d=>{
-    let recoveredDateNew = d.recovered_at ?  d.recovered_at : '01 Jan 2021'
-    let in_hospital = Consts.parseDate(recoveredDateNew).getTime() > date.getTime()
-    d.status =  in_hospital ? 'In hospital' : 'Recovered'
+    if(d.case_type !== 'Cluster'){
+      let in_hospital = Consts.parseDate(d.recovered_at).getTime() > date.getTime() 
+      let death = d.died_at ? Consts.parseDate(d.died_at).getTime() <= date.getTime() : false
+      d.status =  death ? "Deceased" : in_hospital ? 'In hospital' : 'Recovered'
+    }
   })
   
   let newEle = updateAttributes(nodes, links)
@@ -751,7 +755,7 @@ function findClusterCenter(graphWrapper) {
   { 
     "group": 'Cluster13',
     "coordinates" : { 
-      x: safra.x - 280,
+      x: safra.x - 300,
       y: safra.y + 280
     }
   })
@@ -765,30 +769,37 @@ function findClusterCenter(graphWrapper) {
     }
   })
 
-  let cny = modulePosition.find(g=>g.group == 'Cluster7').coordinates
-  cny.x = cny.x - 100
-  cny.y = cny.y + 200
+  let c7 = modulePosition.find(g=>g.group == 'Cluster7').coordinates
+  c7.x = c7.x - 100
+  c7.y = c7.y + 200
 
   let c4 = modulePosition.find(g=>g.group == 'Cluster4').coordinates
-  c4.y = c4.y - 40
+  c4.y = c4.y - 20
 
+  let imported = modulePosition.find(g=>g.group == 'Imported').coordinates
+  imported.x = imported.x + 150
+
+  let bool = d => d.root_id === 'Imported' | d.root_id ==='Unlinked'
   //Make the x-position equal to the x-position specified in the module positioning object or, if module not labeled, set it to center
   var forceX = d3.forceX(function (d) { 
     let mod = modulePosition.find(g=>g.group == d.root_id)
     return mod ? mod.coordinates.x : graphWrapper.width - 100
-  }).strength(function (d) { 
-    return d.root_id === 'Imported' | d.root_id === 'Unlinked' ? 0.3 : 0.25 
-  })
+  }).strength(d => bool(d) ? 0.4 : 0.25)
 
   //Same for forceY--these act as a gravity parameter so the different strength determines how closely the individual nodes are pulled to the center of their module position
   var forceY = d3.forceY(function (d) {
     let mod = modulePosition.find(g=>g.group == d.root_id)
     return mod ? mod.coordinates.y : graphWrapper.height - 300
-  }).strength(d => d.root_id === 'Imported' | d.root_id === 'Unlinked' ? 0.3 : 0.25)
+  }).strength(d => bool(d) ? 0.4 : 0.25)
+
+  var forceCharge = d3.forceManyBody().strength(-100)
+  var forceCollide = d3.forceCollide(function(d){ return bool(d) ? d.radius * 2 : d.radius * 2.6 })
 
   simulation
     .force("x", forceX)
     .force("y", forceY)
+    .force("charge", forceCharge)
+    .force("collide", forceCollide)
 
   return modulePosition
 

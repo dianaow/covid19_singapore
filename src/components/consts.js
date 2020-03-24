@@ -24,16 +24,16 @@ export const linkedByIndex = {}
 
 export const formatDate = d3.timeFormat("%d %b %Y")
 export const parseDate = d3.timeParse("%d %b %Y")
-export const currentDateString = '18 Mar 2020'
+export const currentDateString = '23 Mar 2020'
 export const currentDate = parseDate(currentDateString)
 
 export const mapping = {'node_shape_1': 'Foreigner', 'node_shape_2': 'Singaporean/Singapore PR'}
 
 const gender = ['Male', 'Female']
-const status = ['In hospital', 'Recovered']
+const status = ['In hospital', 'Recovered', 'Deceased']
 const nationality = ['Singaporean/Singapore PR', 'Foreigner']
 const case_type = ['Imported case', 'Local transmission']
-const days_group = ['In hospital', '0 - 7 days', '8 - 15 days', '> 15 days']
+const days_group = ['In hospital', '0 - 7 days', '8 - 15 days', '> 15 days', 'Deceased']
 //Cluster 1: Cases Imported From Overseas, => 23rd Jan 2020
 //Cluster 2: Singaporeans evacuated from Wuhan on 30 January, => 1 Feb 2020
 //Cluster 3: Singaporeans evacuated from Wuhan on 9 February
@@ -56,7 +56,7 @@ const days_group = ['In hospital', '0 - 7 days', '8 - 15 days', '> 15 days']
 //yth        wuhan9      safra     hyatt  seletar  
                         //boulder  church
 
-export const clusterArrangement = ['Cluster4', 'Cluster3', 'Cluster11', 'Cluster8', 'Cluster5', 'Cluster1', 'Cluster2', 'Unlinked', 'Imported', 'X', 'Cluster10', 'Cluster6', 'Cluster7', 'Cluster9']
+export const clusterArrangement = ['Cluster4', 'Cluster3', 'Cluster11', 'Cluster5', 'Cluster8', 'Cluster1', 'Cluster2', 'Unlinked', 'Imported', 'X', 'Cluster10', 'Cluster6', 'Cluster7', 'Cluster9']
 
 // node radius size is scaled based on total number of connections to node (only applied to root or parent nodes)
 const nodeRadiusScale = d3.scaleSqrt()
@@ -69,7 +69,7 @@ const genderScale = d3.scaleOrdinal()
   
 const statusScale = d3.scaleOrdinal()
   .domain(status)
-  .range(['gold', 'white'])
+  .range(['gold', 'white', 'blue'])
 
 const nationalityScale = d3.scaleOrdinal()
   .domain(nationality)
@@ -81,7 +81,7 @@ const ageScale = d3.scaleLinear()
 
 const daysScale = d3.scaleOrdinal()
   .domain(days_group)
-  .range(['white', '#4BE3AB', '#F9B219', '#F03713'])
+  .range(['white', '#4BE3AB', '#F9B219', '#F03713', 'blue'])
 
 export const scales = {
   colorAccessor: d => statusScale(d.status), // default color coding

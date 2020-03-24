@@ -1,215 +1,4194 @@
-{"nodes":[
-{"id":"Case 1","label":"Case 1","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/senior_male_recovered_imported_case-9aad1ac53a9ce1020d058e98189a5f3f34b513bde00584ed0059394be07781a5.png"},
-{"id":"Case 2","label":"Case 2","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_imported_case-d9efe1eaf95f31eb334038587c643fe9a0ecbf52ba00ff58d248df490d12c9a2.png"},
-{"id":"Case 3","label":"Case 3","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_imported_case-26c7a6e12f5a25941d41d3acf7e58b1050f90fee005680d3cfdf01e2d90b8c36.png"},
-{"id":"Case 4","label":"Case 4","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_imported_case-26c7a6e12f5a25941d41d3acf7e58b1050f90fee005680d3cfdf01e2d90b8c36.png"},
-{"id":"Case 5","label":"Case 5","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_imported_case-d9efe1eaf95f31eb334038587c643fe9a0ecbf52ba00ff58d248df490d12c9a2.png"},
-{"id":"Case 151","label":"Case 151","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 156","label":"Case 156","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 163","label":"Case 163","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 161","label":"Case 161","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_local_transmission-ceb3e993549b274de07f3de16a02ef579c962abf5f72f8f3dc8b0fa61eafed66.png"},
-{"id":"Case 165","label":"Case 165","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 112","label":"Case 112","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/senior_female_recovered_local_transmission-600ca3e834132e9acb9fc1c091d4c2c1a6e66f7dc2b94d24a730d0ad087076c2.png"},
-{"id":"Case 152","label":"Case 152","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_imported_case-b82dc42ddcfbd0288e9a83658bb1e059acfd8a80ecd39db246bbcbd53627f24c.png"},
-{"id":"Case 160","label":"Case 160","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/child_male_in_hospital_local_transmission-815b1f99e12da77d968e6f0b1aa9b95dabcb272c2576fee51fbb802b30f0e02b.png"},
-{"id":"Case 162","label":"Case 162","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_local_transmission-b53afad207f902245c83204d4e9580731bec74714ead0f1b76a37b792769b8c7.png"},
-{"id":"Case 167","label":"Case 167","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_imported_case-15e62c9b9faa5ca74dedf70bc17c2628ad9796e7e31aa66ac6838f4f4b8fd670.png"},
-{"id":"Case 168","label":"Case 168","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_local_transmission-b53afad207f902245c83204d4e9580731bec74714ead0f1b76a37b792769b8c7.png"},
-{"id":"Case 170","label":"Case 170","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_imported_case-15e62c9b9faa5ca74dedf70bc17c2628ad9796e7e31aa66ac6838f4f4b8fd670.png"},
-{"id":"Case 92","label":"Case 92","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 154","label":"Case 154","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 157","label":"Case 157","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 169","label":"Case 169","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 138","label":"Case 138","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 147","label":"Case 147","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_imported_case-b82dc42ddcfbd0288e9a83658bb1e059acfd8a80ecd39db246bbcbd53627f24c.png"},
-{"id":"Case 150","label":"Case 150","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 158","label":"Case 158","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 159","label":"Case 159","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_local_transmission-b53afad207f902245c83204d4e9580731bec74714ead0f1b76a37b792769b8c7.png"},
-{"id":"Case 106","label":"Case 106","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 12","label":"Case 12","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_imported_case-d9efe1eaf95f31eb334038587c643fe9a0ecbf52ba00ff58d248df490d12c9a2.png"},
-{"id":"Case 175","label":"Case 175","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 176","label":"Case 176","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_imported_case-15e62c9b9faa5ca74dedf70bc17c2628ad9796e7e31aa66ac6838f4f4b8fd670.png"},
-{"id":"Case 6","label":"Case 6","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_imported_case-26c7a6e12f5a25941d41d3acf7e58b1050f90fee005680d3cfdf01e2d90b8c36.png"},
-{"id":"Case 7","label":"Case 7","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_imported_case-26c7a6e12f5a25941d41d3acf7e58b1050f90fee005680d3cfdf01e2d90b8c36.png"},
-{"id":"Case 8","label":"Case 8","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_imported_case-d9efe1eaf95f31eb334038587c643fe9a0ecbf52ba00ff58d248df490d12c9a2.png"},
-{"id":"Case 62","label":"Case 62","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 33","label":"Case 33","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 63","label":"Case 63","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 64","label":"Case 64","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 9","label":"Case 9","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_imported_case-26c7a6e12f5a25941d41d3acf7e58b1050f90fee005680d3cfdf01e2d90b8c36.png"},
-{"id":"Case 10","label":"Case 10","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_imported_case-26c7a6e12f5a25941d41d3acf7e58b1050f90fee005680d3cfdf01e2d90b8c36.png"},
-{"id":"Case 11","label":"Case 11","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_imported_case-d9efe1eaf95f31eb334038587c643fe9a0ecbf52ba00ff58d248df490d12c9a2.png"},
-{"id":"Case 18","label":"Case 18","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_imported_case-d9efe1eaf95f31eb334038587c643fe9a0ecbf52ba00ff58d248df490d12c9a2.png"},
-{"id":"Case 13","label":"Case 13","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/senior_female_recovered_imported_case-83f2832b4150fd75665d429ab378837017aa38a12c3e5ea574cd934d2e6f9a4b.png"},
-{"id":"Case 14","label":"Case 14","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_imported_case-26c7a6e12f5a25941d41d3acf7e58b1050f90fee005680d3cfdf01e2d90b8c36.png"},
-{"id":"Case 15","label":"Case 15","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_imported_case-d9efe1eaf95f31eb334038587c643fe9a0ecbf52ba00ff58d248df490d12c9a2.png"},
-{"id":"Case 16","label":"Case 16","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_imported_case-26c7a6e12f5a25941d41d3acf7e58b1050f90fee005680d3cfdf01e2d90b8c36.png"},
-{"id":"Case 17","label":"Case 17","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_imported_case-d9efe1eaf95f31eb334038587c643fe9a0ecbf52ba00ff58d248df490d12c9a2.png"},
-{"id":"Case 25","label":"Case 25","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 19","label":"Case 19","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 20","label":"Case 20","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 21","label":"Case 21","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 22","label":"Case 22","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_imported_case-26c7a6e12f5a25941d41d3acf7e58b1050f90fee005680d3cfdf01e2d90b8c36.png"},
-{"id":"Case 23","label":"Case 23","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/teenager_male_recovered_imported_case-1738325597097acbf1098986e8a0f279fd0ed0eadc69e7097207e02c09f83878.png"},
-{"id":"Case 24","label":"Case 24","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 26","label":"Case 26","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_imported_case-d9efe1eaf95f31eb334038587c643fe9a0ecbf52ba00ff58d248df490d12c9a2.png"},
-{"id":"Case 27","label":"Case 27","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 28","label":"Case 28","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/baby_male_recovered_local_transmission-237b3ef82f88c9ffe377a53cf7fa4527a9fc69c968226cb6742dac2d0cb4d3cd.png"},
-{"id":"Case 29","label":"Case 29","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 30","label":"Case 30","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 31","label":"Case 31","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 32","label":"Case 32","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 34","label":"Case 34","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 35","label":"Case 35","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_local_transmission-ceb3e993549b274de07f3de16a02ef579c962abf5f72f8f3dc8b0fa61eafed66.png"},
-{"id":"Case 36","label":"Case 36","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 37","label":"Case 37","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 38","label":"Case 38","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 65","label":"Case 65","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/senior_female_recovered_local_transmission-600ca3e834132e9acb9fc1c091d4c2c1a6e66f7dc2b94d24a730d0ad087076c2.png"},
-{"id":"Case 72","label":"Case 72","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 66","label":"Case 66","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 67","label":"Case 67","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 68","label":"Case 68","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/senior_female_recovered_local_transmission-600ca3e834132e9acb9fc1c091d4c2c1a6e66f7dc2b94d24a730d0ad087076c2.png"},
-{"id":"Case 69","label":"Case 69","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 70","label":"Case 70","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 39","label":"Case 39","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 40","label":"Case 40","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 41","label":"Case 41","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_local_transmission-ceb3e993549b274de07f3de16a02ef579c962abf5f72f8f3dc8b0fa61eafed66.png"},
-{"id":"Case 42","label":"Case 42","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_local_transmission-b53afad207f902245c83204d4e9580731bec74714ead0f1b76a37b792769b8c7.png"},
-{"id":"Case 43","label":"Case 43","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 90","label":"Case 90","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_local_transmission-fb9680fac59009b1437f10773c9105eaeac4df94ae02c35afe21f111601af39c.png"},
-{"id":"Case 44","label":"Case 44","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 45","label":"Case 45","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/baby_female_recovered_imported_case-96bba05cf57978dfa857959e881777745cad0c00b324587654e39cfb48ed73d0.png"},
-{"id":"Case 46","label":"Case 46","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 47","label":"Case 47","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 48","label":"Case 48","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 49","label":"Case 49","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 50","label":"Case 50","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/senior_male_recovered_local_transmission-22624f5430adf5af444ae9a20a4eea6da5f7d19f23be3e42e72b221b84e13cc3.png"},
-{"id":"Case 51","label":"Case 51","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 52","label":"Case 52","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 53","label":"Case 53","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_local_transmission-b53afad207f902245c83204d4e9580731bec74714ead0f1b76a37b792769b8c7.png"},
-{"id":"Case 54","label":"Case 54","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 55","label":"Case 55","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 56","label":"Case 56","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 57","label":"Case 57","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 58","label":"Case 58","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 59","label":"Case 59","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/senior_male_recovered_local_transmission-22624f5430adf5af444ae9a20a4eea6da5f7d19f23be3e42e72b221b84e13cc3.png"},
-{"id":"Case 60","label":"Case 60","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 61","label":"Case 61","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 71","label":"Case 71","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 115","label":"Case 115","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_local_transmission-fb9680fac59009b1437f10773c9105eaeac4df94ae02c35afe21f111601af39c.png"},
-{"id":"Case 73","label":"Case 73","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 74","label":"Case 74","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 75","label":"Case 75","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/senior_female_recovered_local_transmission-600ca3e834132e9acb9fc1c091d4c2c1a6e66f7dc2b94d24a730d0ad087076c2.png"},
-{"id":"Case 76","label":"Case 76","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/baby_male_recovered_imported_case-5479f6e3a25113b4d951b6f6482ea450d7b97dcbba2f8601919c336fdbe56eac.png"},
-{"id":"Case 77","label":"Case 77","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 78","label":"Case 78","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 79","label":"Case 79","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 80","label":"Case 80","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 81","label":"Case 81","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 82","label":"Case 82","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 83","label":"Case 83","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 84","label":"Case 84","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 85","label":"Case 85","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 86","label":"Case 86","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 87","label":"Case 87","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_imported_case-26c7a6e12f5a25941d41d3acf7e58b1050f90fee005680d3cfdf01e2d90b8c36.png"},
-{"id":"Case 88","label":"Case 88","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 89","label":"Case 89","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 91","label":"Case 91","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_female_recovered_local_transmission-63b4b173cb252424668653f4372fd2611eb78894d4acb875c5c386606698ce39.png"},
-{"id":"Case 93","label":"Case 93","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 94","label":"Case 94","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_local_transmission-fb9680fac59009b1437f10773c9105eaeac4df94ae02c35afe21f111601af39c.png"},
-{"id":"Case 95","label":"Case 95","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_local_transmission-b53afad207f902245c83204d4e9580731bec74714ead0f1b76a37b792769b8c7.png"},
-{"id":"Case 96","label":"Case 96","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/child_male_recovered_local_transmission-68036a2d63bdeea9c84d6b5256be23c83801fcd411a9fba0567a90457810c7f0.png"},
-{"id":"Case 97","label":"Case 97","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 98","label":"Case 98","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 99","label":"Case 99","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_local_transmission-b53afad207f902245c83204d4e9580731bec74714ead0f1b76a37b792769b8c7.png"},
-{"id":"Case 100","label":"Case 100","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_local_transmission-b53afad207f902245c83204d4e9580731bec74714ead0f1b76a37b792769b8c7.png"},
-{"id":"Case 101","label":"Case 101","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_local_transmission-ceb3e993549b274de07f3de16a02ef579c962abf5f72f8f3dc8b0fa61eafed66.png"},
-{"id":"Case 102","label":"Case 102","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 103","label":"Case 103","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 123","label":"Case 123","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 104","label":"Case 104","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 105","label":"Case 105","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_local_transmission-b53afad207f902245c83204d4e9580731bec74714ead0f1b76a37b792769b8c7.png"},
-{"id":"Case 107","label":"Case 107","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/senior_female_recovered_local_transmission-600ca3e834132e9acb9fc1c091d4c2c1a6e66f7dc2b94d24a730d0ad087076c2.png"},
-{"id":"Case 108","label":"Case 108","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 109","label":"Case 109","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_local_transmission-ceb3e993549b274de07f3de16a02ef579c962abf5f72f8f3dc8b0fa61eafed66.png"},
-{"id":"Case 110","label":"Case 110","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 113","label":"Case 113","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 114","label":"Case 114","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_local_transmission-ceb3e993549b274de07f3de16a02ef579c962abf5f72f8f3dc8b0fa61eafed66.png"},
-{"id":"Case 124","label":"Case 124","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_imported_case-15e62c9b9faa5ca74dedf70bc17c2628ad9796e7e31aa66ac6838f4f4b8fd670.png"},
-{"id":"Case 116","label":"Case 116","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 117","label":"Case 117","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 118","label":"Case 118","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 119","label":"Case 119","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_local_transmission-b53afad207f902245c83204d4e9580731bec74714ead0f1b76a37b792769b8c7.png"},
-{"id":"Case 120","label":"Case 120","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_local_transmission-fb9680fac59009b1437f10773c9105eaeac4df94ae02c35afe21f111601af39c.png"},
-{"id":"Case 121","label":"Case 121","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 122","label":"Case 122","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_local_transmission-fb9680fac59009b1437f10773c9105eaeac4df94ae02c35afe21f111601af39c.png"},
-{"id":"Case 125","label":"Case 125","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_local_transmission-fb9680fac59009b1437f10773c9105eaeac4df94ae02c35afe21f111601af39c.png"},
-{"id":"Case 126","label":"Case 126","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_local_transmission-ceb3e993549b274de07f3de16a02ef579c962abf5f72f8f3dc8b0fa61eafed66.png"},
-{"id":"Case 127","label":"Case 127","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_local_transmission-fb9680fac59009b1437f10773c9105eaeac4df94ae02c35afe21f111601af39c.png"},
-{"id":"Case 128","label":"Case 128","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_local_transmission-ceb3e993549b274de07f3de16a02ef579c962abf5f72f8f3dc8b0fa61eafed66.png"},
-{"id":"Case 129","label":"Case 129","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_local_transmission-fb9680fac59009b1437f10773c9105eaeac4df94ae02c35afe21f111601af39c.png"},
-{"id":"Case 191","label":"Case 191","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 130","label":"Case 130","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_local_transmission-ceb3e993549b274de07f3de16a02ef579c962abf5f72f8f3dc8b0fa61eafed66.png"},
-{"id":"Case 131","label":"Case 131","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_local_transmission-ceb3e993549b274de07f3de16a02ef579c962abf5f72f8f3dc8b0fa61eafed66.png"},
-{"id":"Case 132","label":"Case 132","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_imported_case-15e62c9b9faa5ca74dedf70bc17c2628ad9796e7e31aa66ac6838f4f4b8fd670.png"},
-{"id":"Case 133","label":"Case 133","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_local_transmission-fb9680fac59009b1437f10773c9105eaeac4df94ae02c35afe21f111601af39c.png"},
-{"id":"Case 134","label":"Case 134","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 135","label":"Case 135","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_local_transmission-b53afad207f902245c83204d4e9580731bec74714ead0f1b76a37b792769b8c7.png"},
-{"id":"Case 136","label":"Case 136","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 137","label":"Case 137","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_local_transmission-b53afad207f902245c83204d4e9580731bec74714ead0f1b76a37b792769b8c7.png"},
-{"id":"Case 139","label":"Case 139","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_local_transmission-ceb3e993549b274de07f3de16a02ef579c962abf5f72f8f3dc8b0fa61eafed66.png"},
-{"id":"Case 140","label":"Case 140","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_local_transmission-fb9680fac59009b1437f10773c9105eaeac4df94ae02c35afe21f111601af39c.png"},
-{"id":"Case 141","label":"Case 141","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_local_transmission-ceb3e993549b274de07f3de16a02ef579c962abf5f72f8f3dc8b0fa61eafed66.png"},
-{"id":"Case 142","label":"Case 142","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_local_transmission-b53afad207f902245c83204d4e9580731bec74714ead0f1b76a37b792769b8c7.png"},
-{"id":"Case 143","label":"Case 143","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_local_transmission-b53afad207f902245c83204d4e9580731bec74714ead0f1b76a37b792769b8c7.png"},
-{"id":"Case 192","label":"Case 192","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 144","label":"Case 144","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 145","label":"Case 145","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_local_transmission-fb9680fac59009b1437f10773c9105eaeac4df94ae02c35afe21f111601af39c.png"},
-{"id":"Case 179","label":"Case 179","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_local_transmission-fb9680fac59009b1437f10773c9105eaeac4df94ae02c35afe21f111601af39c.png"},
-{"id":"Case 180","label":"Case 180","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_imported_case-b82dc42ddcfbd0288e9a83658bb1e059acfd8a80ecd39db246bbcbd53627f24c.png"},
-{"id":"Case 181","label":"Case 181","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_imported_case-b82dc42ddcfbd0288e9a83658bb1e059acfd8a80ecd39db246bbcbd53627f24c.png"},
-{"id":"Case 182","label":"Case 182","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_imported_case-4384aac5b5848cfdabacd087b52ba3f05f76da34ccac88c081d2987b9bc89839.png"},
-{"id":"Case 183","label":"Case 183","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 185","label":"Case 185","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_local_transmission-b53afad207f902245c83204d4e9580731bec74714ead0f1b76a37b792769b8c7.png"},
-{"id":"Case 186","label":"Case 186","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_local_transmission-ceb3e993549b274de07f3de16a02ef579c962abf5f72f8f3dc8b0fa61eafed66.png"},
-{"id":"Case 173","label":"Case 173","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 178","label":"Case 178","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 172","label":"Case 172","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 174","label":"Case 174","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_local_transmission-fb9680fac59009b1437f10773c9105eaeac4df94ae02c35afe21f111601af39c.png"},
-{"id":"Case 177","label":"Case 177","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 184","label":"Case 184","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_local_transmission-b53afad207f902245c83204d4e9580731bec74714ead0f1b76a37b792769b8c7.png"},
-{"id":"Case 146","label":"Case 146","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_local_transmission-fb9680fac59009b1437f10773c9105eaeac4df94ae02c35afe21f111601af39c.png"},
-{"id":"Case 148","label":"Case 148","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/senior_female_recovered_local_transmission-600ca3e834132e9acb9fc1c091d4c2c1a6e66f7dc2b94d24a730d0ad087076c2.png"},
-{"id":"Case 149","label":"Case 149","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_male_in_hospital_local_transmission-ceb3e993549b274de07f3de16a02ef579c962abf5f72f8f3dc8b0fa61eafed66.png"},
-{"id":"Case 153","label":"Case 153","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_imported_case-4384aac5b5848cfdabacd087b52ba3f05f76da34ccac88c081d2987b9bc89839.png"},
-{"id":"Case 155","label":"Case 155","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 164","label":"Case 164","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 166","label":"Case 166","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_local_transmission-55b5ae66b5413e00158ba4d241e38bb1d5d74375e80d4eb69e2a6c17577714f1.png"},
-{"id":"Case 171","label":"Case 171","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 187","label":"Case 187","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 188","label":"Case 188","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 111","label":"Case 111","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#7BE141","image":"/assets/icons/adult_male_recovered_local_transmission-0e049d72453501a6a8d062efba9b93018dd4e70a088e7d2b622321cf3dae060c.png"},
-{"id":"Case 189","label":"Case 189","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 190","label":"Case 190","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_local_transmission-b53afad207f902245c83204d4e9580731bec74714ead0f1b76a37b792769b8c7.png"},
-{"id":"Case 193","label":"Case 193","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 194","label":"Case 194","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_female_in_hospital_imported_case-15e62c9b9faa5ca74dedf70bc17c2628ad9796e7e31aa66ac6838f4f4b8fd670.png"},
-{"id":"Case 195","label":"Case 195","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 196","label":"Case 196","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_local_transmission-fb9680fac59009b1437f10773c9105eaeac4df94ae02c35afe21f111601af39c.png"},
-{"id":"Case 197","label":"Case 197","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 198","label":"Case 198","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_local_transmission-fb9680fac59009b1437f10773c9105eaeac4df94ae02c35afe21f111601af39c.png"},
-{"id":"Case 199","label":"Case 199","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/adult_male_in_hospital_imported_case-19b549abe0227fc58b5b9ec8dca8ca7d52572bab185f30749479b9a2685df8ab.png"},
-{"id":"Case 200","label":"Case 200","font":{"size":16,"multi":"md","align":"center"},"shape":"image","color":"#97C2FC","image":"/assets/icons/senior_female_in_hospital_local_transmission-fb9680fac59009b1437f10773c9105eaeac4df94ae02c35afe21f111601af39c.png"},
-{"id":"Cluster 1","label":"Cases Imported From Overseas","shape":"image","color":{"border":"#FB7E81"},"size":70,"borderWidth":3,"image":"/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdUFEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--afc856af186c576bf65a234b46018087439ed0d8/icon-airplane.png"},
-{"id":"Cluster 2","label":"Singaporeans evacuated from Wuhan on 30\nJan","shape":"image","color":{"border":"#FB7E81"},"size":70,"borderWidth":3,"image":"/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdUVEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--1d1ca7612836f3d9bc385d055d6aa6873f2de4c5/icon-airplane.png"},
-{"id":"Cluster 3","label":"Singaporeans evacuated from Wuhan on 9\nFeb","shape":"image","color":{"border":"#FB7E81"},"size":70,"borderWidth":3,"image":"/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdUlEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--54d09f56645ae4ffca01720ba65a11beed69cafd/icon-airplane.png"},
-{"id":"Cluster 4","label":"Tour Group From\nGuangxi to Yong Thai Hang","shape":"circularImage","color":{"border":"#FB7E81"},"size":70,"borderWidth":3,"image":"/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdU1EIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--dc15a73aaace893d28dc8b801f20566c530c81de/Yong-Thai-Heng.jpg"},
-{"id":"Cluster 5","label":"Private Business Meeting at Grand Hyatt\nSingapore","shape":"circularImage","color":{"border":"#FB7E81"},"size":70,"borderWidth":3,"image":"/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdVFEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c451e705932d885cda2854e99af51f461aac0ca9/grand-hyatt-suite-singapore-hotel-6983.jpg"},
-{"id":"Cluster 6","label":"The Life Church and Missions Singapore","shape":"circularImage","color":{"border":"#FB7E81"},"size":70,"borderWidth":3,"image":"/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdVVEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--358a77521086e081109a6227384e29ce8b6b4804/fh-church-09_0.jpg"},
-{"id":"Cluster 7","label":"CNY family gathering at Mei Hwan Drive\n25 Jan","shape":"circularImage","color":{"border":"#FB7E81"},"size":70,"borderWidth":3,"image":"/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdVlEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--16829e760105e9e2b4334e8f0c73bf81817f9e3e/mei-hwan-drive.jpg"},
-{"id":"Cluster 8","label":"Seletar Aerospace Heights construction\nsite","shape":"circularImage","color":{"border":"#FB7E81"},"size":70,"borderWidth":3,"image":"/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdWNEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8125d4d292fce3bc8198a4fe7d2ab2370e5f0609/seletar-aerospace-heights.png"},
-{"id":"Cluster 9","label":"Grace Assembly of God","shape":"circularImage","color":{"border":"#FB7E81"},"size":70,"borderWidth":3,"image":"/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdWdEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4623a7801bdf726ae6fb7344430e32a97862d230/yq-assmb12022022.jpg"},
-{"id":"Cluster 10","label":"Wizlearn Technologies Pte Ltd","shape":"circularImage","color":{"border":"#FB7E81"},"size":70,"borderWidth":3,"image":"/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdWtEIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5ee7e832ad676cfaa2c9db795acc6c24bf86e15d/wizlearn.jpg"},
-{"id":"Cluster 11","label":"Private dinner function at SAFRA Jurong","shape":"circularImage","color":{"border":"#FB7E81"},"size":70,"borderWidth":3,"image":"/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdW9EIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--feadcb842990ca4965bb79f6a21c1fc337dc36ad/safra-jurong.jpg"},
-{"id":"unknown","label":"Unknown","shape":"star","color":"grey","hidden":true,"value":1}],
-
-"edges":[{"from":"Cluster 7","to":"Case 151","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{},"color":null},{"from":"Case 155","to":"Case 128","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 160","to":"Case 145","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 162","to":"Case 142","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 163","to":"Case 142","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 167","to":"Case 178","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 169","to":"Case 165","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 169","to":"Case 175","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 173","to":"Case 165","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 173","to":"Case 175","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 175","to":"Case 165","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 151","to":"Case 66","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 157","to":"Case 137","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 161","to":"Case 107","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 164","to":"Case 134","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 169","to":"Case 173","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Cluster 1","to":"Case 1","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 1","to":"Case 2","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 1","to":"Case 3","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 1","to":"Case 4","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 1","to":"Case 5","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 1","to":"Case 6","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 1","to":"Case 7","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 1","to":"Case 8","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 1","to":"Case 9","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 1","to":"Case 10","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 1","to":"Case 11","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 1","to":"Case 12","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 1","to":"Case 13","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 1","to":"Case 14","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 1","to":"Case 16","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 1","to":"Case 18","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 1","to":"Case 26","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Case 3","to":"Case 1","label":"Father - Son","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 9","to":"Case 8","label":"Husband - Wife","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 11","to":"Case 4","label":"Travelling Companion","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 13","to":"Case 2","label":"Close Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 13","to":"Case 26","label":"Daughter - Mother","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 13","to":"Case 44","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":"#FB7E81"},{"from":"Case 26","to":"Case 44","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":"#FB7E81"},{"from":"Case 44","to":"Case 13","label":"Close Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 44","to":"Case 26","label":"Close Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Cluster 1","to":"Cluster 2","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 2","to":"Case 15","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 2","to":"Case 17","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 2","to":"Case 22","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 2","to":"Case 23","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 2","to":"Case 45","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Case 15","to":"Case 23","label":"Mother - Son","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Cluster 1","to":"Cluster 3","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 3","to":"Case 76","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 3","to":"Case 87","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Case 76","to":"Case 87","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 18","to":"Case 12","label":"Travelling Companion","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Cluster 1","to":"Cluster 4","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 4","to":"Case 19","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 4","to":"Case 20","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 4","to":"Case 24","label":"Tour Guide","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 4","to":"Case 25","label":"Worked at Diamond Industries\nJewellery Company at Harbour\nDrive which was visited by the\nsame tour group from Guangxi","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 4","to":"Case 34","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 4","to":"Case 40","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Case 20","to":"Case 19","label":"Colleagues","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 20","to":"Case 40","label":"Colleagues","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 34","to":"Case 20","label":"Colleagues","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 40","to":"Case 34","label":"Colleagues","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 19","to":"Case 40","label":"Colleagues","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 34","to":"Case 19","label":"Colleagues","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 25","to":"Case 24","label":"Husband - Wife","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 19","to":"Case 21","label":"Foreign Domestic Worker","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{"to":{"enabled":true,"type":"vee","scaleFactor":"0.5"}},"color":"grey"},{"from":"Case 27","to":"Case 19","label":"Husband - Wife","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 28","to":"Case 19","label":"Mother - Son","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 28","to":"Case 27","label":"Father - Son","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 19","to":"Case 21","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":"#FB7E81"},{"from":"Case 19","to":"Case 27","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":"#FB7E81"},{"from":"Case 19","to":"Case 28","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":"#FB7E81"},{"from":"Cluster 5","to":"Case 30","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 5","to":"Case 36","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 5","to":"Case 39","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 6","to":"Case 31","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 6","to":"Case 33","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 6","to":"Case 38","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 6","to":"Case 83","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 6","to":"Case 90","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 6","to":"Case 91","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Case 8","to":"Cluster 6","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":"#FB7E81"},{"from":"Case 9","to":"Cluster 6","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":"#FB7E81"},{"from":"Case 91","to":"Case 83","label":"Husband - Wife","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 91","to":"Cluster 7","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":"#FB7E81"},{"from":"Cluster 7","to":"Case 66","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 7","to":"Case 68","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 7","to":"Case 70","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 7","to":"Case 71","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 7","to":"Case 80","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 7","to":"Case 84","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 7","to":"Case 88","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Case 138","to":"Case 66","label":"Close Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 138","to":"Case 83","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 138","to":"Case 91","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Cluster 8","to":"Case 42","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 8","to":"Case 47","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 8","to":"Case 52","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 8","to":"Case 56","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 8","to":"Case 69","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Case 47","to":"Case 42","label":"Close Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 52","to":"Case 42","label":"Close Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 56","to":"Case 42","label":"Close Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 69","to":"Case 42","label":"Close Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 52","to":"Case 47","label":"Close Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 56","to":"Case 47","label":"Close Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 69","to":"Case 47","label":"Close Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 56","to":"Case 52","label":"Close Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 69","to":"Case 52","label":"Close Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 69","to":"Case 56","label":"Close Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 66","to":"Cluster 9","label":"Attendee","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":"#FB7E81"},{"from":"Cluster 9","to":"Case 48","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 49","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 51","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 53","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 54","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 57","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 58","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 60","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 61","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 62","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 63","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 67","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 68","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 70","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 71","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 73","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 74","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 78","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 80","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 81","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 84","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 9","to":"Case 88","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Case 61","to":"Case 67","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 68","to":"Case 66","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 70","to":"Case 66","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 70","to":"Case 68","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 71","to":"Case 66","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 51","to":"Case 73","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 70","to":"Case 71","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 84","to":"Case 66","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 80","to":"Case 60","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 88","to":"Case 66","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 55","to":"Case 50","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 65","to":"Case 50","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 65","to":"Case 55","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 77","to":"Case 50","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 72","to":"Case 59","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 79","to":"Case 72","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 41","to":"Case 75","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 86","to":"Case 82","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Cluster 10","to":"Case 93","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 10","to":"Case 95","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 10","to":"Case 97","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 10","to":"Case 102","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 10","to":"Case 106","label":"Worked on the same floor","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Cluster 10","to":"Case 110","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Case 95","to":"Case 93","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 97","to":"Case 93","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 98","to":"Case 93","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 97","to":"Case 95","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 98","to":"Case 95","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 98","to":"Case 97","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 99","to":"Case 93","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 100","to":"Case 93","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 101","to":"Case 93","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 101","to":"Case 102","label":"Foreign domestic worker","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{"to":{"enabled":true,"type":"vee","scaleFactor":"1.0"}},"color":"grey"},{"from":"Case 103","to":"Case 93","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 103","to":"Case 101","label":"Close Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 103","to":"Case 104","label":"Foreign domestic worker","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{"to":{"enabled":true,"type":"vee","scaleFactor":"1.0"}},"color":"grey"},{"from":"Case 105","to":"Case 95","label":"Business meeting at Toa Payoh\nHub (490 Lorong 6 Toa Payoh)","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 101","to":"Case 108","label":"Foreign domestic worker","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{"to":{"enabled":true,"type":"vee","scaleFactor":"1.0"}},"color":"grey"},{"from":"Case 108","to":"Case 102","label":"Works in same household","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 110","to":"Case 93","label":"Colleague","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Cluster 11","to":"Case 94","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 96","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 107","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 115","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 116","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 117","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 120","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 121","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 125","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 128","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 129","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 130","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 131","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 134","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 137","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 139","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 140","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 142","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 144","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 145","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 146","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 149","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Cluster 11","to":"Case 150","label":"","font":{"align":"horizontal","size":8},"dashes":false,"arrows":{"to":{"enabled":true,"type":"arrow","scaleFactor":"1.0"}},"color":null},{"from":"Case 96","to":"Case 94","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 107","to":"Case 94","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 112","to":"Case 94","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 114","to":"Case 115","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 118","to":"Case 115","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 118","to":"Case 114","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 122","to":"Case 117","label":"Close Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 128","to":"Case 125","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 117","to":"Case 127","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 130","to":"Case 129","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 140","to":"Case 139","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 142","to":"Case 139","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 142","to":"Case 140","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 144","to":"Case 140","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 166","to":"Case 134","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 145","to":"Case 134","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 146","to":"Case 134","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 148","to":"Case 107","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 150","to":"Case 115","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 150","to":"Case 134","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 126","to":"Case 109","label":"Stayed in same ward","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 143","to":"Case 132","label":"Family member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 151","to":"Case 91","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 159","to":"Case 158","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 170","to":"Case 152","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 172","to":"Case 184","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 179","to":"Case 121","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 181","to":"Case 182","label":"Family Member","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 185","to":"Case 142","label":"","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 186","to":"Case 166","label":"","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"Case 174","to":"Case 122","label":"Contact","font":{"align":"horizontal","size":8},"dashes":true,"arrows":{},"color":"grey"},{"from":"unknown","to":"Case 1","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 2","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 3","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 4","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 5","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 163","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 165","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 152","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 162","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 167","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 168","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 170","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 92","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 154","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 169","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 147","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 12","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 175","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 176","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 6","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 7","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 64","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 10","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 11","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 18","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 13","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 14","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 16","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 26","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 29","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 32","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 35","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 37","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 65","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 72","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 41","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 43","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 46","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 50","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 55","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 59","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 75","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 77","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 79","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 82","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 85","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 86","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 89","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 123","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 109","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 113","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 124","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 119","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 126","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 191","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 132","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 135","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 136","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 141","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 143","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 192","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 179","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 180","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 181","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 182","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 183","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 185","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 186","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 173","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 178","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 172","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 174","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 177","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 184","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 153","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 171","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 187","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 188","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 111","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 189","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 190","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 193","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 194","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 195","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 196","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 197","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 198","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 199","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false},{"from":"unknown","to":"Case 200","label":"","font":{"align":"horizontal","size":10},"dashes":true,"color":{"color":"grey"},"hidden":true,"physics":false}]}
+[
+  {
+    "id": "Cluster1",
+    "label": "Cases Imported From Wuhan",
+    "root_id": "Cluster1",
+    "secondary_root_id": "",
+    "connections": "1, 2 ,3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 18, 26, Cluster2, Cluster3, Cluster4",
+    "link type": ""
+  },
+  {
+    "id": "Cluster2",
+    "label": "Singaporeans evacuated from Wuhan on 30 Jan",
+    "root_id": "Cluster2",
+    "secondary_root_id": "",
+    "connections": "15, 17, 22, 23, 45",
+    "link type": ""
+  },
+  {
+    "id": "Cluster3",
+    "label": "Singaporeans evacuated from Wuhan on 9 Feb",
+    "root_id": "Cluster3",
+    "secondary_root_id": "",
+    "connections": "76, 87",
+    "link type": ""
+  },
+  {
+    "id": "Cluster4",
+    "label": "Tour Group From Guangxi to Yong Thai Hang",
+    "root_id": "Cluster4",
+    "secondary_root_id": "",
+    "connections": "19, 20, 24, 25, 34, 40",
+    "link type": "employee, employee, tour guide, employee at visited location, employee"
+  },
+  {
+    "id": "Cluster5",
+    "label": "Private Business Meeting at Grand Hyatt Singapore",
+    "root_id": "Cluster5",
+    "secondary_root_id": "",
+    "connections": "30, 36, 39",
+    "link type": "attendee, attendee, attendee"
+  },
+  {
+    "id": "Cluster6",
+    "label": "The Life Church and Missions Singapore",
+    "root_id": "Cluster6",
+    "secondary_root_id": "",
+    "connections": "FROM8, FROM9, 31, 33, 38, 83, 90, 91",
+    "link type": "attendee, attendee, attendee, attendee, attendee, attendee"
+  },
+  {
+    "id": "Cluster7",
+    "label": "CNY family gathering at Mei Hwan Drive",
+    "root_id": "Cluster7",
+    "secondary_root_id": "",
+    "connections": "66, 68, 70, 71, 80, 84, 88, 151",
+    "link type": "attendee, attendee, attendee, attendee, attendee, attendee, attendee, attendee"
+  },
+  {
+    "id": "Cluster8",
+    "label": "Seletar Aerospace Heights construction site",
+    "root_id": "Cluster8",
+    "secondary_root_id": "",
+    "connections": "42, 47, 52, 56, 69",
+    "link type": ""
+  },
+  {
+    "id": "Cluster9",
+    "label": "Grace Assembly of God",
+    "root_id": "Cluster9",
+    "secondary_root_id": "",
+    "connections": "48, 49, 51, 53, 54, 57, 58, 60, 61, 62, 63, 67, 68, 70, 71, 73, 74, 78, 80, 81, 84, 88",
+    "link type": ""
+  },
+  {
+    "id": "Cluster10",
+    "label": "Wizlearn Technologies Pte Ltd",
+    "root_id": "Cluster10",
+    "secondary_root_id": "",
+    "connections": "93, 95, 97, 102, 106, 110",
+    "link type": ", , , , worked on same floor,"
+  },
+  {
+    "id": "Cluster11",
+    "label": "Private dinner function at SAFRA Jurong",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "94, 96, 107, 115, 116, 117, 120, 121, 125, 128, 129, 130, 131, 134, 137, 139, 140, 142, 144, 145, 146, 149, 150, 156, 158, 159, 201, 218",
+    "link type": ""
+  },
+  {
+    "id": "Cluster12",
+    "label": "Church of Singapore (Bukit Timah)",
+    "root_id": "Cluster12",
+    "secondary_root_id": "",
+    "connections": "FROM144, 208, 214, 235",
+    "link type": ""
+  },
+  {
+    "id": "Cluster13",
+    "label": "boulder+ Gym",
+    "root_id": "Cluster13",
+    "secondary_root_id": "",
+    "connections": "FROM142, 162, 163, 305, 345, 443",
+    "link type": ""
+  },
+  {
+    "id": "Imported",
+    "label": "Cases Imported From Overseas",
+    "root_id": "Imported",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Unlinked",
+    "label": "Unlinked Local Transmission",
+    "root_id": "Unlinked",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case1",
+    "label": "Case 1",
+    "root_id": "Cluster1",
+    "secondary_root_id": "",
+    "connections": 3,
+    "link type": "family"
+  },
+  {
+    "id": "Case2",
+    "label": "Case 2",
+    "root_id": "Cluster1",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case3",
+    "label": "Case 3",
+    "root_id": "Cluster1",
+    "secondary_root_id": "",
+    "connections": 1,
+    "link type": "family"
+  },
+  {
+    "id": "Case4",
+    "label": "Case 4",
+    "root_id": "Cluster1",
+    "secondary_root_id": "",
+    "connections": 11,
+    "link type": "travelling companion"
+  },
+  {
+    "id": "Case5",
+    "label": "Case 5",
+    "root_id": "Cluster1",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case6",
+    "label": "Case 6",
+    "root_id": "Cluster1",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case7",
+    "label": "Case 7",
+    "root_id": "Cluster1",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case8",
+    "label": "Case 8",
+    "root_id": "Cluster1",
+    "secondary_root_id": "Cluster6",
+    "connections": 9,
+    "link type": "family"
+  },
+  {
+    "id": "Case9",
+    "label": "Case 9",
+    "root_id": "Cluster1",
+    "secondary_root_id": "Cluster6",
+    "connections": 8,
+    "link type": "family"
+  },
+  {
+    "id": "Case10",
+    "label": "Case 10",
+    "root_id": "Cluster1",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case11",
+    "label": "Case 11",
+    "root_id": "Cluster1",
+    "secondary_root_id": "",
+    "connections": 4,
+    "link type": "travelling companion"
+  },
+  {
+    "id": "Case12",
+    "label": "Case 12",
+    "root_id": "Cluster1",
+    "secondary_root_id": "",
+    "connections": 18,
+    "link type": "travelling companion"
+  },
+  {
+    "id": "Case13",
+    "label": "Case 13",
+    "root_id": "Cluster1",
+    "secondary_root_id": "",
+    "connections": "2,26, 44",
+    "link type": "contact, family, contact"
+  },
+  {
+    "id": "Case14",
+    "label": "Case 14",
+    "root_id": "Cluster1",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case15",
+    "label": "Case 15",
+    "root_id": "Cluster2",
+    "secondary_root_id": "",
+    "connections": 23,
+    "link type": "family"
+  },
+  {
+    "id": "Case16",
+    "label": "Case 16",
+    "root_id": "Cluster1",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case17",
+    "label": "Case 17",
+    "root_id": "Cluster2",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case18",
+    "label": "Case 18",
+    "root_id": "Cluster1",
+    "secondary_root_id": "",
+    "connections": 12,
+    "link type": "travelling companion"
+  },
+  {
+    "id": "Case19",
+    "label": "Case 19",
+    "root_id": "Cluster4",
+    "secondary_root_id": "",
+    "connections": "20, 21, 27, 28, 34, 40",
+    "link type": "colleague, foreign domestic worker, family, family, colleague, colleague"
+  },
+  {
+    "id": "Case20",
+    "label": "Case 20",
+    "root_id": "Cluster4",
+    "secondary_root_id": "",
+    "connections": "19, 34, 40",
+    "link type": "colleague, colleaegue, colleague"
+  },
+  {
+    "id": "Case21",
+    "label": "Case 21",
+    "root_id": "Cluster4",
+    "secondary_root_id": "",
+    "connections": 19,
+    "link type": "foreign domestic worker"
+  },
+  {
+    "id": "Case22",
+    "label": "Case 22",
+    "root_id": "Cluster2",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case23",
+    "label": "Case 23",
+    "root_id": "Cluster2",
+    "secondary_root_id": "",
+    "connections": 15,
+    "link type": "family"
+  },
+  {
+    "id": "Case24",
+    "label": "Case 24",
+    "root_id": "Cluster4",
+    "secondary_root_id": "",
+    "connections": 25,
+    "link type": "family"
+  },
+  {
+    "id": "Case25",
+    "label": "Case 25",
+    "root_id": "Cluster4",
+    "secondary_root_id": "",
+    "connections": 24,
+    "link type": "family"
+  },
+  {
+    "id": "Case26",
+    "label": "Case 26",
+    "root_id": "Cluster1",
+    "secondary_root_id": "",
+    "connections": "13, 44",
+    "link type": "family, contact"
+  },
+  {
+    "id": "Case27",
+    "label": "Case 27",
+    "root_id": "Cluster4",
+    "secondary_root_id": "",
+    "connections": "19, 28",
+    "link type": "family, family"
+  },
+  {
+    "id": "Case28",
+    "label": "Case 28",
+    "root_id": "Cluster4",
+    "secondary_root_id": "",
+    "connections": "19, 27",
+    "link type": "family, family"
+  },
+  {
+    "id": "Case29",
+    "label": "Case 29",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case30",
+    "label": "Case 30",
+    "root_id": "Cluster5",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case31",
+    "label": "Case 31",
+    "root_id": "Cluster6",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case32",
+    "label": "Case 32",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case33",
+    "label": "Case 33",
+    "root_id": "Cluster6",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case34",
+    "label": "Case 34",
+    "root_id": "Cluster4",
+    "secondary_root_id": "",
+    "connections": "19, 20, 40",
+    "link type": "colleague, colleague, colleague"
+  },
+  {
+    "id": "Case35",
+    "label": "Case 35",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case36",
+    "label": "Case 36",
+    "root_id": "Cluster5",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case37",
+    "label": "Case 37",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case38",
+    "label": "Case 38",
+    "root_id": "Cluster6",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case39",
+    "label": "Case 39",
+    "root_id": "Cluster5",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case40",
+    "label": "Case 40",
+    "root_id": "Cluster4",
+    "secondary_root_id": "",
+    "connections": "19, 20, 34",
+    "link type": "colleague, colleague, colleague"
+  },
+  {
+    "id": "Case41",
+    "label": "Case 41",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 75,
+    "link type": "family"
+  },
+  {
+    "id": "Case42",
+    "label": "Case 42",
+    "root_id": "Cluster8",
+    "secondary_root_id": "",
+    "connections": "47, 52, 56, 69",
+    "link type": "contact, contact, contact, contact"
+  },
+  {
+    "id": "Case43",
+    "label": "Case 43",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case44",
+    "label": "Case 44",
+    "root_id": "Cluster1",
+    "secondary_root_id": "",
+    "connections": "13, 26",
+    "link type": "contact, contact"
+  },
+  {
+    "id": "Case45",
+    "label": "Case 45",
+    "root_id": "Cluster2",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case46",
+    "label": "Case 46",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case47",
+    "label": "Case 47",
+    "root_id": "Cluster8",
+    "secondary_root_id": "",
+    "connections": "42, 52, 56, 69",
+    "link type": "contact, contact, contact, contact"
+  },
+  {
+    "id": "Case48",
+    "label": "Case 48",
+    "root_id": "Cluster9",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case49",
+    "label": "Case 49",
+    "root_id": "Cluster9",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case50",
+    "label": "Case 50",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "55, 65, 77",
+    "link type": "family, family, contact"
+  },
+  {
+    "id": "Case51",
+    "label": "Case 51",
+    "root_id": "Cluster9",
+    "secondary_root_id": "",
+    "connections": 73,
+    "link type": "contact"
+  },
+  {
+    "id": "Case52",
+    "label": "Case 52",
+    "root_id": "Cluster8",
+    "secondary_root_id": "",
+    "connections": "42, 47, 56, 69",
+    "link type": "contact, contact, contact, contact"
+  },
+  {
+    "id": "Case53",
+    "label": "Case 53",
+    "root_id": "Cluster9",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case54",
+    "label": "Case 54",
+    "root_id": "Cluster9",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case55",
+    "label": "Case 55",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "50, 65",
+    "link type": "family, family"
+  },
+  {
+    "id": "Case56",
+    "label": "Case 56",
+    "root_id": "Cluster8",
+    "secondary_root_id": "",
+    "connections": "42, 47, 52, 69",
+    "link type": "contact, contact, contact, contact"
+  },
+  {
+    "id": "Case57",
+    "label": "Case 57",
+    "root_id": "Cluster9",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case58",
+    "label": "Case 58",
+    "root_id": "Cluster9",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case59",
+    "label": "Case 59",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 72,
+    "link type": "contact"
+  },
+  {
+    "id": "Case60",
+    "label": "Case 60",
+    "root_id": "Cluster9",
+    "secondary_root_id": "",
+    "connections": 80,
+    "link type": "contact"
+  },
+  {
+    "id": "Case61",
+    "label": "Case 61",
+    "root_id": "Cluster9",
+    "secondary_root_id": "",
+    "connections": 67,
+    "link type": "family"
+  },
+  {
+    "id": "Case62",
+    "label": "Case 62",
+    "root_id": "Cluster9",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case63",
+    "label": "Case 63",
+    "root_id": "Cluster9",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case64",
+    "label": "Case 64",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case65",
+    "label": "Case 65",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "50, 55",
+    "link type": "family, family"
+  },
+  {
+    "id": "Case66",
+    "label": "Case 66",
+    "root_id": "Cluster9",
+    "secondary_root_id": "Cluster7",
+    "connections": "68, 70, 71, 84, 88, 138, 151",
+    "link type": "family, family, contact, contact, contact, contact, contact"
+  },
+  {
+    "id": "Case67",
+    "label": "Case 67",
+    "root_id": "Cluster9",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": "family"
+  },
+  {
+    "id": "Case68",
+    "label": "Case 68",
+    "root_id": "Cluster9",
+    "secondary_root_id": "Cluster7",
+    "connections": "66, 70",
+    "link type": "family, family"
+  },
+  {
+    "id": "Case69",
+    "label": "Case 69",
+    "root_id": "Cluster8",
+    "secondary_root_id": "",
+    "connections": "42, 47, 56",
+    "link type": "contact, contact, contact"
+  },
+  {
+    "id": "Case70",
+    "label": "Case 70",
+    "root_id": "Cluster9",
+    "secondary_root_id": "Cluster7",
+    "connections": "66, 68, 71",
+    "link type": "family, family, contact"
+  },
+  {
+    "id": "Case71",
+    "label": "Case 71",
+    "root_id": "Cluster9",
+    "secondary_root_id": "Cluster7",
+    "connections": "66, 70",
+    "link type": "contact, contact"
+  },
+  {
+    "id": "Case72",
+    "label": "Case 72",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "59, 79",
+    "link type": "contact, family"
+  },
+  {
+    "id": "Case73",
+    "label": "Case 73",
+    "root_id": "Cluster9",
+    "secondary_root_id": "",
+    "connections": 51,
+    "link type": "contact"
+  },
+  {
+    "id": "Case74",
+    "label": "Case 74",
+    "root_id": "Cluster9",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case75",
+    "label": "Case 75",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 41,
+    "link type": "family"
+  },
+  {
+    "id": "Case76",
+    "label": "Case 76",
+    "root_id": "Cluster3",
+    "secondary_root_id": "",
+    "connections": 87,
+    "link type": "contact"
+  },
+  {
+    "id": "Case77",
+    "label": "Case 77",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 50,
+    "link type": "contact"
+  },
+  {
+    "id": "Case78",
+    "label": "Case 78",
+    "root_id": "Cluster9",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case79",
+    "label": "Case 79",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 72,
+    "link type": "family"
+  },
+  {
+    "id": "Case80",
+    "label": "Case 80",
+    "root_id": "Cluster9",
+    "secondary_root_id": "Cluster7",
+    "connections": 60,
+    "link type": "contact"
+  },
+  {
+    "id": "Case81",
+    "label": "Case 81",
+    "root_id": "Cluster9",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case82",
+    "label": "Case 82",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 86,
+    "link type": "contact"
+  },
+  {
+    "id": "Case83",
+    "label": "Case 83",
+    "root_id": "Cluster6",
+    "secondary_root_id": "",
+    "connections": "91, 138",
+    "link type": "family, family"
+  },
+  {
+    "id": "Case84",
+    "label": "Case 84",
+    "root_id": "Cluster9",
+    "secondary_root_id": "Cluster7",
+    "connections": 66,
+    "link type": "contact"
+  },
+  {
+    "id": "Case85",
+    "label": "Case 85",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case86",
+    "label": "Case 86",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 82,
+    "link type": "contact"
+  },
+  {
+    "id": "Case87",
+    "label": "Case 87",
+    "root_id": "Cluster3",
+    "secondary_root_id": "",
+    "connections": 76,
+    "link type": "contact"
+  },
+  {
+    "id": "Case88",
+    "label": "Case 88",
+    "root_id": "Cluster9",
+    "secondary_root_id": "Cluster7",
+    "connections": 66,
+    "link type": "contact"
+  },
+  {
+    "id": "Case89",
+    "label": "Case 89",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case90",
+    "label": "Case 90",
+    "root_id": "Cluster6",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case91",
+    "label": "Case 91",
+    "root_id": "Cluster6",
+    "secondary_root_id": "Cluster7",
+    "connections": "83, 138, 151",
+    "link type": "family, family, contact"
+  },
+  {
+    "id": "Case92",
+    "label": "Case 92",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case93",
+    "label": "Case 93",
+    "root_id": "Cluster10",
+    "secondary_root_id": "",
+    "connections": "95, 97, 98, 99, 100, 101, 103, 110",
+    "link type": "contact, contact, contact, contact, contact, contact, family, colleague"
+  },
+  {
+    "id": "Case94",
+    "label": "Case 94",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "96, 107, 112",
+    "link type": "contact, contact, contact"
+  },
+  {
+    "id": "Case95",
+    "label": "Case 95",
+    "root_id": "Cluster10",
+    "secondary_root_id": "",
+    "connections": "93, 97, 98, 105",
+    "link type": "contact, contact, contact, business meeting"
+  },
+  {
+    "id": "Case96",
+    "label": "Case 96",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 94,
+    "link type": "contact"
+  },
+  {
+    "id": "Case97",
+    "label": "Case 97",
+    "root_id": "Cluster10",
+    "secondary_root_id": "",
+    "connections": "93, 95, 98",
+    "link type": "contact, contact, contact"
+  },
+  {
+    "id": "Case98",
+    "label": "Case 98",
+    "root_id": "Cluster10",
+    "secondary_root_id": "",
+    "connections": "93, 95, 97",
+    "link type": "contact, contact, contact"
+  },
+  {
+    "id": "Case99",
+    "label": "Case 99",
+    "root_id": "Cluster10",
+    "secondary_root_id": "",
+    "connections": 93,
+    "link type": "contact"
+  },
+  {
+    "id": "Case100",
+    "label": "Case 100",
+    "root_id": "Cluster10",
+    "secondary_root_id": "",
+    "connections": 93,
+    "link type": "contact"
+  },
+  {
+    "id": "Case101",
+    "label": "Case 101",
+    "root_id": "Cluster10",
+    "secondary_root_id": "",
+    "connections": "93, 102, 103, 108",
+    "link type": "contact, foreign domestic worker, contact, foreign domestic worker"
+  },
+  {
+    "id": "Case102",
+    "label": "Case 102",
+    "root_id": "Cluster10",
+    "secondary_root_id": "",
+    "connections": "101, 108",
+    "link type": "foreign domestic worker, same house"
+  },
+  {
+    "id": "Case103",
+    "label": "Case 103",
+    "root_id": "Cluster10",
+    "secondary_root_id": "",
+    "connections": "93, 101, 104",
+    "link type": "family, contact, foreign domestic worker"
+  },
+  {
+    "id": "Case104",
+    "label": "Case 104",
+    "root_id": "Cluster10",
+    "secondary_root_id": "",
+    "connections": 103,
+    "link type": "foreign domestic worker"
+  },
+  {
+    "id": "Case105",
+    "label": "Case 105",
+    "root_id": "Cluster10",
+    "secondary_root_id": "",
+    "connections": 95,
+    "link type": "business meeting"
+  },
+  {
+    "id": "Case106",
+    "label": "Case 106",
+    "root_id": "Cluster10",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case107",
+    "label": "Case 107",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "94, 148, 161, 196",
+    "link type": "contact, contact, family, contact"
+  },
+  {
+    "id": "Case108",
+    "label": "Case 108",
+    "root_id": "Cluster10",
+    "secondary_root_id": "",
+    "connections": "101, 102",
+    "link type": "foreign domestic worker, same house"
+  },
+  {
+    "id": "Case109",
+    "label": "Case 109",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case110",
+    "label": "Case 110",
+    "root_id": "Cluster10",
+    "secondary_root_id": "",
+    "connections": 93,
+    "link type": "colleague"
+  },
+  {
+    "id": "Case111",
+    "label": "Case 111",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case112",
+    "label": "Case 112",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 94,
+    "link type": "contact"
+  },
+  {
+    "id": "Case113",
+    "label": "Case 113",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case114",
+    "label": "Case 114",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "115, 118",
+    "link type": "family, family"
+  },
+  {
+    "id": "Case115",
+    "label": "Case 115",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "114, 118, 150",
+    "link type": "family, family, contact"
+  },
+  {
+    "id": "Case116",
+    "label": "Case 116",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case117",
+    "label": "Case 117",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "122, 127",
+    "link type": "contact, contact"
+  },
+  {
+    "id": "Case118",
+    "label": "Case 118",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "114, 115",
+    "link type": "family, family"
+  },
+  {
+    "id": "Case119",
+    "label": "Case 119",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case120",
+    "label": "Case 120",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case121",
+    "label": "Case 121",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 179,
+    "link type": "contact"
+  },
+  {
+    "id": "Case122",
+    "label": "Case 122",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 117,
+    "link type": "contact"
+  },
+  {
+    "id": "Case123",
+    "label": "Case 123",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case124",
+    "label": "Case 124",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case125",
+    "label": "Case 125",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 128,
+    "link type": "family"
+  },
+  {
+    "id": "Case126",
+    "label": "Case 126",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 109,
+    "link type": "same ward"
+  },
+  {
+    "id": "Case127",
+    "label": "Case 127",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 117,
+    "link type": "contact"
+  },
+  {
+    "id": "Case128",
+    "label": "Case 128",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "125, 155",
+    "link type": "family, contact"
+  },
+  {
+    "id": "Case129",
+    "label": "Case 129",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 130,
+    "link type": "contact"
+  },
+  {
+    "id": "Case130",
+    "label": "Case 130",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 129,
+    "link type": "contact"
+  },
+  {
+    "id": "Case131",
+    "label": "Case 131",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case132",
+    "label": "Case 132",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 143,
+    "link type": "family"
+  },
+  {
+    "id": "Case133",
+    "label": "Case 133",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case134",
+    "label": "Case 134",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "145, 146, 150, 164, 166",
+    "link type": "contact, contact, contact, contact, contact"
+  },
+  {
+    "id": "Case135",
+    "label": "Case 135",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case136",
+    "label": "Case 136",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case137",
+    "label": "Case 137",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 157,
+    "link type": "contact"
+  },
+  {
+    "id": "Case138",
+    "label": "Case 138",
+    "root_id": "Cluster6",
+    "secondary_root_id": "Cluster7",
+    "connections": "66, 83, 91",
+    "link type": "contact, family, family"
+  },
+  {
+    "id": "Case139",
+    "label": "Case 139",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "140, 142",
+    "link type": "family, family"
+  },
+  {
+    "id": "Case140",
+    "label": "Case 140",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "139, 142, 144",
+    "link type": "family, family, contact"
+  },
+  {
+    "id": "Case141",
+    "label": "Case 141",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case142",
+    "label": "Case 142",
+    "root_id": "Cluster11",
+    "secondary_root_id": "Cluster13",
+    "connections": "139, 140, 162, 163, 185",
+    "link type": "family, family, contact, contact, contact"
+  },
+  {
+    "id": "Case143",
+    "label": "Case 143",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 132,
+    "link type": "family"
+  },
+  {
+    "id": "Case144",
+    "label": "Case 144",
+    "root_id": "Cluster11",
+    "secondary_root_id": "Cluster12",
+    "connections": 140,
+    "link type": "contact"
+  },
+  {
+    "id": "Case145",
+    "label": "Case 145",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "134, 160",
+    "link type": "contact, family"
+  },
+  {
+    "id": "Case146",
+    "label": "Case 146",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 134,
+    "link type": "contact"
+  },
+  {
+    "id": "Case147",
+    "label": "Case 147",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case148",
+    "label": "Case 148",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 107,
+    "link type": "contact"
+  },
+  {
+    "id": "Case149",
+    "label": "Case 149",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case150",
+    "label": "Case 150",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "115, 134",
+    "link type": "contact, contact"
+  },
+  {
+    "id": "Case151",
+    "label": "Case 151",
+    "root_id": "Cluster6",
+    "secondary_root_id": "Cluster7",
+    "connections": "66, 91",
+    "link type": "contact, contact"
+  },
+  {
+    "id": "Case152",
+    "label": "Case 152",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 170,
+    "link type": "family"
+  },
+  {
+    "id": "Case153",
+    "label": "Case 153",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case154",
+    "label": "Case 154",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case155",
+    "label": "Case 155",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 128,
+    "link type": "contact"
+  },
+  {
+    "id": "Case156",
+    "label": "Case 156",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case157",
+    "label": "Case 157",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 137,
+    "link type": "contact"
+  },
+  {
+    "id": "Case158",
+    "label": "Case 158",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 159,
+    "link type": "family"
+  },
+  {
+    "id": "Case159",
+    "label": "Case 159",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 158,
+    "link type": "family"
+  },
+  {
+    "id": "Case160",
+    "label": "Case 160",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 145,
+    "link type": "family"
+  },
+  {
+    "id": "Case161",
+    "label": "Case 161",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 107,
+    "link type": "family"
+  },
+  {
+    "id": "Case162",
+    "label": "Case 162",
+    "root_id": "Cluster13",
+    "secondary_root_id": "",
+    "connections": 142,
+    "link type": "contact"
+  },
+  {
+    "id": "Case163",
+    "label": "Case 163",
+    "root_id": "Cluster13",
+    "secondary_root_id": "",
+    "connections": 142,
+    "link type": "contact"
+  },
+  {
+    "id": "Case164",
+    "label": "Case 164",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 134,
+    "link type": "contact"
+  },
+  {
+    "id": "Case165",
+    "label": "Case 165",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "169, 173, 175, 200",
+    "link type": "contact, contact, contact, family"
+  },
+  {
+    "id": "Case166",
+    "label": "Case 166",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "134, 186",
+    "link type": "contact, contact"
+  },
+  {
+    "id": "Case167",
+    "label": "Case 167",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 178,
+    "link type": "family"
+  },
+  {
+    "id": "Case168",
+    "label": "Case 168",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case169",
+    "label": "Case 169",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "165, 173, 175",
+    "link type": "contact, contact, contact"
+  },
+  {
+    "id": "Case170",
+    "label": "Case 170",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 152,
+    "link type": "family"
+  },
+  {
+    "id": "Case171",
+    "label": "Case 171",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case172",
+    "label": "Case 172",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "184, 190",
+    "link type": "contact, contact"
+  },
+  {
+    "id": "Case173",
+    "label": "Case 173",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "165, 169, 175",
+    "link type": "contact, contact, contact"
+  },
+  {
+    "id": "Case174",
+    "label": "Case 174",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 122,
+    "link type": ""
+  },
+  {
+    "id": "Case175",
+    "label": "Case 175",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "165, 169, 173",
+    "link type": "contact, contact, contact"
+  },
+  {
+    "id": "Case176",
+    "label": "Case 176",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case177",
+    "label": "Case 177",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case178",
+    "label": "Case 178",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 167,
+    "link type": "family"
+  },
+  {
+    "id": "Case179",
+    "label": "Case 179",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 121,
+    "link type": "contact"
+  },
+  {
+    "id": "Case180",
+    "label": "Case 180",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case181",
+    "label": "Case 181",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 182,
+    "link type": "family"
+  },
+  {
+    "id": "Case182",
+    "label": "Case 182",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 181,
+    "link type": "family"
+  },
+  {
+    "id": "Case183",
+    "label": "Case 183",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case184",
+    "label": "Case 184",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 172,
+    "link type": "contact"
+  },
+  {
+    "id": "Case185",
+    "label": "Case 185",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 142,
+    "link type": "contact"
+  },
+  {
+    "id": "Case186",
+    "label": "Case 186",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 166,
+    "link type": "contact"
+  },
+  {
+    "id": "Case187",
+    "label": "Case 187",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case188",
+    "label": "Case 188",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case189",
+    "label": "Case 189",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case190",
+    "label": "Case 190",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 172,
+    "link type": "contact"
+  },
+  {
+    "id": "Case191",
+    "label": "Case 191",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case192",
+    "label": "Case 192",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case193",
+    "label": "Case 193",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 194,
+    "link type": "contact"
+  },
+  {
+    "id": "Case194",
+    "label": "Case 194",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 193,
+    "link type": "contact"
+  },
+  {
+    "id": "Case195",
+    "label": "Case 195",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case196",
+    "label": "Case 196",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case197",
+    "label": "Case 197",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case198",
+    "label": "Case 198",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case199",
+    "label": "Case 199",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case200",
+    "label": "Case 200",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 165,
+    "link type": "family"
+  },
+  {
+    "id": "Case201",
+    "label": "Case 201",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case202",
+    "label": "Case 202",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case203",
+    "label": "Case 203",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case204",
+    "label": "Case 204",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case205",
+    "label": "Case 205",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case206",
+    "label": "Case 206",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case207",
+    "label": "Case 207",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case208",
+    "label": "Case 208",
+    "root_id": "Cluster12",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case209",
+    "label": "Case 209",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case210",
+    "label": "Case 210",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case211",
+    "label": "Case 211",
+    "root_id": "Cluster13",
+    "secondary_root_id": "",
+    "connections": 142,
+    "link type": "contact"
+  },
+  {
+    "id": "Case212",
+    "label": "Case 212",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case213",
+    "label": "Case 213",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case214",
+    "label": "Case 214",
+    "root_id": "Cluster12",
+    "secondary_root_id": "",
+    "connections": 208,
+    "link type": "contact"
+  },
+  {
+    "id": "Case215",
+    "label": "Case 215",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case216",
+    "label": "Case 216",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case217",
+    "label": "Case 217",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case218",
+    "label": "Case 218",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case219",
+    "label": "Case 219",
+    "root_id": "Cluster13",
+    "secondary_root_id": "",
+    "connections": "142, 211, 236",
+    "link type": "contact, contact, family"
+  },
+  {
+    "id": "Case220",
+    "label": "Case 220",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case221",
+    "label": "Case 221",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 204,
+    "link type": "contact"
+  },
+  {
+    "id": "Case222",
+    "label": "Case 222",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case223",
+    "label": "Case 223",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case224",
+    "label": "Case 224",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 117,
+    "link type": "contact"
+  },
+  {
+    "id": "Case225",
+    "label": "Case 225",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 237,
+    "link type": "contact"
+  },
+  {
+    "id": "Case226",
+    "label": "Case 226",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case227",
+    "label": "Case 227",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case228",
+    "label": "Case 228",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case229",
+    "label": "Case 229",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 240,
+    "link type": "family"
+  },
+  {
+    "id": "Case230",
+    "label": "Case 230",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case231",
+    "label": "Case 231",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case232",
+    "label": "Case 232",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 231,
+    "link type": "family"
+  },
+  {
+    "id": "Case233",
+    "label": "Case 233",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case234",
+    "label": "Case 234",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case235",
+    "label": "Case 235",
+    "root_id": "Cluster12",
+    "secondary_root_id": "",
+    "connections": 208,
+    "link type": "contact"
+  },
+  {
+    "id": "Case236",
+    "label": "Case 236",
+    "root_id": "Cluster13",
+    "secondary_root_id": "",
+    "connections": "142, 211, 219",
+    "link type": "contact, contact, family"
+  },
+  {
+    "id": "Case237",
+    "label": "Case 237",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 225,
+    "link type": "contact"
+  },
+  {
+    "id": "Case238",
+    "label": "Case 238",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case239",
+    "label": "Case 239",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case240",
+    "label": "Case 240",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 229,
+    "link type": "family"
+  },
+  {
+    "id": "Case241",
+    "label": "Case 241",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case242",
+    "label": "Case 242",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 166,
+    "link type": "contact"
+  },
+  {
+    "id": "Case243",
+    "label": "Case 243",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case244",
+    "label": "Case 244",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 243,
+    "link type": "contact"
+  },
+  {
+    "id": "Case245",
+    "label": "Case 245",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case246",
+    "label": "Case 246",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case247",
+    "label": "Case 247",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case248",
+    "label": "Case 248",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case249",
+    "label": "Case 249",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case250",
+    "label": "Case 250",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case251",
+    "label": "Case 251",
+    "root_id": "Cluster11",
+    "secondary_root_id": "",
+    "connections": 186,
+    "link type": "family"
+  },
+  {
+    "id": "Case252",
+    "label": "Case 252",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case253",
+    "label": "Case 253",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case254",
+    "label": "Case 254",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case255",
+    "label": "Case 255",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case256",
+    "label": "Case 256",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 205,
+    "link type": "contact"
+  },
+  {
+    "id": "Case257",
+    "label": "Case 257",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case258",
+    "label": "Case 258",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case259",
+    "label": "Case 259",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case260",
+    "label": "Case 260",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case261",
+    "label": "Case 261",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case262",
+    "label": "Case 262",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case263",
+    "label": "Case 263",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case264",
+    "label": "Case 264",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case265",
+    "label": "Case 265",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case266",
+    "label": "Case 266",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 263,
+    "link type": "contact"
+  },
+  {
+    "id": "Case267",
+    "label": "Case 267",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case268",
+    "label": "Case 268",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case269",
+    "label": "Case 269",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case270",
+    "label": "Case 270",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "230, 272",
+    "link type": "family, family"
+  },
+  {
+    "id": "Case271",
+    "label": "Case 271",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case272",
+    "label": "Case 272",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "230, 270",
+    "link type": "family, family"
+  },
+  {
+    "id": "Case273",
+    "label": "Case 273",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case274",
+    "label": "Case 274",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case275",
+    "label": "Case 275",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case276",
+    "label": "Case 276",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case277",
+    "label": "Case 277",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case278",
+    "label": "Case 278",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case279",
+    "label": "Case 279",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case280",
+    "label": "Case 280",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case281",
+    "label": "Case 281",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case282",
+    "label": "Case 282",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case283",
+    "label": "Case 283",
+    "root_id": "Cluster12",
+    "secondary_root_id": "",
+    "connections": "144, 208, 214, 235",
+    "link type": "contact, contact, contact, contact"
+  },
+  {
+    "id": "Case284",
+    "label": "Case 284",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case285",
+    "label": "Case 285",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case286",
+    "label": "Case 286",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case287",
+    "label": "Case 287",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 267,
+    "link type": "family"
+  },
+  {
+    "id": "Case288",
+    "label": "Case 288",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case289",
+    "label": "Case 289",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 212,
+    "link type": "contact"
+  },
+  {
+    "id": "Case290",
+    "label": "Case 290",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case291",
+    "label": "Case 291",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 260,
+    "link type": "family"
+  },
+  {
+    "id": "Case292",
+    "label": "Case 292",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case293",
+    "label": "Case 293",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case294",
+    "label": "Case 294",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "225, 237",
+    "link type": "contact, contact"
+  },
+  {
+    "id": "Case295",
+    "label": "Case 295",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case296",
+    "label": "Case 296",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case297",
+    "label": "Case 297",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case298",
+    "label": "Case 298",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 259,
+    "link type": "famly"
+  },
+  {
+    "id": "Case299",
+    "label": "Case 299",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 250,
+    "link type": "contact"
+  },
+  {
+    "id": "Case300",
+    "label": "Case 300",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case301",
+    "label": "Case 301",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case302",
+    "label": "Case 302",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case303",
+    "label": "Case 303",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 248,
+    "link type": "family"
+  },
+  {
+    "id": "Case304",
+    "label": "Case 304",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case305",
+    "label": "Case 305",
+    "root_id": "Cluster13",
+    "secondary_root_id": "",
+    "connections": 142,
+    "link type": "contact"
+  },
+  {
+    "id": "Case306",
+    "label": "Case 306",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case307",
+    "label": "Case 307",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case308",
+    "label": "Case 308",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 277,
+    "link type": "contact"
+  },
+  {
+    "id": "Case309",
+    "label": "Case 309",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 230,
+    "link type": "contact"
+  },
+  {
+    "id": "Case310",
+    "label": "Case 310",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "183, 252",
+    "link type": "contact, contact"
+  },
+  {
+    "id": "Case311",
+    "label": "Case 311",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 234,
+    "link type": "family"
+  },
+  {
+    "id": "Case312",
+    "label": "Case 312",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case313",
+    "label": "Case 313",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case314",
+    "label": "Case 314",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case315",
+    "label": "Case 315",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case316",
+    "label": "Case 316",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case317",
+    "label": "Case 317",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case318",
+    "label": "Case 318",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case319",
+    "label": "Case 319",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 279,
+    "link type": "contact"
+  },
+  {
+    "id": "Case320",
+    "label": "Case 320",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case321",
+    "label": "Case 321",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case322",
+    "label": "Case 322",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case323",
+    "label": "Case 323",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case324",
+    "label": "Case 324",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case325",
+    "label": "Case 325",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case326",
+    "label": "Case 326",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case327",
+    "label": "Case 327",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case328",
+    "label": "Case 328",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 268,
+    "link type": "family"
+  },
+  {
+    "id": "Case329",
+    "label": "Case 329",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 292,
+    "link type": "family"
+  },
+  {
+    "id": "Case330",
+    "label": "Case 330",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case331",
+    "label": "Case 331",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case332",
+    "label": "Case 332",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case333",
+    "label": "Case 333",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case334",
+    "label": "Case 334",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case335",
+    "label": "Case 335",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "234, 311",
+    "link type": "family,"
+  },
+  {
+    "id": "Case336",
+    "label": "Case 336",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case337",
+    "label": "Case 337",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case338",
+    "label": "Case 338",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case339",
+    "label": "Case 339",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 279,
+    "link type": "family"
+  },
+  {
+    "id": "Case340",
+    "label": "Case 340",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "222, 307",
+    "link type": "contact, contact"
+  },
+  {
+    "id": "Case341",
+    "label": "Case 341",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case342",
+    "label": "Case 342",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case343",
+    "label": "Case 343",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case344",
+    "label": "Case 344",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case345",
+    "label": "Case 345",
+    "root_id": "Cluster13",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case346",
+    "label": "Case 346",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case347",
+    "label": "Case 347",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case348",
+    "label": "Case 348",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 227,
+    "link type": "family"
+  },
+  {
+    "id": "Case349",
+    "label": "Case 349",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case350",
+    "label": "Case 350",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case351",
+    "label": "Case 351",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case352",
+    "label": "Case 352",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case353",
+    "label": "Case 353",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 177,
+    "link type": "contact"
+  },
+  {
+    "id": "Case354",
+    "label": "Case 354",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 265,
+    "link type": "contact"
+  },
+  {
+    "id": "Case355",
+    "label": "Case 355",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case356",
+    "label": "Case 356",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case357",
+    "label": "Case 357",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case358",
+    "label": "Case 358",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case359",
+    "label": "Case 359",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 321,
+    "link type": "contact"
+  },
+  {
+    "id": "Case360",
+    "label": "Case 360",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": "contact"
+  },
+  {
+    "id": "Case361",
+    "label": "Case 361",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 318,
+    "link type": "contact"
+  },
+  {
+    "id": "Case362",
+    "label": "Case 362",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case363",
+    "label": "Case 363",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": "contact"
+  },
+  {
+    "id": "Case364",
+    "label": "Case 364",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 225,
+    "link type": "contact"
+  },
+  {
+    "id": "Case365",
+    "label": "Case 365",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case366",
+    "label": "Case 366",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 304,
+    "link type": "contact"
+  },
+  {
+    "id": "Case367",
+    "label": "Case 367",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 338,
+    "link type": "family"
+  },
+  {
+    "id": "Case368",
+    "label": "Case 368",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "225, 294",
+    "link type": "contact, contact"
+  },
+  {
+    "id": "Case369",
+    "label": "Case 369",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": "contact"
+  },
+  {
+    "id": "Case370",
+    "label": "Case 370",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case371",
+    "label": "Case 371",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": "contact"
+  },
+  {
+    "id": "Case372",
+    "label": "Case 372",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": "contact"
+  },
+  {
+    "id": "Case373",
+    "label": "Case 373",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": "contact"
+  },
+  {
+    "id": "Case374",
+    "label": "Case 374",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": "contact"
+  },
+  {
+    "id": "Case375",
+    "label": "Case 375",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": "contact"
+  },
+  {
+    "id": "Case376",
+    "label": "Case 376",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case377",
+    "label": "Case 377",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": "contact"
+  },
+  {
+    "id": "Case378",
+    "label": "Case 378",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case379",
+    "label": "Case 379",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case380",
+    "label": "Case 380",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": "contact"
+  },
+  {
+    "id": "Case381",
+    "label": "Case 381",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case382",
+    "label": "Case 382",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": "contact"
+  },
+  {
+    "id": "Case383",
+    "label": "Case 383",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": "contact"
+  },
+  {
+    "id": "Case384",
+    "label": "Case 384",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": "contact"
+  },
+  {
+    "id": "Case385",
+    "label": "Case 385",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": "contact"
+  },
+  {
+    "id": "Case386",
+    "label": "Case 386",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case387",
+    "label": "Case 387",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 337,
+    "link type": "contact"
+  },
+  {
+    "id": "Case388",
+    "label": "Case 388",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 351,
+    "link type": "family"
+  },
+  {
+    "id": "Case389",
+    "label": "Case 389",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 298,
+    "link type": "family"
+  },
+  {
+    "id": "Case390",
+    "label": "Case 390",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case391",
+    "label": "Case 391",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case392",
+    "label": "Case 392",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case393",
+    "label": "Case 393",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case394",
+    "label": "Case 394",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case395",
+    "label": "Case 395",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case396",
+    "label": "Case 396",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case397",
+    "label": "Case 397",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 180,
+    "link type": "contact"
+  },
+  {
+    "id": "Case398",
+    "label": "Case 398",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case399",
+    "label": "Case 399",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case400",
+    "label": "Case 400",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case401",
+    "label": "Case 401",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case402",
+    "label": "Case 402",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case403",
+    "label": "Case 403",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case404",
+    "label": "Case 404",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case405",
+    "label": "Case 405",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case406",
+    "label": "Case 406",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case407",
+    "label": "Case 407",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case408",
+    "label": "Case 408",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case409",
+    "label": "Case 409",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case410",
+    "label": "Case 410",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case411",
+    "label": "Case 411",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case412",
+    "label": "Case 412",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case413",
+    "label": "Case 413",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case414",
+    "label": "Case 414",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case415",
+    "label": "Case 415",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 212,
+    "link type": "family"
+  },
+  {
+    "id": "Case416",
+    "label": "Case 416",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case417",
+    "label": "Case 417",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case418",
+    "label": "Case 418",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case419",
+    "label": "Case 419",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case420",
+    "label": "Case 420",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case421",
+    "label": "Case 421",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case422",
+    "label": "Case 422",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case423",
+    "label": "Case 423",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 425,
+    "link type": "contact"
+  },
+  {
+    "id": "Case424",
+    "label": "Case 424",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 424,
+    "link type": "contact"
+  },
+  {
+    "id": "Case425",
+    "label": "Case 425",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case426",
+    "label": "Case 426",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case427",
+    "label": "Case 427",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case428",
+    "label": "Case 428",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case429",
+    "label": "Case 429",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case430",
+    "label": "Case 430",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 350,
+    "link type": "family"
+  },
+  {
+    "id": "Case431",
+    "label": "Case 431",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case432",
+    "label": "Case 432",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case433",
+    "label": "Case 433",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case434",
+    "label": "Case 434",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case435",
+    "label": "Case 435",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case436",
+    "label": "Case 436",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case437",
+    "label": "Case 437",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case438",
+    "label": "Case 438",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case439",
+    "label": "Case 439",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case440",
+    "label": "Case 440",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case441",
+    "label": "Case 441",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "308, 277",
+    "link type": "family, contact"
+  },
+  {
+    "id": "Case442",
+    "label": "Case 442",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 398,
+    "link type": "family"
+  },
+  {
+    "id": "Case443",
+    "label": "Case 443",
+    "root_id": "Cluster13",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case444",
+    "label": "Case 444",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case445",
+    "label": "Case 445",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case446",
+    "label": "Case 446",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 378,
+    "link type": "contact"
+  },
+  {
+    "id": "Case447",
+    "label": "Case 447",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case448",
+    "label": "Case 448",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case449",
+    "label": "Case 449",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case450",
+    "label": "Case 450",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case451",
+    "label": "Case 451",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": 404,
+    "link type": "contact"
+  },
+  {
+    "id": "Case452",
+    "label": "Case 452",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case453",
+    "label": "Case 453",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case454",
+    "label": "Case 454",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case455",
+    "label": "Case 455",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case456",
+    "label": "Case 456",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case457",
+    "label": "Case 457",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case458",
+    "label": "Case 458",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case459",
+    "label": "Case 459",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case460",
+    "label": "Case 460",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case461",
+    "label": "Case 461",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case462",
+    "label": "Case 462",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case463",
+    "label": "Case 463",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case464",
+    "label": "Case 464",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case465",
+    "label": "Case 465",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case466",
+    "label": "Case 466",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case467",
+    "label": "Case 467",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case468",
+    "label": "Case 468",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case469",
+    "label": "Case 469",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case470",
+    "label": "Case 470",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case471",
+    "label": "Case 471",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case472",
+    "label": "Case 472",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case473",
+    "label": "Case 473",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case474",
+    "label": "Case 474",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case475",
+    "label": "Case 475",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case476",
+    "label": "Case 476",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case477",
+    "label": "Case 477",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case478",
+    "label": "Case 478",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case479",
+    "label": "Case 479",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case480",
+    "label": "Case 480",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case481",
+    "label": "Case 481",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case482",
+    "label": "Case 482",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case483",
+    "label": "Case 483",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case484",
+    "label": "Case 484",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case485",
+    "label": "Case 485",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case486",
+    "label": "Case 486",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case487",
+    "label": "Case 487",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case488",
+    "label": "Case 488",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case489",
+    "label": "Case 489",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case490",
+    "label": "Case 490",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case491",
+    "label": "Case 491",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case492",
+    "label": "Case 492",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case493",
+    "label": "Case 493",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case494",
+    "label": "Case 494",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case495",
+    "label": "Case 495",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case496",
+    "label": "Case 496",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case497",
+    "label": "Case 497",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case498",
+    "label": "Case 498",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case499",
+    "label": "Case 499",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case500",
+    "label": "Case 500",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case501",
+    "label": "Case 501",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case502",
+    "label": "Case 502",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case503",
+    "label": "Case 503",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case504",
+    "label": "Case 504",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case505",
+    "label": "Case 505",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case506",
+    "label": "Case 506",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case507",
+    "label": "Case 507",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case508",
+    "label": "Case 508",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Case509",
+    "label": "Case 509",
+    "root_id": "unknown",
+    "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  }
+]

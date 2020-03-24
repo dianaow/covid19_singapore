@@ -23,11 +23,11 @@ const ZoomPanel = () => {
       <div className="button zoom_in" onClick={ ()=> {
         setZoomState({ x:zoomState.x, y:zoomState.y, k:zoomState.k*1.2 })
         zoom.scaleBy(svg.transition().duration(750), 1.2);
-       } }><Icon name='tiny plus' /></div>
+       } }><Icon className='tiny plus' /></div>
       <div className="button zoom_out" onClick={ ()=> {
         setZoomState({ x:zoomState.x, y:zoomState.y, k:zoomState.k*0.8 })
         zoom.scaleBy(svg.transition().duration(750), 0.8);
-      } }><Icon name='tiny minus' /></div>
+      } }><Icon className='tiny minus' /></div>
       <div className="button reset" onClick={ ()=> {
 
         setTooltip(initialTooltipState)
@@ -61,7 +61,7 @@ const ZoomPanel = () => {
         graphLinksGroup.selectAll('.edge-label').attr('opacity', Consts.linkTextOpacity)
 
         svg.transition().duration(350).delay(150).call(zoom.transform, d3.zoomIdentity)
-      } }><Icon name='tiny redo' /></div>
+      } }><Icon className='tiny redo' /></div>
     </div>
   )
 
