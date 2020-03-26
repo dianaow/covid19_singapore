@@ -1,6 +1,6 @@
 :root {
     --bg: #fff;
-    --color: #011C54;
+    --color: #333333;
     --border: 10px solid;
 }
 
@@ -24,9 +24,9 @@
     cursor: default;
     white-space: nowrap;
     background-color: var(--bg);
-    /*box-shadow: 2px 4px 10px 2px hsla(0, 0%, 100%, 0.23);*/
-    width: calc(100% - 28px);
-    height: calc(100%);
+    box-shadow: 1px 3px 8px 0px hsla(0, 0%, 0%, 0.14);
+    width: calc(100% - 30px);
+    height: calc(100% - 8px);
     position: absolute;
     z-index: 10;
 

@@ -27,7 +27,7 @@ const Timeline = ({timeline}) => {
       .range([sliderPosX, targetValue])
 
     const yScale = d3.scaleLinear()
-        .domain([0, 45])
+        .domain([0, 60])
         .range([sliderHeight, 0])
 
     const line = d3.line()
@@ -86,7 +86,7 @@ const Timeline = ({timeline}) => {
             <path 
               className='line'
               d={line(d)}
-              stroke='white'
+              stroke={Consts.linkStroke}
               strokeWidth='1'
               fill='none' 
             />
@@ -99,7 +99,7 @@ const Timeline = ({timeline}) => {
               x2={xScale(d.key)}
               y2={0}
               fill='none'
-              stroke='white'
+              stroke={Consts.linkStroke}
               strokeWidth='5'
               strokeOpacity='0'
               pointerEvents='all'

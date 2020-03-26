@@ -372,8 +372,10 @@ function draw(nodes, links, accessors, misc) {
     if(!root(d)){
       setTooltip({
         show: true,
-        x: Scene !== 0 ? dimensions.width : nodePosAfterZoomX,
-        y: Scene !== 0 ? dimensions.height : nodePosAfterZoomY+ (berects(d) ? d.radius : 0),
+        x: dimensions.width,
+        y: dimensions.height,
+        //x: Scene !== 0 ? dimensions.width : nodePosAfterZoomX,
+        //y: Scene !== 0 ? dimensions.height : nodePosAfterZoomY+ (berects(d) ? d.radius : 0),
         //position: (nodePosAfterZoomX>rootPosAfterZoomX) ? 'right' : 'left',
         position: 'right',
         content: d, // pass down data attributes of selected node to tooltip
@@ -476,7 +478,7 @@ function draw(nodes, links, accessors, misc) {
 
     function isDirectConn(d, o) {
       if(d.root_id === 'Unknown' | d.root_id === 'Unlinked'){
-        return o.root_id === d.id
+        return isConnected(d, o) | o.root_id === d.id
       } else {
         return isConnected(d, o)
       }
@@ -817,7 +819,7 @@ function findClusterCenter(graphWrapper) {
   var forceX = d3.forceX(function (d) { 
     let mod = modulePosition.find(g=>g.group == d.root_id)
     return mod ? mod.coordinates.x : graphWrapper.width - 100
-  }).strength(d => bool_1(d) ? 0.35 : 0.3)
+  }).strength(d => bool_1(d) ? 0.38 : 0.3)
 
   //Same for forceY--these act as a gravity parameter so the different strength determines how closely the individual nodes are pulled to the center of their module position
   var forceY = d3.forceY(function (d) {

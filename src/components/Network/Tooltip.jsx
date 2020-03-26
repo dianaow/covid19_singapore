@@ -1,5 +1,6 @@
 import React, { useContext } from "react"
 import cx from 'classnames';
+import * as d3 from "d3"
 
 import { NetworkContext } from "../../NetworkPage"
 import { initialTooltipState, TooltipContext } from "../contexts/TooltipContext"
@@ -10,7 +11,6 @@ import './tooltip.scss'
 
 const TooltipEvent = (data) => {
 
-  console.log(data)
   return( 
     <div className='Tooltip'>
       <div style={{border:0, textAlign:'center', fontWeight: 900, padding: '4px'}}>{data.patient}</div>
@@ -21,11 +21,11 @@ const TooltipEvent = (data) => {
           </div>
           <div className="row">
             <div className="cell-header">WORKS AT</div>
-            <div className="value">{data.works_at}</div>
+            <div className="value">{data['works at']}</div>
           </div>
           <div className="row">
             <div className="cell-header">LIVES AT</div>
-            <div className="value">{data.lives_at}</div>
+            <div className="value">{data['lives at']}</div>
           </div>
         </div>  
     </div>   
@@ -71,19 +71,25 @@ const Tooltip = () => {
 
   let xNew, yNew, width, height
   if(sceneState.scene === 0){
-    width = 250
-    height = 150
-    if(position==='left'){
-      xNew = x-width-10-radius
-    } else {
-      xNew = x+10+radius 
-    }
-    yNew = y-height/2  
+    width = 320
+    height= 180
+    xNew = x-350
+    yNew = 140
+    //yNew = y-height-20
+
+    // width = 250
+    // height = 180
+    // if(position==='left'){
+    //   xNew = x-width-10-radius
+    // } else {
+    //   xNew = x+10+radius 
+    // }
+    // yNew = y-height/2  
   } else {
     width = 500
     height = 240
     xNew = x-width
-    yNew = y-height-20
+    yNew = y-height-50
   }
 
   return(
@@ -92,13 +98,16 @@ const Tooltip = () => {
       style={{ visibility: show ? 'visible' : 'hidden' }} >
       <foreignObject width={width} height={height} className='tooltipFO'>
         <div className={cx('tooltipContent', position)}>
-            { (sceneState.scene !== 0) ? <span className="close" onClick={()=>setTooltip(initialTooltipState)}>X</span> : <span className="arrow"></span> }
-            { (sceneState.scene !== 0 ) ? TooltipEvent(content) : TooltipEntity(content) }
+          { (sceneState.scene !== 0 ) ? <span className="close" onClick={()=>setTooltip(initialTooltipState)}>X</span> : <span></span> }
+          { (sceneState.scene !== 0 ) ? TooltipEvent(content) : TooltipEntity(content) }
         </div>
       </foreignObject>
     </g>
   )
 
 }
+
+// { (sceneState.scene !== 0) ? <span className="close" onClick={()=>setTooltip(initialTooltipState)}>X</span> : <span className="arrow"></span> }
+// { (sceneState.scene !== 0 ) ? TooltipEvent(content) : TooltipEntity(content) }
 
 export default Tooltip;

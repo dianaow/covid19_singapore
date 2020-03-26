@@ -60,8 +60,7 @@ const drawCategoryLegend = (data) => {
                 key={d}
                 x={30}
                 y={15 + i*20}
-                fontSize={10}
-                fill='white'
+                fontSize={11}
                 alignmentBaseline='middle'
                 textAnchor='left' >
                 { d }
@@ -100,8 +99,7 @@ const drawIconLegend = () => {
                 key={d}
                 x={30}
                 y={15 + i*20}
-                fontSize={10}
-                fill='white'
+                fontSize={11}
                 alignmentBaseline='middle'
                 textAnchor='left' >
                 { d }
@@ -153,15 +151,15 @@ const drawRadiusLegend = (data) => {
 
   const { label, domain, scale } = data
 
-  var xCircle = 25
+  var xCircle = 20
   var xLabel = 80
   var yCircle = 30
 
   return(
     <svg width='100%' height='50px'>
       <g className='legend__radius' transform="translate(0,10)">
-        <text className='legend-header' x='55' y='15'>{ label }</text>
-        <text className='legend-header' x='55' y='30'>for each case</text>
+        <text className='legend-header' x='50' y='5'>{ label }</text>
+        <text className='legend-header' x='50' y='20'>for each case</text>
         {domain.map((d,i) => (
           <g className='legend__colorEle'>
             <circle 
@@ -169,7 +167,7 @@ const drawRadiusLegend = (data) => {
               cy={yCircle - scale(d)}
               r={scale(d)}
               fill='none'
-              stroke='white' />
+              stroke= {Consts.linkStroke} />
           </g>
         ))}
       </g>
@@ -202,23 +200,22 @@ const drawShapeLegend = () => {
     <svg width='100%' height='60px'>
       <g className='legend__category' transform="translate(0,10)">
         <circle 
-          cx={10-size} 
+          cx={15-size} 
           cy='15' 
           r={size}
           fill='none'
-          stroke='white'/>
+          stroke={Consts.linkStroke}/>
         <text
           className='legend-content-text'
           x='20' 
-          y='15' 
-          fill='white'>
+          y='15'>
           Singaporean
         </text>
         <text
           className='legend-content-text'
           x='20' 
           y='35' 
-          fill='white'>
+          fill={Consts.linkStroke}>
           Singapore PR
         </text>
         <rect
@@ -227,12 +224,11 @@ const drawShapeLegend = () => {
           width={size*2}
           height={size*2}
           fill='none'
-          stroke='white'/>
+          stroke={Consts.linkStroke}/>
         <text
           className='legend-content-text'
           x={110+size+20} 
-          y='15' 
-          fill='white'>
+          y='15'>
           Foreigner
         </text>
       </g>

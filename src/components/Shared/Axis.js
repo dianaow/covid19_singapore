@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import * as d3 from 'd3'
 import { dimensionsPropsType } from "../utils";
+import { linkStroke } from "../consts";
 
 const axisComponentsByDimension = {
   x: AxisHorizontal,
@@ -30,10 +31,10 @@ Axis.defaultProps = {
   scale: null,
   formatTick: d3.format(","),
   label: null,
-  fill: 'white',
+  fill: linkStroke,
   textAnchor: 'middle',
   fontSize: '9px',
-  stroke: 'white',
+  stroke: linkStroke,
   strokeWidth: '0.5px'
 }
 

@@ -65,12 +65,12 @@ const FilterPanel = () => {
 
     graphNodesGroup.selectAll("circle")
       .transition().duration(350)
-      .attr('stroke', d => d.type === 'root' ? 'white' : colorAccessor(d))
+      .attr('stroke', d => d.type === 'root' ? Consts.nodeStroke : colorAccessor(d))
       .attr('fill', d => (d.type === 'parent' | d.type === 'root') ? Consts.nodeFill : colorAccessor(d))
 
     graphNodesGroup.selectAll("rect")
       .transition().duration(350)
-      .attr('stroke', d => d.type === 'root' ? 'white' : colorAccessor(d))
+      .attr('stroke', d => d.type === 'root' ? Consts.nodeStroke : colorAccessor(d))
       .attr('fill', d => (d.type === 'parent' | d.type === 'root') ? Consts.nodeFill : colorAccessor(d))
     
   }
