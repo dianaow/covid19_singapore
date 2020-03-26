@@ -8,10 +8,11 @@ import { useChartDimensions }  from "../utils"
 const Main = () => {
 
   //const [ref, dms] = useChartDimensions()
-  const dms = {width: 1000, height: 1000}
+  const dms = {width: 1800, height: 1000}
 
   return(
     <div className="Events">
+    <h1>Events</h1>
       <Chart dimensions={dms}>
         <Timeline />
       </Chart>

@@ -180,9 +180,9 @@ const NetworkPage = () => {
   }
 
   useEffect(() => {
-    setTimeout(function(){
+    //setTimeout(function(){
       setLoading(false)
-    }, 1000)
+    //}, 1000)
   }, [data])
 
   useEffect(() => {
@@ -193,15 +193,25 @@ const NetworkPage = () => {
 
     nodes.forEach(d=>{
       if (d.case_type === 'Imported case' & d.root_id === 'unknown'){
-        d.root_id = 'Imported'
+        if(d["country of origin"] === "United kingdom"){
+           d.root_id = 'UK'
+        } else if(d["country of origin"] === "Indonesia"){
+          d.root_id = 'Indonesia'
+        } else if(d["country of origin"] === "United states"){
+          d.root_id = 'US'
+        } else {
+          d.root_id = 'Imported'
+        }
       } else if (d.case_type === 'Local transmission' & d.root_id === 'unknown'){
         d.root_id = 'Unlinked'
       } 
 
-      let fromNode = links.find(el=>el.end_id === d.id)
-      if(fromNode){
-        if(nodes.find(d=>d.id === fromNode.start_id).root_id === 'Imported'){
-          d.root_id = 'Imported'
+      let edge = links.find(el=>el.end_id === d.id)
+      if(edge){
+        let fromNode = nodes.find(d=>d.id === edge.start_id)
+        console.log(fromNode)
+        if(fromNode.case_type === 'Imported case'){ //imported-local transmission
+          d.root_id = fromNode.root_id
         }
       }
     

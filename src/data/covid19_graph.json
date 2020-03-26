@@ -9,7 +9,7 @@
   },
   {
     "id": "Cluster2",
-    "label": "Singaporeans evacuated from Wuhan on 30 Jan",
+    "label": "Evacuated from Wuhan on 30 Jan",
     "root_id": "Cluster2",
     "secondary_root_id": "",
     "connections": "15, 17, 22, 23, 45",
@@ -17,7 +17,7 @@
   },
   {
     "id": "Cluster3",
-    "label": "Singaporeans evacuated from Wuhan on 9 Feb",
+    "label": "Evacuated from Wuhan on 9 Feb",
     "root_id": "Cluster3",
     "secondary_root_id": "",
     "connections": "76, 87",
@@ -25,7 +25,7 @@
   },
   {
     "id": "Cluster4",
-    "label": "Tour Group From Guangxi to Yong Thai Hang",
+    "label": "Yong Thai Hang",
     "root_id": "Cluster4",
     "secondary_root_id": "",
     "connections": "19, 20, 24, 25, 34, 40",
@@ -107,7 +107,7 @@
     "id": "Imported",
     "label": "Cases Imported From Overseas",
     "root_id": "Imported",
-    "secondary_root_id": "",
+    "secondary_root_id": "Imported",
     "connections": "",
     "link type": ""
   },
@@ -116,6 +116,30 @@
     "label": "Unlinked Local Transmission",
     "root_id": "Unlinked",
     "secondary_root_id": "",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "US",
+    "label": "From United States",
+    "root_id": "US",
+    "secondary_root_id": "Imported",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "UK",
+    "label": "From United Kingdom",
+    "root_id": "UK",
+    "secondary_root_id": "Imported",
+    "connections": "",
+    "link type": ""
+  },
+  {
+    "id": "Indonesia",
+    "label": "From Indonesia",
+    "root_id": "Indonesia",
+    "secondary_root_id": "Imported",
     "connections": "",
     "link type": ""
   },
@@ -1802,7 +1826,7 @@
   {
     "id": "Case211",
     "label": "Case 211",
-    "root_id": "Cluster13",
+    "root_id": "Cluster11",
     "secondary_root_id": "",
     "connections": 142,
     "link type": "contact"
@@ -1866,7 +1890,7 @@
   {
     "id": "Case219",
     "label": "Case 219",
-    "root_id": "Cluster13",
+    "root_id": "Cluster11",
     "secondary_root_id": "",
     "connections": "142, 211, 236",
     "link type": "contact, contact, family"
@@ -2002,7 +2026,7 @@
   {
     "id": "Case236",
     "label": "Case 236",
-    "root_id": "Cluster13",
+    "root_id": "Cluster11",
     "secondary_root_id": "",
     "connections": "142, 211, 219",
     "link type": "contact, contact, family"

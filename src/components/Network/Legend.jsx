@@ -1,4 +1,5 @@
 import React, { useContext } from "react"
+import { Icon } from 'semantic-ui-react'
 
 import { PanelContext } from "../contexts/PanelContext"
 
@@ -28,6 +29,7 @@ const Legend = () => {
       <div className='legend'>
         { drawShapeLegend() }
         { drawRadiusLegend(nodeRadius) }
+        { drawIconLegend() }
       </div>
       { toColor ? legendRenderer(activeFilter[0]) : <div/> } 
     </div>
@@ -73,6 +75,45 @@ const drawCategoryLegend = (data) => {
 
 }
 
+const drawIconLegend = () => {
+
+  const label = ['Building', 'Home', 'Imported', 'Unlinked']
+  const domain = ['building', 'home', 'plane', 'question']
+
+  return (
+    <div className="Legend">
+      <div className="Legend__color">
+        <svg height={domain.length*24}>
+          {label.map((d, i) => (
+            <g className='legend__colorEle'>
+              <foreignObject
+                x={15}
+                y={15 + i*20}
+                width={50}
+                height={50}
+                transform={`translate(-10, -10)`}>
+                <div class='legend-icon'>
+                  <Icon name={domain[i]} />
+                </div>
+              </foreignObject>
+              <text
+                key={d}
+                x={30}
+                y={15 + i*20}
+                fontSize={10}
+                fill='white'
+                alignmentBaseline='middle'
+                textAnchor='left' >
+                { d }
+              </text> 
+            </g>   
+          ))} 
+        </svg>
+      </div>     
+    </div>
+  )
+
+}
 const drawLinearLegend = (data) => {
 
   const { label, domain, scale } = data

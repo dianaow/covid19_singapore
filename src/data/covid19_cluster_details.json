@@ -73,5 +73,20 @@
     "id": "Unlinked",
     "label": "Unlinked Local Transmission",
     "confirmed_at": "5 Feb 2020"
+  },
+  {
+    "id": "UK",
+    "label": "From UK",
+    "confirmed_at": "16 Mar 2020"
+  },
+  {
+    "id": "US",
+    "label": "From US",
+    "confirmed_at": "16 Mar 2020"
+  },
+  {
+    "id": "Indonesia",
+    "label": "From Indonesia",
+    "confirmed_at": "16 Mar 2020"
   }
 ]

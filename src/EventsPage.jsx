@@ -11,6 +11,8 @@ import reducer from "./components/reducers/EventsReducer"
 
 import * as Consts from "./components/consts"
 
+import "./styles_event.scss"
+
 export const EventContext = createContext()
 
 const showLoader = () => (
@@ -36,11 +38,12 @@ function processCases(cases) {
     d.places_visited =  d.places.split(",")
     d.places_visited_dates =  d['places dates'].split(",")
     d.clinics_visited =  d.clinics.split(",")
-    d.clinics_visited_dates =  d['clinics dates']
+    d.clinics_visited_dates =  d['clinics dates'].split(",")
   })
 
   let events = []
   cases.forEach((d,i) => {
+    console.log(d)
     if(d.flight_date){
       events.push({tag: 'travel', location: d['travel country'], date: d.flight_date, id: d.id})
     }
@@ -51,14 +54,17 @@ function processCases(cases) {
         events.push({tag: 'work/accommodation', location: d['lives at'], date: d.symptomatic_at, id: d.id})
       }
     }
+    if(d['works at']){
+      events.push({tag: 'work/accommodation', location: d['works at'], date: d.symptomatic_at, id: d.id}) // dummy date of start of first day of the year
+    }
     if(d.places_visited[0] !== ""){
       d.places_visited.map((el,i)=>{
-         events.push({tag: 'places', location: el, date: Consts.parseDate(d.places_visited_dates[i]), id: d.id})
+        events.push({tag: 'places', location: el, date: Consts.parseDate(d.places_visited_dates[i].trim()), id: d.id})
       })
     }
     if(d.clinics_visited[0] !== ""){ // some people may have visited more than one clinic at various dates
-      d.clinics_visited.length.map(el=>{
-        events.push({tag: 'clinic', location: d.location, date: Consts.parseDate(d.date), id: d.id})
+      d.clinics_visited.map((el,i)=>{
+        events.push({tag: 'clinic', location: d.location, date: Consts.parseDate(d.clinics_visited_dates[i].trim()), id: d.id})
       })
     }
     if(d.hospital_admission_date){ // some people may have moved hospitals at various dates, but only the final admission is important 
@@ -85,10 +91,9 @@ const EventsPage = () => {
   const [data, setData] = useState({})
   const [loading, setLoading] = useState(true)
   const events = processCases(cases)
-  console.log(events)
 
   const initialState = {
-    date: {start: Consts.parseDate('18 Jan 2020'), end: Consts.parseDate('29 Jan 2020')}, 
+    date: {start: Consts.parseDate('18 Jan 2020'), end: Consts.parseDate('29 Feb 2020')}, 
     data: []
   }
 
@@ -109,7 +114,10 @@ const EventsPage = () => {
 
   return(
     <div className='App__wrapper'>
-      <div className="Entity__Right">
+      <div className="Section__Left">
+        
+      </div>
+      <div className="Section__Right">
 
         { loading && showLoader() }
 

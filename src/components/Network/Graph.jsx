@@ -15,6 +15,9 @@ let nodeTextOpacity = Consts.nodeTextOpacity
 let linkTextOpacity = Consts.linkTextOpacity
 const { colorAccessor, status, gender, nationality, age, days, nodeRadius } = Consts.scales
 
+let bool = d => ['Imported', 'UK', 'US', 'Indonesia'].indexOf(d.root_id) !== -1 | d.root_id ==='Unlinked'
+let bool_1 = d => ['Imported', 'UK'].indexOf(d.root_id) !== -1 | d.root_id ==='Unlinked'
+
 const simulation = d3.forceSimulation()
   .force("link", d3.forceLink()
     .distance(function(d) { return d.distance })
@@ -217,7 +220,7 @@ function draw(nodes, links, accessors, misc) {
   graphNodesEnter.filter(d=>root(d))
     .append("text")
       .attr('class', 'root-label')
-      .attr("font-size", `${Consts.nodeTextSize*2}px`)
+      .attr("font-size", `${Consts.nodeTextSize*3}px`)
       .attr("text-anchor", "middle")
       .attr('fill', Consts.nodeTextFill)
       .attr('opacity', 1)
@@ -559,7 +562,7 @@ function updateAttributes(nodes, links){
   function findIcon(d){
     if(d.id === 'Unlinked') {
       return 'question'
-    } else if (['Cluster1', 'Cluster2', 'Cluster3', 'Imported'].indexOf(d.id) != -1){
+    } else if (['Cluster1', 'Cluster2', 'Cluster3', 'Imported', 'UK', 'US', 'Indonesia'].indexOf(d.id) != -1){
       return 'plane'
     } else if (d.id === 'Cluster7') {
       return 'home'
@@ -660,7 +663,7 @@ function updateGraph(OrigData, data, misc) {
   nodes.forEach(d=>{
     // originally unlinked: at selected time, cluster does not exist (ie. cluster node is not rendered yet). They should belong in 'Unknown'
     // overwrite their node's root_id to 'unknown'. Do not create new nodes so that existing node will move towards its found cluster
-    //console.log(clusters.find(el=>el.id === d.root_id), d.root_id)
+    //console.log(d.root_id, d.original_root, d.id)
     let no_cluster = Consts.parseDate(clusters.find(el=>el.id === d.original_root).confirmed_at).getTime() > date.getTime()
     if(no_cluster){
       d.root_id = 'Unlinked'
@@ -707,8 +710,8 @@ function updateGraph(OrigData, data, misc) {
     let coords = initNodesPos(d)
     d.x  = d.x ? d.x : coords.x
     d.y  = d.y ? d.y : coords.y
-    d.fx = (d.type=='root' & (d.root_id === 'Unlinked' | d.root_id === 'Imported')) ? coords.x : undefined
-    d.fy = (d.type=='root' & (d.root_id === 'Unlinked' | d.root_id === 'Imported')) ? coords.y : undefined
+    d.fx = (d.type=='root' & bool_1(d)) ? coords.x : undefined
+    d.fy = (d.type=='root' & bool_1(d)) ? coords.y : undefined
     d.x0 = d.x
     d.y0 = d.y
   })
@@ -755,8 +758,8 @@ function findClusterCenter(graphWrapper) {
   { 
     "group": 'Cluster13',
     "coordinates" : { 
-      x: safra.x - 300,
-      y: safra.y + 280
+      x: safra.x - 420,
+      y: safra.y + 330
     }
   })
 
@@ -769,31 +772,61 @@ function findClusterCenter(graphWrapper) {
     }
   })
 
+  let imported = modulePosition.find(g=>g.group == 'Imported').coordinates
+  imported.x = imported.x + 50
+  modulePosition.push(
+  { 
+    "group": 'UK',
+    "coordinates" : { 
+      x: imported.x + 200,
+      y: imported.y - 300
+    }
+  })
+  modulePosition.push(
+  { 
+    "group": 'US',
+    "coordinates" : { 
+      x: imported.x + 250,
+      y: imported.y - 80
+    }
+  })
+  modulePosition.push(
+  { 
+    "group": 'Indonesia',
+    "coordinates" : { 
+      x: imported.x + 500,
+      y: imported.y + 60
+    }
+  })
+
+  // let us = modulePosition.find(g=>g.group == 'US').coordinates
+  // us.y = us.y - 50
+
   let c7 = modulePosition.find(g=>g.group == 'Cluster7').coordinates
   c7.x = c7.x - 100
   c7.y = c7.y + 200
 
-  let c4 = modulePosition.find(g=>g.group == 'Cluster4').coordinates
-  c4.y = c4.y - 20
+  let c6 = modulePosition.find(g=>g.group == 'Cluster6').coordinates
+  c6.x = c6.x + 120
+  c6.y = c6.y - 120
 
-  let imported = modulePosition.find(g=>g.group == 'Imported').coordinates
-  imported.x = imported.x + 150
+  //let c4 = modulePosition.find(g=>g.group == 'Cluster4').coordinates
+  //c4.y = c4.y - 20
 
-  let bool = d => d.root_id === 'Imported' | d.root_id ==='Unlinked'
   //Make the x-position equal to the x-position specified in the module positioning object or, if module not labeled, set it to center
   var forceX = d3.forceX(function (d) { 
     let mod = modulePosition.find(g=>g.group == d.root_id)
     return mod ? mod.coordinates.x : graphWrapper.width - 100
-  }).strength(d => bool(d) ? 0.4 : 0.25)
+  }).strength(d => bool_1(d) ? 0.35 : 0.3)
 
   //Same for forceY--these act as a gravity parameter so the different strength determines how closely the individual nodes are pulled to the center of their module position
   var forceY = d3.forceY(function (d) {
     let mod = modulePosition.find(g=>g.group == d.root_id)
     return mod ? mod.coordinates.y : graphWrapper.height - 300
-  }).strength(d => bool(d) ? 0.4 : 0.25)
+  }).strength(d => bool_1(d) ? 0.4 : 0.3)
 
-  var forceCharge = d3.forceManyBody().strength(-100)
-  var forceCollide = d3.forceCollide(function(d){ return bool(d) ? d.radius * 2 : d.radius * 2.6 })
+  var forceCharge = d3.forceManyBody().strength(-120)
+  var forceCollide = d3.forceCollide(function(d){ return bool(d) ? d.radius * 2 : d.radius * 2.7 })
 
   simulation
     .force("x", forceX)

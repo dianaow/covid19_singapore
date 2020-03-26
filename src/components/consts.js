@@ -27,7 +27,7 @@ export const parseDate = d3.timeParse("%d %b %Y")
 export const currentDateString = '23 Mar 2020'
 export const currentDate = parseDate(currentDateString)
 
-export const mapping = {'node_shape_1': 'Foreigner', 'node_shape_2': 'Singaporean/Singapore PR'}
+export const mapping = {'node_shape_1': 'Singaporean/Singapore PR', 'node_shape_2': 'Foreigner'}
 
 const gender = ['Male', 'Female']
 const status = ['In hospital', 'Recovered', 'Deceased']
@@ -51,12 +51,12 @@ const days_group = ['In hospital', '0 - 7 days', '8 - 15 days', '> 15 days', 'De
 //yth imported unknown wuhan30
 //seletar wuhan9 hyatt safra
 
-//wizlearn   lifechurch  cny       grace  
-//importedb4 wuhan30     imported  unlinked(local-transmission
-//yth        wuhan9      safra     hyatt  seletar  
+//wizlearn   lifechurch  cny       grace                       uk
+//importedb4 wuhan30     unlinked(local-transmission imported  indonesia
+//yth        wuhan9      safra     hyatt  seletar              usa
                         //boulder  church
 
-export const clusterArrangement = ['Cluster4', 'Cluster3', 'Cluster11', 'Cluster5', 'Cluster8', 'Cluster1', 'Cluster2', 'Unlinked', 'Imported', 'X', 'Cluster10', 'Cluster6', 'Cluster7', 'Cluster9']
+export const clusterArrangement = ['Cluster4', 'Cluster3', 'Cluster11', 'Cluster5', 'Cluster10', 'Cluster1', 'Cluster2', 'Unlinked', 'Imported', 'X', 'Cluster8', 'Cluster6', 'Cluster7', 'Cluster9']
 
 // node radius size is scaled based on total number of connections to node (only applied to root or parent nodes)
 const nodeRadiusScale = d3.scaleSqrt()

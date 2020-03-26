@@ -11,29 +11,31 @@ const Timeline = () => {
   const { current, dispatch } = useContext(EventContext)
   const [dataset, setDataset] = useState(current.data)
 
-  const gridSize = 12
-  const bufferCol = 15
-  const bufferRow = 30
-
+  const gridSize = 6
   const hours = d3.range(0, 23)
   const days = getDates(current.date.start, current.date.end)
   const caseIDs = dataset.map(d=>d.id)
-  console.log(days)
-  const tags = ['flight', 'work/accommodation', 'clinic', 'hospital', 'places', 'symptomatic', 'confirmed']
+  const tags = ['travel', 'work/accommodation', 'places', 'clinic', 'hospital', 'symptomatic', 'confirmed']
+
   ////////////////////////////////////////////////////////////// 
   /////////////////// Set up scales based on data //////////////
   ////////////////////////////////////////////////////////////// 
-  var eleLimit = 30
-  var yScaleOuter = d3.scaleBand()
-    .range([0, 700])
+  const height = 600
+  const yScaleOuter = d3.scaleBand()
+    .range([0, height])
     .domain(days)
 
-  var xScaleOuter = d3.scaleBand()
-    .range([0, (gridSize*caseIDs.length+30)])
+  const xScaleOuter = d3.scaleBand()
+    .range([0, gridSize*caseIDs.length])
     .domain(caseIDs)
+    .padding(0.3)
 
-  var colorScale = d3.scaleOrdinal()
-    .range(['white', '#4BE3AB', '#F9B219', '#F03713', 'aqua', 'fucshia', 'yellow'])
+  const colorScale = d3.scaleOrdinal()
+    .range(['black', 'aqua', 'yellow', 'fuchsia', 'transparent', 'red', 'white'])
+    .domain(tags)
+
+  const strokeScale = d3.scaleOrdinal()
+    .range(['black', 'aqua', 'yellow', 'fuchsia', 'white', 'red', 'white'])
     .domain(tags)
 
   //////////////////////////////////////////////////////////////////////
@@ -45,31 +47,7 @@ const Timeline = () => {
       .key(d=>d.id)
       .entries(dataset)
 
-    // create a wrapper for each column
-    //const eventsGroup = d3.select('.Events').select('.timeline')
-    const eventsGroup = d3.select(ref.current)
- 
-    const eventsData = eventsGroup.selectAll('g').data(dataNested, d=>d.key)
-
-    const person = eventsData.enter().append("g")
-        .attr("class", (d,i) => "timeline-" + d.key)
-        .attr("transform", (d,i) => "translate(" + xScaleOuter(d.key) + "," + 0 + ")")
-
-    person.each(function(D,I){
-      console.log(D)
-      d3.select(this).selectAll('rect')
-        .data(D.values)
-        .enter().append("rect")
-          .attr("x", 0)
-          .attr("y", d => yScaleOuter(d.date) )
-          .attr("id", (d,i) => "element-" + d.id + '-' + i)
-          .attr("width", xScaleOuter.bandwidth())
-          .attr("height", yScaleOuter.bandwidth())
-          .style("stroke", "none")
-          .style("fill", d => colorScale(d.tag) )
-          .style("fill-opacity", 1)
-
-    })
+    draw(dataNested)
 
    }, [dataset])
 
@@ -78,6 +56,76 @@ const Timeline = () => {
     <g className="timeline" ref={ref}>
     </g>
   )
+
+  function draw(dataNested) {
+    // create a wrapper for each column
+    //const eventsGroup = d3.select('.Events').select('.timeline')
+    const eventsGroup = d3.select(ref.current)
+
+    const eventsData = eventsGroup.selectAll('g').data(dataNested, d=>d.key)
+
+    const header = eventsData.enter().append("g")
+        .attr("class", (d,i) => "header-" + d.key)
+        .attr("transform", (d,i) => "translate(" + xScaleOuter(d.key) + "," + 0 + ")")
+        .append('text')
+          .attr('y', 20)
+          .text(d => d.key)
+
+    const person = eventsData.enter().append("g")
+        .attr("class", (d,i) => "timeline-" + d.key)
+        .attr("transform", (d,i) => "translate(" + xScaleOuter(d.key) + "," + 40 + ")")
+
+    person.each(function(D,I){
+
+      d3.select(this).selectAll('rect.background')
+        .data(D.key)
+        .enter().append('rect')
+          .attr('class', 'background')
+          .attr('id', 'background-' + D.key)
+          .attr('width', xScaleOuter.bandwidth() + 2)
+          .attr('height', height)
+          .attr('fill', 'transparent')
+          .attr('stroke', 'white')
+          .attr('stroke-opacity', 0.2)
+
+      const dataTagged = d3.nest()
+        .key(d=>d.date)
+        .key(d=>d.tag)
+        .entries(D.values)
+
+      d3.select(this).selectAll('rect.cells')
+        .data(D.values)
+        .enter().append("rect")
+          .attr("x", function(d) { 
+            let xScaleInner = updateXScale(dataTagged, d.date.toString())
+            return xScaleInner(d.tag) + 1
+          })
+          .attr("y", d => yScaleOuter(d.date) )
+          .attr("class", 'cells')
+          .attr("id", (d,i) => "element-" + d.id + '-' + Consts.formatDate(d.date) + '-' + d.tag)
+          .attr("width", function(d) { 
+            let xScaleInner = updateXScale(dataTagged, d.date.toString())
+            return xScaleInner.bandwidth()  - 1
+          })
+          .attr("height", yScaleOuter.bandwidth() - 1)
+          .style("stroke", d => strokeScale(d.tag))
+          .style('stroke-width', '1px')
+          .style("fill", d => colorScale(d.tag) )
+          .style("fill-opacity", 1)
+
+    })
+    
+  }
+
+  function updateXScale(dataTagged, date) {
+
+    let dailyTags = dataTagged.find(el=>el.key === date).values.map(d=>d.key)
+    let xScaleInner = d3.scaleBand()
+      .range([0, xScaleOuter.bandwidth()])
+      .domain(dailyTags)
+    return xScaleInner
+
+  }
 
 }
 
