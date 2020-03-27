@@ -8,6 +8,7 @@ import cases from './data/covid19_events.json';
 import Main from "./components/Events/Main"
 
 import reducer from "./components/reducers/EventsReducer"
+import { ThemeContextProvider } from "./components/contexts/ThemeContext"
 
 import * as Consts from "./components/consts"
 
@@ -43,7 +44,6 @@ function processCases(cases) {
 
   let events = []
   cases.forEach((d,i) => {
-    console.log(d)
     if(d.flight_date){
       events.push({tag: 'travel', location: d['travel country'], date: d.flight_date, id: d.id})
     }
@@ -113,20 +113,22 @@ const EventsPage = () => {
   }, [])
 
   return(
-    <div className='App__wrapper'>
-      <div className="Section__Left">
-        
+    <ThemeContextProvider>
+      <div className='App__wrapper'>
+        <div className="Section__Left">
+          
+        </div>
+        <div className="Section__Right">
+
+          { loading && showLoader() }
+
+          <EventContext.Provider value={{ current, dispatch }}>
+            { loading === false && <Main /> }
+          </EventContext.Provider>
+
+        </div>
       </div>
-      <div className="Section__Right">
-
-        { loading && showLoader() }
-
-        <EventContext.Provider value={{ current, dispatch }}>
-          { loading === false && <Main /> }
-        </EventContext.Provider>
-
-      </div>
-    </div>
+    </ThemeContextProvider>
   )
 }
 

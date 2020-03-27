@@ -1,5 +1,6 @@
 import React, { useEffect, useContext } from "react"
 import * as d3 from "d3"
+import { forceManyBodyReuse } from "d3-force-reuse"
 
 import { NetworkContext } from "../../NetworkPage"
 import { ZoomContext } from "../contexts/ZoomContext"
@@ -10,6 +11,7 @@ import { ChartContext } from "../Shared/Chart"
 import clusters from '../../data/covid19_cluster_details.json';
 
 import * as Consts from "../consts"
+import { getTranslation } from "../utils"
 
 let nodeTextOpacity = Consts.nodeTextOpacity
 let linkTextOpacity = Consts.linkTextOpacity
@@ -43,16 +45,16 @@ const Graph = ({data}) => {
 
   //console.log(Scene)
   // This object passes required variables to graph helper functions placed outside the component
-  const graphWrapper = {width: dimensions.width, height: dimensions.height}
+  const graphWrapper = {width: dimensions.width, height: dimensions.height * 0.7}
   const misc = {zoom, setTooltip, clicker, dimensions: graphWrapper } 
   const modulePosition = findClusterCenter(graphWrapper)
   misc.modulePosition = modulePosition
-
   ///////////////////////// Initial Graph Render //////////////////////////
   useEffect(() => {
     if(current.date === Consts.currentDate){
       if(dimensions.width>0 & dimensions.height>0){
         updateGraph(data, current, misc) 
+        dispatch({ type: 'SET_RENDERED', rendered: true})
       }
     }
   }, [dimensions.width, dimensions.height])
@@ -536,6 +538,7 @@ function updateAttributes(nodes, links){
       parentIDs.push(el.id) // everyone else is a parent node if not a cluster root or child node (a node is only considered to be a parent node if it has other nodes extending from it)
     }
   })
+
   const importedIDs = nodes.filter(d=>d.case_type === 'Imported case').map(d=>d.id)
   const foreignerIDs = nodes.filter(d=>d.singaporean === 'Foreigner').map(d=>d.id)
 
@@ -808,10 +811,6 @@ function findClusterCenter(graphWrapper) {
   c7.x = c7.x - 100
   c7.y = c7.y + 200
 
-  let c6 = modulePosition.find(g=>g.group == 'Cluster6').coordinates
-  c6.x = c6.x + 120
-  c6.y = c6.y - 120
-
   //let c4 = modulePosition.find(g=>g.group == 'Cluster4').coordinates
   //c4.y = c4.y - 20
 
@@ -827,7 +826,7 @@ function findClusterCenter(graphWrapper) {
     return mod ? mod.coordinates.y : graphWrapper.height - 300
   }).strength(d => bool_1(d) ? 0.4 : 0.3)
 
-  var forceCharge = d3.forceManyBody().strength(-120)
+  var forceCharge = forceManyBodyReuse().strength(-120)
   var forceCollide = d3.forceCollide(function(d){ return bool(d) ? d.radius * 2 : d.radius * 2.7 })
 
   simulation
@@ -875,21 +874,3 @@ function generatePath(d, exclude_radius=false) {
       midX + ',' + midY + 'L' +
       targetNewX + "," + targetNewY
   }
-
-function getTranslation(transform) {
-  // Create a dummy g for calculation purposes only. This will never
-  // be appended to the DOM and will be discarded once this function 
-  // returns.
-  var g = document.createElementNS('http://www.w3.org/2000/svg', "g");
-  
-  // Set the transform attribute to the provided string value.
-  g.setAttributeNS(null, "transform", transform);
-  
-  // consolidate the SVGTransformList containing all transformations
-  // to a single SVGTransform of type SVG_TRANSFORM_MATRIX and get
-  // its SVGMatrix. 
-  var matrix = g.transform.baseVal.consolidate().matrix;
-  
-  // As per definition values e and f are the ones for the translation.
-  return [matrix.e, matrix.f, matrix.a, matrix.d];
-}

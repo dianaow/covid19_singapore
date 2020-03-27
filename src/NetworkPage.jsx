@@ -41,7 +41,8 @@ const NetworkPage = () => {
   const initialState = {
     date: Consts.currentDate, 
     nodes: [], 
-    links: []
+    links: [],
+    rendered: false
   }
 
   const [current, dispatch] = useReducer(reducer, initialState)
@@ -178,18 +179,19 @@ const NetworkPage = () => {
       //console.log(d)
     }
   }
-
   useEffect(() => {
-    //setTimeout(function(){
-      setLoading(false)
-    //}, 1000)
-  }, [data])
+    if(current.rendered){
+      //setTimeout(function(){
+        setLoading(false)
+      //}, 350)
+    }
+  }, [current.rendered])
 
   useEffect(() => {
 
     const nodes = processNodes(graphNodes, processedCases)
     const links = processLinks(nodes)
-    console.log(nodes, links)
+    //console.log(nodes, links)
 
     nodes.forEach(d=>{
       if (d.case_type === 'Imported case' & d.root_id === 'unknown'){
@@ -209,7 +211,6 @@ const NetworkPage = () => {
       let edge = links.find(el=>el.end_id === d.id)
       if(edge){
         let fromNode = nodes.find(d=>d.id === edge.start_id)
-        console.log(fromNode)
         if(fromNode.case_type === 'Imported case'){ //imported-local transmission
           d.root_id = fromNode.root_id
         }
@@ -298,7 +299,7 @@ const NetworkPage = () => {
         { loading && showLoader() }
 
         <NetworkContext.Provider value={{ current, dispatch }}>
-          { loading === false && <Main data={data} timeline={timeline} /> }
+          <Main data={data} timeline={timeline} /> 
         </NetworkContext.Provider>
 
       </div>

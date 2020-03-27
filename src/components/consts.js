@@ -4,18 +4,18 @@ import * as d3 from 'd3'
 export const rootRadius = 30
 export const nodeRadius = 40
 export const nodeStrokeWidth = 2
-export const nodeStroke = '#333333'
-export const nodeFill = 'whitesmoke'
+export const nodeStroke = 'white'
+export const nodeFill = '#011C54'
 export const nodeOpacity = 1
-export const nodeTextFill = '#333333'
+export const nodeTextFill = 'white'
 export const nodeTextOpacity = 0.5
 export const childnodeTextOpacity = 0
 export const nodeTextSize = 6
 
 export const linkStrokeWidth = 0.6
-export const linkStroke = '#333333'
+export const linkStroke = 'white'
 export const linkOpacity = 0.5
-export const linkTextFill = '#333333'
+export const linkTextFill = 'white'
 export const linkTextOpacity = 0
 export const linkTextSize = 5
 export const transitionDuration = 750
@@ -69,7 +69,8 @@ const genderScale = d3.scaleOrdinal()
  
 const statusScale = d3.scaleOrdinal()
   .domain(status)
-  .range(['mediumblue', 'gray', 'black'])
+  //.range(['mediumblue', 'gray', 'black'])
+  .range(['gold', 'white', 'blue'])
 
 const nationalityScale = d3.scaleOrdinal()
   .domain(nationality)
@@ -77,12 +78,13 @@ const nationalityScale = d3.scaleOrdinal()
 
 const ageScale = d3.scaleLinear()
   .domain([0, 45, 90])
-  .range(['fuchsia', 'darkgray', 'navy'])
+  //.range(['fuchsia', 'darkgray', 'navy'])
+  .range(['aqua', 'white', 'fuchsia'])
 
 const daysScale = d3.scaleOrdinal()
   .domain(days_group)
-  .range(['mediumblue', 'teal', '#F9B219', '#F03713', 'black'])
-  //.range(['white', '#4BE3AB', '#F9B219', '#F03713', 'blue'])
+  //.range(['mediumblue', 'teal', '#F9B219', '#F03713', 'black'])
+  .range(['white', '#4BE3AB', '#F9B219', '#F03713', 'blue'])
 
 export const scales = {
   colorAccessor: d => statusScale(d.status), // default color coding

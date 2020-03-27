@@ -202,7 +202,7 @@
   {
     "id": "Case8",
     "label": "Case 8",
-    "root_id": "Cluster1",
+    "root_id": "Cluster6",
     "secondary_root_id": "Cluster6",
     "connections": 9,
     "link type": "family"
@@ -210,7 +210,7 @@
   {
     "id": "Case9",
     "label": "Case 9",
-    "root_id": "Cluster1",
+    "root_id": "Cluster6",
     "secondary_root_id": "Cluster6",
     "connections": 8,
     "link type": "family"
