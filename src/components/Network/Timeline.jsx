@@ -5,6 +5,7 @@ import Axis from "../Shared/Axis"
 import { NetworkContext } from "../../NetworkPage"
 import { ChartContext } from "../Shared/Chart"
 import { SceneContext } from "../contexts/SceneContext"
+import { ThemeContext } from "../contexts/ThemeContext"
 
 import * as Consts from "../consts"
 
@@ -15,6 +16,15 @@ const Timeline = ({timeline}) => {
     const { current, dispatch } = useContext(NetworkContext)
     const { dimensions } = useContext(ChartContext)
     const { sceneState } = useContext(SceneContext)
+    const { themeState } = useContext(ThemeContext)
+
+    //////////////////// styles ////////////////////
+    const slider = {
+      color: themeState.secondary,
+      fill: themeState.secondary,
+      visibility: sceneState.scene === 0 ? 'visible' : 'hidden'
+    }
+    ////////////////////////////////////////////////
 
     const { width, height } = dimensions
     const targetValue = width - 160
@@ -74,19 +84,19 @@ const Timeline = ({timeline}) => {
     }
 
     return(
-      <g className='slider' transform={`translate(${sliderPosX}, ${sliderPosY})`} style={{ visibility: sceneState.scene === 0 ? 'visible' : 'hidden' }}>
+      <g transform={`translate(${sliderPosX}, ${sliderPosY})`} style={slider}>
         <g className='line-group' transform={`translate(0, ${-sliderHeight})`}>
           <rect 
             width={targetValue}
             height={sliderHeight + 50}
-            fill={Consts.nodeFill}
+            fill={themeState.primary}
             fillOpacity='0.6'
           />
           {[timeline].map(d=>(
             <path 
               className='line'
               d={line(d)}
-              stroke={Consts.linkStroke}
+              stroke={themeState.secondary}
               strokeWidth='1'
               fill='none' 
             />
@@ -99,7 +109,7 @@ const Timeline = ({timeline}) => {
               x2={xScale(d.key)}
               y2={0}
               fill='none'
-              stroke={Consts.linkStroke}
+              stroke={themeState.secondary}
               strokeWidth='5'
               strokeOpacity='0'
               pointerEvents='all'
@@ -111,11 +121,13 @@ const Timeline = ({timeline}) => {
             dimensions={{'boundedWidth': targetValue, 'boundedHeight': sliderHeight}}
             scale={xScale}
             formatTick={Consts.formatDate}
+            theme={themeState}
           />
           <Axis
             dimension='y'
             dimensions={{'boundedWidth': 0, 'boundedHeight': sliderHeight}}
             scale={yScale}
+            theme={themeState}
           />
           { marker(current) }
         </g>

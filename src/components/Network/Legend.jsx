@@ -2,15 +2,42 @@ import React, { useContext } from "react"
 import { Icon } from 'semantic-ui-react'
 
 import { PanelContext } from "../contexts/PanelContext"
-
-import * as Consts from "../consts"
+import { ThemeContext } from "../contexts/ThemeContext"
 
 const Legend = ({...props}) => {
 
-  const { status, gender, nationality, age, daysGroup, nodeRadius } = Consts.scales
   const { panelState } = useContext(PanelContext)
+  const { themeState, scales } = useContext(ThemeContext)
+  const { status, gender, nationality, age, daysGroup, nodeRadius } = scales
+
   let activeFilter = Object.keys(panelState).filter(id=>panelState[id])
   let toColor = activeFilter[0].indexOf('color') !== -1
+
+  //////////////////// styles ////////////////////
+  const chart_legend_section = {
+    background:  themeState.primary
+  }
+
+  const legend_header = {
+    fill: themeState.secondary,
+    fontSize: "0.85em",
+    fontWeight: "bold",
+  }
+
+  const legend_content_text = {
+    fill: themeState.secondary,
+    fontSize: '0.75em',
+    alignmentBaseline: 'middle',
+    textAnchor: 'left'
+  }
+
+  const title = {
+    color: themeState.secondary,
+    borderBottom: `1px solid ${themeState.secondary}`, 
+    padding: "5px"
+  }
+
+  ////////////////////////////////////////////////
 
   const legendRenderer = (attribute) => {
 
@@ -41,7 +68,8 @@ const Legend = ({...props}) => {
                   r={size}
                   fill={scale(d)}
                   stroke={scale(d)} />
-                <text {...props}
+                <text
+                  style={legend_content_text}
                   key={d}
                   x={30}
                   y={15 + i*20}
@@ -80,7 +108,8 @@ const Legend = ({...props}) => {
                     <Icon name={domain[i]} />
                   </div>
                 </foreignObject>
-                <text {...props}
+                <text
+                  style={legend_content_text}
                   key={d}
                   x={30}
                   y={15 + i*20}
@@ -107,7 +136,7 @@ const Legend = ({...props}) => {
       <div className='legend-color'>
         <svg width='100%' height={legendElementWidth*3}>
           <g className='legend__score' transform="translate(0,20)">
-            <text className='legend-header' x={data.domain.length / 2} y='10'>{ label }</text>
+            <text x={data.domain.length / 2} y='10' style={legend_header}>{ label }</text>
             {domain.map((d,i) => (
               <g className='legend__colorEle'>
                 <rect
@@ -117,7 +146,7 @@ const Legend = ({...props}) => {
                   height={legendElementWidth / 2}
                   fill={scale(d)} />
                 <text
-                  className='legend-content-text'
+                  style={legend_content_text}
                   x={(legendElementWidth * i) + (legendElementWidth / 2)}
                   y={legendElementWidth * 2}
                   textAnchor='middle'>
@@ -143,8 +172,8 @@ const Legend = ({...props}) => {
     return(
       <svg width='100%' height='50px'>
         <g className='legend__radius' transform="translate(0,10)">
-          <text className='legend-header' x='50' y='5'>{ label }</text>
-          <text className='legend-header' x='50' y='20'>for each case</text>
+          <text x='50' y='5' style={legend_header}>{ label }</text>
+          <text x='50' y='20' style={legend_header}>for each case</text>
           {domain.map((d,i) => (
             <g className='legend__colorEle'>
               <circle 
@@ -152,7 +181,7 @@ const Legend = ({...props}) => {
                 cy={yCircle - scale(d)}
                 r={scale(d)}
                 fill='none'
-                stroke= {Consts.linkStroke} />
+                stroke= {themeState.secondary} />
             </g>
           ))}
         </g>
@@ -160,22 +189,6 @@ const Legend = ({...props}) => {
     )
 
   }
-
-  // <line 
-  //   x1={xCircle + scale(d)}
-  //   x2={xLabel}
-  //   y1={yCircle - scale(d)}
-  //   y2={yCircle - scale(d)}
-  //   stroke='white'
-  //   strokeDasharray="2, 2" />
-  // <text
-  //   x={xLabel}
-  //   y={yCircle - scale(d)}
-  //   fontSize='7'
-  //   fill='white'
-  //   alignmentBaseline='middle'>
-  //   {d}
-  // </text>
 
   const drawShapeLegend = () => {
 
@@ -189,18 +202,18 @@ const Legend = ({...props}) => {
             cy='15' 
             r={size}
             fill='none'
-            stroke={Consts.linkStroke}/>
+            stroke={themeState.secondary}/>
           <text
-            className='legend-content-text'
+            style={legend_content_text}
             x='20' 
             y='15'>
             Singaporean
           </text>
           <text
-            className='legend-content-text'
+            style={legend_content_text}
             x='20' 
             y='35' 
-            fill={Consts.linkStroke}>
+            fill={themeState.secondary}>
             Singapore PR
           </text>
           <rect
@@ -209,9 +222,9 @@ const Legend = ({...props}) => {
             width={size*2}
             height={size*2}
             fill='none'
-            stroke={Consts.linkStroke}/>
+            stroke={themeState.secondary}/>
           <text
-            className='legend-content-text'
+            style={legend_content_text}
             x={110+size+20} 
             y='15'>
             Foreigner
@@ -222,8 +235,8 @@ const Legend = ({...props}) => {
   }
 
   return(
-    <div className="Chart_legend_section">
-      <p>LEGEND</p>  
+    <div className="Chart_legend_section" style={chart_legend_section}>
+      <div style={title}>LEGEND</div>  
       <div className='legend'>
         { drawShapeLegend() }
         { drawRadiusLegend(nodeRadius) }
@@ -233,11 +246,6 @@ const Legend = ({...props}) => {
     </div>
   )
 
-}
-
-
-Legend.defaultProps = {
-  fill: Consts.linkStroke
 }
 
 export default Legend

@@ -4,6 +4,7 @@ import { Icon } from 'semantic-ui-react'
 
 import { initialTooltipState, TooltipContext } from "../contexts/TooltipContext"
 import { ZoomContext } from "../contexts/ZoomContext"
+import { ThemeContext } from "../contexts/ThemeContext"
 import { initialSceneState, SceneContext } from "../contexts/SceneContext"
 
 import * as Consts from "../consts"
@@ -13,22 +14,31 @@ const ZoomPanel = () => {
   const { setTooltip } = useContext(TooltipContext)
   const { zoom, zoomState, setZoomState } = useContext(ZoomContext)
   const { setScene } = useContext(SceneContext)
-  const svg = d3.selectAll('.networkWrapper')
+  const { themeState } = useContext(ThemeContext)
 
+  //////////////////// styles ////////////////////
+  const btn = {
+    color: themeState.secondary,
+    background: themeState.primary,  
+    border: `1px solid ${themeState.secondary}`
+  }
+  ////////////////////////////////////////////////
+
+  const svg = d3.selectAll('.networkWrapper')
   let graphNodesGroup = d3.select('.Network').select('.nodes')
   let graphLinksGroup = d3.select('.Network').select('.links')
 
   return(
     <div className='Chart_controls_section'>
-      <div className="button zoom_in" onClick={ ()=> {
+      <div className="button zoom_in" style={btn} onClick={ ()=> {
         setZoomState({ x:zoomState.x, y:zoomState.y, k:zoomState.k*1.2 })
         zoom.scaleBy(svg.transition().duration(750), 1.2);
        } }><Icon className='tiny plus' /></div>
-      <div className="button zoom_out" onClick={ ()=> {
+      <div className="button zoom_out" style={btn} onClick={ ()=> {
         setZoomState({ x:zoomState.x, y:zoomState.y, k:zoomState.k*0.8 })
         zoom.scaleBy(svg.transition().duration(750), 0.8);
       } }><Icon className='tiny minus' /></div>
-      <div className="button reset" onClick={ ()=> {
+      <div className="button reset" style={btn} onClick={ ()=> {
 
         setTooltip(initialTooltipState)
         setScene(initialSceneState)

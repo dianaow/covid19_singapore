@@ -5,7 +5,7 @@ import * as d3 from "d3"
 import { NetworkContext } from "../../NetworkPage"
 import { initialTooltipState, TooltipContext } from "../contexts/TooltipContext"
 import { SceneContext } from "../contexts/SceneContext"
-
+import { Search } from "semantic-ui-react";
 import "./card.css"
 import './tooltip.scss'
 

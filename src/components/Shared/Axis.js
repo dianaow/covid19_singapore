@@ -31,17 +31,15 @@ Axis.defaultProps = {
   scale: null,
   formatTick: d3.format(","),
   label: null,
-  fill: linkStroke,
   textAnchor: 'middle',
   fontSize: '9px',
-  stroke: linkStroke,
   strokeWidth: '0.5px'
 }
 
 export default Axis
 
 
-function AxisHorizontal ({ dimensions, label, formatTick, scale, ...props }) {
+function AxisHorizontal ({ dimensions, label, formatTick, scale, theme, ...props }) {
   const numberOfTicks = 6
   const ticks = scale.ticks(numberOfTicks)
 
@@ -50,7 +48,7 @@ function AxisHorizontal ({ dimensions, label, formatTick, scale, ...props }) {
       <line
         className="Axis__line"
         x2={dimensions.boundedWidth}
-        stroke={props.stroke} 
+        stroke={theme.secondary} 
         strokeWidth={props.strokeWidth}
       />
 
@@ -59,12 +57,14 @@ function AxisHorizontal ({ dimensions, label, formatTick, scale, ...props }) {
           <line {...props}
             key={'h-line-' + i}
             className="Axis__line"
+            stroke={theme.secondary} 
             transform={`translate(${scale(tick)}, 0)`}
             y2='10'  
           />
           <text {...props}
             key={'h-tick-' + i}
             className="Axis__tick"
+            fill={theme.secondary} 
             transform={`translate(${scale(tick)}, 15)`}  
           >
             { formatTick(tick) }
@@ -75,6 +75,7 @@ function AxisHorizontal ({ dimensions, label, formatTick, scale, ...props }) {
       {label && (
         <text {...props}
           className="Axis__label"
+          fill={theme.secondary} 
           transform={`translate(${dimensions.boundedWidth / 2}, 30)`} 
         >
           { label }
@@ -84,7 +85,7 @@ function AxisHorizontal ({ dimensions, label, formatTick, scale, ...props }) {
   )
 }
 
-function AxisVertical ({ dimensions, label, formatTick, scale, ...props }) {
+function AxisVertical ({ dimensions, label, formatTick, scale, theme, ...props }) {
   const numberOfTicks = 3
   const ticks = scale.ticks(numberOfTicks)
 
@@ -94,7 +95,7 @@ function AxisVertical ({ dimensions, label, formatTick, scale, ...props }) {
         className="Axis__line"
         transform={`translate(-10, 0)`}
         y2={dimensions.boundedHeight}
-        stroke={props.stroke} 
+        stroke={theme.secondary} 
         strokeWidth={props.strokeWidth}
       />
 
@@ -103,6 +104,7 @@ function AxisVertical ({ dimensions, label, formatTick, scale, ...props }) {
           <line {...props}
             key={'v-line-' + i}
             className="Axis__line"
+            stroke={theme.secondary} 
             transform={`translate(-20, ${scale(tick)})`}
             x1='0'
             x2='10'  
@@ -110,6 +112,7 @@ function AxisVertical ({ dimensions, label, formatTick, scale, ...props }) {
           <text {...props}
             key={'v-tick-' + i}
             className="Axis__tick"
+            fill={theme.secondary} 
             transform={`translate(-30, ${scale(tick)})`} 
           >
             { formatTick(tick) }
@@ -120,6 +123,7 @@ function AxisVertical ({ dimensions, label, formatTick, scale, ...props }) {
       {label && (
         <text {...props}
           className="Axis__label"
+          fill={theme.secondary} 
           style={{
             transform: `translate(-56px, ${dimensions.boundedHeight / 2}px) rotate(-90deg)`
           }}

@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useReducer, createContext } from "react"
-import { Dimmer, Loader, Image, Segment } from 'semantic-ui-react'
+import React, { useState, useEffect, useReducer, createContext, useContext } from "react"
+import { Dimmer, Loader, Image, Segment, Checkbox } from 'semantic-ui-react'
 import * as d3 from "d3"
 import { Icon } from 'semantic-ui-react'
 
@@ -13,30 +13,39 @@ import reducer from "./components/reducers/NetworkReducer"
 
 import * as Consts from "./components/consts"
 
+import { ThemeContext } from "./components/contexts/ThemeContext"
+
 export const NetworkContext = createContext()
 
 var T, index
 const showLoader = () => (
   <div className='Loading'>
-    <Segment>
-      <Dimmer active>
-        <Loader size='huge'>Loading</Loader>
-      </Dimmer>
-
-      <Image src='https://react.semantic-ui.com/images/wireframe/short-paragraph.png' />
-    </Segment>
-
+    <Dimmer active>
+      <Loader size='huge'>Loading</Loader>
+    </Dimmer>
   </div>
 )
 
 const NetworkPage = () => {
 
+  const { themeState, setTheme } = useContext(ThemeContext)
   const [data, setData] = useState({})
   const [loading, setLoading] = useState(true)
   const [timerun, setTimeRun] = useState({playing: false, status: 'play', initial: true })
   const processedCases = processCases(cases)
   const timeline = processTimeline(processedCases)
 
+  //////////////////// styles ////////////////////
+  const app_wrapper = {
+    backgroundColor: themeState.primary,
+    color: themeState.secondary
+  }
+
+  const chart_info_section = {
+    background:  `rgba(${themeState.primary}, 0.6)`,
+    color: themeState.secondary
+  }
+  ////////////////////////////////////////////////
 
   const initialState = {
     date: Consts.currentDate, 
@@ -261,14 +270,14 @@ const NetworkPage = () => {
 
   }, [timerun])
 
-
   // currentStage: stage before button click
   // nextStage: stage upon button click
   return(
-    <div className='App__wrapper'>
+    <div className='App__wrapper' style={app_wrapper}>
       <div className="Entity__Right">
 
-        <div className='Chart_info_section'>
+        <div className='Chart_info_section' style={chart_info_section}>
+
           <div type="button" onClick={ () => {setTimeRun({playing: !timerun.playing, status: 'play', initial: timerun.initial})} }>
             <Icon className={ timerun.playing ? 'big play circle disabled' : 'big play circle'} />
           </div>
@@ -277,10 +286,14 @@ const NetworkPage = () => {
           </div>
           <div type="button" onClick={ () => setTimeRun({playing: false, status: 'end', initial: true}) }>
             <Icon className={ timerun.playing | timerun.status === 'pause' ? 'big stop circle' : 'big stop circle disabled'} />
-          </div>      
+          </div>    
+
+          <Checkbox toggle onClick={ () => setTheme(themeState.type) } />
+
           <div className='time'>
             <h2>{ Consts.formatDate(current.date) }</h2>
           </div>
+
           <div className='chart-statistics'>
             <div className='chart-statistics-total'>
               <div className='nodes_stats'>

@@ -4,15 +4,37 @@ import * as d3 from "d3"
 import { NetworkContext } from "../../NetworkPage"
 import { PanelContext } from "../contexts/PanelContext"
 import { SceneContext } from "../contexts/SceneContext"
+import { ThemeContext } from "../contexts/ThemeContext"
 
 import * as Consts from "../consts"
+import { linkedByIndex, graphEle, isConnected } from "./Graph"
 
 const FilterPanel = () => {
 
   const { current } = useContext(NetworkContext)
   const { sceneState } = useContext(SceneContext)
   const { panelState, setPanelState } = useContext(PanelContext)
-  const { status, gender, nationality, age, daysGroup, nodeRadius } = Consts.scales
+  const { themeState, scales } = useContext(ThemeContext)
+  const { status, gender, nationality, age, daysGroup, nodeRadius } = scales
+
+  //////////////////// styles ////////////////////
+  const chart_color_section = {
+    background: themeState.primary
+  }
+  const btn = {
+    color: themeState.secondary,
+    background: themeState.primary,  
+    border: `1px solid ${themeState.secondary}`
+  }
+  ////////////////////////////////////////////////
+
+  const graphEle = {
+    nodeFill : themeState.primary,
+    nodeStroke : themeState.secondary,
+    nodeTextFill : themeState.secondary,
+    linkStroke : themeState.secondary,
+    linkTextFill : themeState.secondary
+  }
 
   let graphNodesGroup = d3.select('.Network').select('.nodes')
   let graphLinksGroup = d3.select('.Network').select('.links')
@@ -65,21 +87,22 @@ const FilterPanel = () => {
 
     graphNodesGroup.selectAll("circle")
       .transition().duration(350)
-      .attr('stroke', d => d.type === 'root' ? Consts.nodeStroke : colorAccessor(d))
-      .attr('fill', d => (d.type === 'parent' | d.type === 'root') ? Consts.nodeFill : colorAccessor(d))
+      .attr('stroke', d => d.type === 'root' ? graphEle.nodeStroke : colorAccessor(d))
+      .attr('fill', d => (d.type === 'parent' | d.type === 'root') ? graphEle.nodeFill : colorAccessor(d))
 
     graphNodesGroup.selectAll("rect")
       .transition().duration(350)
-      .attr('stroke', d => d.type === 'root' ? Consts.nodeStroke : colorAccessor(d))
-      .attr('fill', d => (d.type === 'parent' | d.type === 'root') ? Consts.nodeFill : colorAccessor(d))
+      .attr('stroke', d => d.type === 'root' ? graphEle.nodeStroke : colorAccessor(d))
+      .attr('fill', d => (d.type === 'parent' | d.type === 'root') ? graphEle.nodeFill : colorAccessor(d))
     
   }
 
   return(
-    <div className='Chart_color_section'>
+    <div className='Chart_color_section' style={chart_color_section}>
       <p>Color nodes by:</p>
       <input name="color_scale" 
              type="button" 
+             style={btn}
              className={checkActiveBtn('node_color_1')}
              onClick={() => {
               setPanelState({'node_color_1': true, 'node_color_2': false, 'node_color_3': false, 'node_shape_1': panelState.node_shape_1, 'node_shape_2': panelState.node_shape_2, 'clicked': 'node_color_1'})
@@ -89,6 +112,7 @@ const FilterPanel = () => {
              value="Status"/>
       <input name="color_scale" 
              type="button"
+             style={btn}
              className={checkActiveBtn('node_color_2')} 
              onClick={() => {
               setPanelState({'node_color_1': false, 'node_color_2': true, 'node_color_3': false, 'node_shape_1': panelState.node_shape_1, 'node_shape_2': panelState.node_shape_2, 'clicked': 'node_color_2'})
@@ -98,6 +122,7 @@ const FilterPanel = () => {
              value="Age"/>
       <input name="color_scale" 
              type="button"
+             style={btn}
              className={checkActiveBtn('node_color_3')} 
              onClick={() => {
               setPanelState({'node_color_1': false, 'node_color_2': false, 'node_color_3': true, 'node_shape_1': panelState.node_shape_1, 'node_shape_2': panelState.node_shape_2, 'clicked': 'node_color_3'})
@@ -108,21 +133,19 @@ const FilterPanel = () => {
       <p>Only show:</p>
       <input name="entity_filter" 
              type="button" 
+             style={btn}
              className={checkActiveBtn('node_shape_1')}
              onClick={() => setPanelState({'node_color_1': panelState.node_color_1, 'node_color_2': panelState.node_color_2,  'node_color_3': panelState.node_color_3, 'node_shape_1': !panelState.node_shape_1, 'node_shape_2': panelState.node_shape_2, 'clicked': 'node_shape_1'})}
              value="Singaporean / PR"/>
       <input name="entity_filter" 
              type="button" 
+             style={btn}
              className={checkActiveBtn('node_shape_2')}
              onClick={() => setPanelState({'node_color_1': panelState.node_color_1, 'node_color_2': panelState.node_color_2,  'node_color_3': panelState.node_color_3, 'node_shape_1': panelState.node_shape_1, 'node_shape_2': !panelState.node_shape_2, 'clicked': 'node_shape_2'})}
              value="Foreigner"/>
     </div>
   )
 
-}
-
-function isConnected(a, b) {
-  return Consts.linkedByIndex[`${a},${b}`] || Consts.linkedByIndex[`${b},${a}`] || a === b;
 }
 
 export default FilterPanel

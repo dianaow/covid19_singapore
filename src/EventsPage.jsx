@@ -8,7 +8,6 @@ import cases from './data/covid19_events.json';
 import Main from "./components/Events/Main"
 
 import reducer from "./components/reducers/EventsReducer"
-import { ThemeContextProvider } from "./components/contexts/ThemeContext"
 
 import * as Consts from "./components/consts"
 
@@ -113,22 +112,20 @@ const EventsPage = () => {
   }, [])
 
   return(
-    <ThemeContextProvider>
-      <div className='App__wrapper'>
-        <div className="Section__Left">
-          
-        </div>
-        <div className="Section__Right">
-
-          { loading && showLoader() }
-
-          <EventContext.Provider value={{ current, dispatch }}>
-            { loading === false && <Main /> }
-          </EventContext.Provider>
-
-        </div>
+    <div className='App__wrapper'>
+      <div className="Section__Left">
+        
       </div>
-    </ThemeContextProvider>
+      <div className="Section__Right">
+
+        { loading && showLoader() }
+
+        <EventContext.Provider value={{ current, dispatch }}>
+          { loading === false && <Main /> }
+        </EventContext.Provider>
+
+      </div>
+    </div>
   )
 }
 
