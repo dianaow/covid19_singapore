@@ -12,6 +12,7 @@ import Main from "./components/Network/Main"
 import reducer from "./components/reducers/NetworkReducer"
 
 import * as Consts from "./components/consts"
+import { hexToRgbA } from "./components/utils"
 
 import { ThemeContext } from "./components/contexts/ThemeContext"
 
@@ -42,7 +43,7 @@ const NetworkPage = () => {
   }
 
   const chart_info_section = {
-    background:  `rgba(${themeState.primary}, 0.6)`,
+    backgroundColor: hexToRgbA(themeState.primary, 0.85),
     color: themeState.secondary
   }
   ////////////////////////////////////////////////
@@ -288,8 +289,6 @@ const NetworkPage = () => {
             <Icon className={ timerun.playing | timerun.status === 'pause' ? 'big stop circle' : 'big stop circle disabled'} />
           </div>    
 
-          <Checkbox toggle onClick={ () => setTheme(themeState.type) } />
-
           <div className='time'>
             <h2>{ Consts.formatDate(current.date) }</h2>
           </div>
@@ -307,6 +306,11 @@ const NetworkPage = () => {
             </div>
             <div className='chart-statistics-breakdown'></div>
           </div>
+        </div>
+
+        <div className='theme'>
+          <span style={{padding: '5px 20px 5px 0px'}}>CHANGE THEME</span>
+          <Checkbox toggle onClick={ () => setTheme(themeState.type) } />
         </div>
 
         { loading && showLoader() }

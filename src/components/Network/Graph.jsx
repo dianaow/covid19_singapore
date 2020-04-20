@@ -5,6 +5,7 @@ import { forceManyBodyReuse } from "d3-force-reuse"
 import { NetworkContext } from "../../NetworkPage"
 import { ZoomContext } from "../contexts/ZoomContext"
 import { ThemeContext } from "../contexts/ThemeContext"
+import { PanelContext } from "../contexts/PanelContext"
 import { initialTooltipState, TooltipContext } from "../contexts/TooltipContext"
 import { maxScene, SceneContext } from "../contexts/SceneContext"
 import { ChartContext } from "../Shared/Chart"
@@ -37,9 +38,10 @@ const Graph = ({data}) => {
   const { zoom, zoomState } = useContext(ZoomContext)
   const { setTooltip } = useContext(TooltipContext)
   const { sceneState, clicker } = useContext(SceneContext)
+  const { panelState } = useContext(PanelContext)
   const { dimensions } = useContext(ChartContext)
   const { themeState, setTheme, scales } = useContext(ThemeContext)
-  const { colorAccessor, status, gender, nationality, age, days, nodeRadius } = scales
+  const { colorAccessor, status, gender, nationality, age, daysGroup, nodeRadius } = scales
 
   Scene = sceneState.scene
 
@@ -110,7 +112,15 @@ const Graph = ({data}) => {
   //////////////////////////////// Update Theme ///////////////////////////
   useEffect(() => {
 
-    console.log(graphEle)
+    let colorAccessor 
+    if(panelState.clicked === 'node_color_1'){
+      colorAccessor =  d => status.scale(d.status)
+    } else if (panelState.clicked === 'node_color_2') {
+      colorAccessor =  d => age.scale(d.age)
+    } else if (panelState.clicked === 'node_color_3') {
+      colorAccessor =  d => daysGroup.scale(d.days_to_recover_group)
+    }
+
     svg.selectAll(".node-circle")
       .transition().duration(350)
       .attr('stroke', d => d.type === 'root' ? graphEle.nodeStroke : colorAccessor(d))
@@ -246,18 +256,18 @@ const Graph = ({data}) => {
     graphNodesEnter.filter(d=>!root(d))
       .append("text")
         .attr('class', 'node-label')
-        .attr("font-size", `${Consts.nodeTextSize/1.5}px`)
+        .attr("font-size", `${Consts.nodeTextSize}px`)
         .attr("text-anchor", "middle")
         .attr('fill', graphEle.nodeTextFill)
         .attr('opacity', Consts.nodeTextOpacity)
         .attr('x', d => berects(d) ? d.radius : 0)
-        .attr('y', d => (d.radius < nodeRadius) ? (berects(d) ? -6 : -d.radius-4) : 0 )
+        .attr('y', d => (berects(d) ? -10 : -d.radius-4) )
         .text(d => `${d.id}`)
 
     graphNodesEnter.filter(d=>root(d))
       .append("text")
         .attr('class', 'root-label')
-        .attr("font-size", `${Consts.nodeTextSize*3}px`)
+        .attr("font-size", `${Consts.nodeTextSize*2}px`)
         .attr("text-anchor", "middle")
         .attr('fill', graphEle.nodeTextFill)
         .attr('opacity', 1)
@@ -380,7 +390,7 @@ const Graph = ({data}) => {
       //let rootPosAfterZoomX = (rootPos[0] * zoomedSvgPos[2]) + (zoomedSvgPos[0])
 
       if(Scene === 0){
-        let hoverAttr = {hover_textOpacity: 0, hover_strokeOpacity: 0.2, hover_arrow: 'url(#arrowhead)'}
+        let hoverAttr = {hover_textOpacity: 0.5, hover_strokeOpacity: 0.2, hover_arrow: 'url(#arrowhead)'}
         highlightConnections(graphNodesData, graphLinksData, d, hoverAttr)
       }
 

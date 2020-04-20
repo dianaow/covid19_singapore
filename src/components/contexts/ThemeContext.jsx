@@ -15,7 +15,7 @@ export function ThemeProvider(props) {
   const theme = {
     light: {
       type: 'light',
-      primary: 'whitesmoke',
+      primary: '#f5f5f5',
       secondary: '#333333',
       status: ['mediumblue', 'gray', 'black'],
       age: ['fuchsia', 'darkgray', 'navy'],
@@ -23,11 +23,11 @@ export function ThemeProvider(props) {
     },
     dark:{
       type: 'dark',
-      primary: '#011C54',
+      primary: '#333333',
       secondary: 'white',
-      status: ['gold', 'white', 'blue'],
+      status: ['white', '#FDD43C', '#49A3E2'],
       age: ['aqua', 'white', 'fuchsia'],
-      days: ['white', '#4BE3AB', '#F9B219', '#F03713', 'blue']
+      days: ['white', '#3FF59E', '#FAC979', '#FB9D96', '#49A3E2']
     },
   }
 

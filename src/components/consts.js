@@ -7,9 +7,9 @@ export const nodeStroke = 'white'
 export const nodeFill = '#011C54'
 export const nodeOpacity = 1
 export const nodeTextFill = 'white'
-export const nodeTextOpacity = 0.5
+export const nodeTextOpacity = 0
 export const childnodeTextOpacity = 0
-export const nodeTextSize = 6
+export const nodeTextSize = 8
 
 export const linkStrokeWidth = 0.6
 export const linkStroke = 'white'

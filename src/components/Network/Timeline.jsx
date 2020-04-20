@@ -90,7 +90,7 @@ const Timeline = ({timeline}) => {
             width={targetValue}
             height={sliderHeight + 50}
             fill={themeState.primary}
-            fillOpacity='0.6'
+            fillOpacity='0.85'
           />
           {[timeline].map(d=>(
             <path 
